@@ -1,0 +1,544 @@
+/* All pages */
+* {
+    background-color: #ffffff;
+    color: 	#000000;
+    font-family: 'Lato', sans-serif;
+}
+
+#covid-19-awareness, #covid-19-awareness a, .fa-info-circle {
+    background-color: #FF6347;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.fa-info-circle {
+    margin-right: 10px; /* to ensure space for aesthetics */
+}
+
+#covid-19-awareness {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000; /* acts as a seperator between the covid-info link and nav */
+}
+
+.mha-link {
+    text-decoration: none !important; /* does not work without the '!important' */
+}
+
+.mha-hero-underline {
+    border-bottom: 3px solid #000000;
+}
+
+.full-size-image {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.mha-heading {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.mha-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.black-background {
+    height: 75px;
+    background-color: #000000;
+    width: 100%;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer div {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.top-footer, .bottom-footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+}
+
+.top-footer {
+    padding-top: 15px;
+    border-top: 1px solid rgba(128,128,128,0.35);
+    border-bottom: 1px solid rgba(128,128,128,0.35);
+    padding-bottom: 15px;
+}
+
+.bottom-footer {
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.top-left .bottom-left {
+    background-color: #000000;
+    float: left;
+}
+
+.top-right, .bottom-right {
+    background-color: #000000;
+    float: right;
+}
+
+#flag {
+    background-color: #000000;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.top-left {
+    background-color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.top-right {
+    margin-top: -30px; /* adjusts the social media icons to be of correct y-position */
+    background-color: #000000;
+}
+
+.top-right i {
+    margin-right: 10px; /* done for aesthetic purposes */
+    margin-left: 10px;
+    background-color: #000000;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.top-right a {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.bottom-left {
+    background-color: #000000;
+    color: #737373;
+    font-size: 14px;
+}
+
+.bottom-right {
+    background-color: #000000;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -25px;
+    letter-spacing: 0.5px;
+}
+
+.bottom-right a {
+    color: #ffffff;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bottom-right a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Home page */
+.hero-text {
+    font-size: 62px;
+    margin-top: 62px;
+    margin-bottom: 28px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none; /* needed to remove text decoration since they are links */
+}
+
+.hero-text a {
+    color: #000000;
+}
+
+.hero-text a:hover {
+    color: #FF6347;
+    text-decoration: none;
+}
+
+.mha-get-started {
+    margin-top: 62px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 40px; /* need to make the margin numbers consistent later */
+}
+
+.mha-get-started button, .mha-get-started button a {
+    background-color: #FF6347;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 13px 60px; /* chosen by guess-work, not purely consistent with other numbers */
+    border-radius: 8px;
+    border: 2px solid #FF6347;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.mha-get-started button:hover {
+    background-color: #FF4500;
+    border: 2px solid #FF4500;
+    font-weight: 500;
+}
+
+#start-spreading-awareness {
+    color: #FF6347;
+    font-size: 24px; /* bigger size than the call out to grasp the viewer's attention */
+    font-weight: 500;
+}
+
+.hero-image-home {
+    margin-top: 474px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.hero-image { 
+    width: 85%;
+    height: auto;
+    left: 85px;
+    top: -350px;
+    position: absolute;
+    border-radius: 5%;
+    border: 1px solid #ffffff;
+    /* specifications found in css-tricks.com but had to be altered 
+    since the hero image is not a background image */
+}
+
+.content {
+    padding-top: 400px;
+    background-color: #030303;
+    text-align: center;
+}
+
+.content h1, #message-summary {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    background-color: #030303;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+#message-summary {
+    font-size: 26px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#callout-hero-image {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #030303;
+    color: #FF6347;
+    padding-bottom: 96px;
+    margin-bottom: 128px;
+}
+
+.content a:hover {
+    text-decoration: none;
+}
+
+.depression-home, .anxiety-home, .ptsd-home {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.depression-image, .anxiety-image, .ptsd-image {
+    max-width: 50%;
+    position: relative;
+}
+
+.depression-image, .ptsd-image { /* different than the anxiety section for aesthetic purposes */
+    float: left;
+}
+
+.anxiety-image {
+    float: right;
+    padding-left: 80px;
+}
+
+#depressed-man, #anxious-woman, #woman-with-PTSD {
+    width: 100%;
+    position: relative;
+    border-radius: 2%;
+    border: 4px solid #FF6347;
+}
+
+.depression-text, .anxiety-text, .ptsd-text {
+    max-width: 50%;
+}
+
+.depression-text, .ptsd-text {
+    padding-left: 80px;
+    float: right;
+}
+
+.anxiety-text {
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+}
+
+.depression-text h1, .anxiety-text h1, .ptsd-text h1 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 28px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.depression-text>p, .anxiety-text>p, .ptsd-text>p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.depression-text a, .anxiety-text a, .ptsd-text a {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.depression-text a p, .anxiety-text a p, .ptsd-text a p {
+    color: #FF6347;
+}
+
+.depression-text a:hover, .anxiety-text a:hover, .ptsd-text a:hover {
+    text-decoration: none;
+}
+
+.mental-health-awareness-newsletter-home {
+    margin-top: 448px;
+    background-color: #E5EBED;
+}
+
+.newsletter-callout {
+    background-color: #E5EBED;
+    padding-top: 64px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 64px;
+}
+
+.newsletter-callout h1, .newsletter-callout p {
+    background-color: #E5EBED;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-callout h1 {
+    font-size: 28px;
+    padding: 0 0 14px;
+    font-weight: 600;
+}
+
+.newsletter-callout p {
+    font-size: 20px;
+    padding-bottom: 10px; 
+    width: 62%;
+}
+
+.newsletter-form {
+    background-color: #E5EBED;
+    padding-bottom: 64px;
+}
+
+.newsletter-form form {
+    background-color: #E5EBED;
+    padding-bottom: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-form form input[type=email] {
+    background-color: #ffffff;
+    text-align: left;
+    width: 75%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 2%;
+}
+
+textarea:focus, input:focus{  /* removes the blue border that appears when the email input is selected  */
+    outline: none;
+} 
+
+.newsletter-form form input[type=submit] {
+    font-size: 16px;
+    background-color: #FF6347;
+    color: #ffffff;
+    font-weight: 500;
+    float: right;
+    padding: 10px 20px;
+    height: 50px;
+    border: 2px solid #FF6347;
+    border-radius: 8px;
+}
+
+.newsletter-form form input[type=submit]:hover {
+    background-color: #FF4500;
+    border-color: #FF4500;
+}
+
+.mental-health-shop-home, .mental-health-awareness-community-home {
+    background-color: #ffffff;
+    padding-top: 64px;
+}
+
+.shop-text, .community-callout-text {
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+}
+
+.shop-text h1 {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.shop-text>p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.shop-text a p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF6347;
+    padding-bottom: 30px;
+}
+
+.shop-text a:hover {
+    text-decoration: none;
+}
+
+.image-row-one, .image-row-two {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.image-row-one a img, .image-row-two a img {
+    width: 49%;
+    height: auto;
+}
+
+.community-callout-text .mha-heading {
+    padding-bottom: 40px;
+}
+
+.mental-health-emergency {
+    background-color: #E5EBED;
+    padding-top: 64px;
+    padding-bottom: 400px;
+}
+
+.mental-health-emergency>h1 {
+    background-color: #E5EBED;
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.call-emergency {
+    width: 40%;
+    margin-left: 50px;
+    border: 1px solid #000000;
+    float: left;
+    background-color: #ffffff;
+}
+
+.call-emergency h1, .support-center h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+.call-emergency>p, .support-center>p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+} 
+
+.call-emergency a p, .support-center a p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    color: #FF6347;
+}
+
+.call-emergency a:hover, .support-center a:hover {
+    color: #FF6347;
+    text-decoration: none;
+}
+
+.support-center {
+    width: 40%;
+    margin-right: 50px;
+    border: 1px solid #000000;
+    float: right;
+    background-color: #ffffff;
+}
+
+/* Covid-19 Resources page */
+
+/* Help Others page */
+
+/* Help Yourself page */ 
+
+/* Educate Yourself page */
+
+/* Spread the Word page */ 
+
+/* Sign In page */
+
+/* Sign Up page */
+
+/* Shop page */

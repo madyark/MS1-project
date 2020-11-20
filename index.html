@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Mental Health Awareness Organization (MHA Org) helps spread awareness and shed light to different mental health problems, the various ways to cope with them, how to help others who might be struggling, and how to spread awareness yourself. It also provides access to a clothing shop where all profit generated goes to various mental health charities and creates a vibrant community that helps battle mental health stigma from all over the world!">
+    <meta name="keywords" content="Mental, Health, Awareness, Help, Depression, Anxiety, PTSD">
+    <meta name="author" content="Madyar Kozhakhmetov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome link below -->
+    <script src="https://use.fontawesome.com/5d5a7b196b.js"></script>
+    <!-- Google Fonts link below -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap link below -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- CSS link below -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mental Health Awareness Organization</title>
+    <style> 
+        nav {
+            border-bottom: 1px solid #000000;
+            border-top: 1px solid #ffffff;
+        }
+        .mha-nav {
+            color: #000000 !important;
+            font-weight: 600 !important;
+            font-family: 'Lato', sans-serif !important;
+            font-size: 18px !important;
+        }
+        .mha-nav:hover, .fa-shopping-cart:hover {
+            color: #FF6347 !important;
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <aside>
+            <div id="covid-19-awareness">
+                <a href="#" class="mha-link"><i class="fa fa-info-circle"></i>COVID-19 resources</a>
+            </div>
+        </aside>
+        <nav class="navbar navbar-expand-lg my-0 navbar-light"> <!-- navbar uses bootstrap code -->
+        <div class="container-fluid"> <!-- css adjustements specified internally. couldn't work externally or without the '!important'-->
+            <div class="navbar-header">
+                <a class="navbar-brand active" href="index.html">
+                    <img src="/images/hugging.png" width="33" height="33" class="d-inline-block align-top" alt="Mental Health Awareness Organization logo" loading="lazy">
+                    MHA Organization
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a class="nav-link mha-nav" href="educate-yourself/educate-yourself.html">Educate Yourself</a></li>
+                <li><a class="nav-link mha-nav" href="help-yourself/help-yourself.html">Help Yourself</a></li>
+                <li><a class="nav-link mha-nav" href="help-others/help-others.html">Help Others</a></li>
+                <li><a class="nav-link mha-nav" href="spread-the-word/spread-the-word.html">Spread the Word</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="nav-link mha-nav" href="sign-in/sign-in.html">Sign In</a></li>
+                <li><a class="nav-link mha-nav" href="shop/shop.html">Shop</a></li>
+                <li><a class="nav-link mha-nav" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    
+    <section class="mental-health-main-information-home">
+        <div class="hero-text">
+            <span class="mha-hero-underline">Mental Health</span><br>
+            <a href="educate-yourself/educate-yourself.html">What is it?</a><br>
+            <a href="help-yourself/help-yourself.html">How can you help yourself?</a><br>
+            <a href="help-others/help-others.html">How can you help others?</a><br>
+        </div>
+        <div class="mha-get-started">
+            <a href="sign-in/sign-up.html"><button name="get-started">Get started</button><br></a>
+            <a href="spread-the-word/spread-the-word.html" class="mha-link" id="start-spreading-awareness">Start spreading awareness</a>
+        </div>
+    </section>
+
+    <section class="hero-image-home">
+        <a href="educate-yourself/educate-yourself.html"><img src="images/man-battling-mental-health.jpg" class="hero-image" alt="Man battling with mental health issues"></a>
+        <div class="content">
+            <h1>"You wake up every morning to fight the same demons that left you so tired the night before."</h1>
+            <p id="message-summary">We set out to hear the stories of the many men and women who battle with mental health problems everyday.</p>
+            <a href="educate-yourself/educate-yourself.html"><p id="callout-hero-image">Listen to their stories</p></a>
+        </div>
+    </section>
+
+    <section class="mental-health-more-information-home">
+        <!-- Main types of mental health issues: Depression, Anxiety, PTSD -->
+        <div class="depression-home">
+            <div class="depression-image">
+                <a href="help-yourself/help-yourself.html"><img src="images/depression.jpg" id="depressed-man" alt="Picture of a man struggling with depression."></a>
+            </div>
+            <div class="depression-text">
+                <h1>Guidance on how to manage depression.</h1>
+                <p>Depression is a mood disorder that causes a persistent feeling of sadness and loss 
+                of interest. You may have trouble doing normal day-to-day activities, and sometimes 
+                you may feel as if life isn't worth living.</p>
+                <a href="help-yourself/help-yourself.html"><p>Learn about dealing with depression</p></a>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <!-- had to seperate using break lines as other options did not work for some reason -->
+
+        <div class="anxiety-home">
+            <div class="anxiety-image">
+                <a href="help-yourself/help-yourself.html"><img src="images/anxiety.jpg" id="anxious-woman" alt="Picture of a woman dealing with anxiety."></a>
+            </div>
+            <div class="anxiety-text">
+                <h1>Guidance on how to manage anxiety.</h1>
+                <p>Anxiety is a feeling of uneasiness, usually defined as an overreaction to a situation 
+                that is only subjectively seen as menacing. It is often accompanied by restlessness, fatigue 
+                and problems in concentration.</p>
+                <a href="help-yourself/help-yourself.html"><p>Learn about dealing with anxiety</p></a>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="ptsd-home">
+            <div class="ptsd-image">
+                <a href="help-yourself/help-yourself.html"><img src="images/ptsd.jpg" id="woman-with-PTSD" alt="Picture of a woman dealing with PTSD."></a>
+            </div>
+            <div class="ptsd-text">
+                <h1>Guidance on how to manage PTSD.</h1>
+                <p>Post-traumatic stress disorder is a condition that's triggered by a 
+                terrifying event — either experiencing it or witnessing it. Symptoms may 
+                include flashbacks, nightmares, and uncontrollable thoughts about the event.</p>
+                <a href="help-yourself/help-yourself.html"><p>Learn about dealing with PTSD</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mental-health-awareness-newsletter-home">
+        <div class="newsletter">
+            <div class="newsletter-callout">
+                <h1>Receive mental health guidance from professionals.</h1>
+                <p>Join our email list to receive monthly news about events from our community, 
+                support articles, written testimonials, tips from industry professionals, and more.</p>
+            </div>
+            <div class="newsletter-form">
+                <form action="#" target="_self" autocomplete="on"> <!-- add ' method="post" ' later -->
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" require placeholder="Enter your email address.">
+                    <input type="submit" value="Sign up now">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero-image-home-2">
+        <img src="images/community.jpg" class="full-size-image" alt="Image of a group hugging each other as a sign of community and collaboration.">
+    </section>
+
+    <section class="mental-health-shop-home">
+        <div class="shop-text">
+            <h1>Purchase inspirational clothes in our online store.</h1>
+            <p>All profits are donated to the National Suicide Prevention Lifeline.</p>
+            <a href="shop/shop.html"><p>Shop clothes now</p></a>
+        </div>
+        <div class="image-row-one">
+            <a href="shop/shop.html"><img src="images/mha-hoodie.jpg" alt="Mental Health Awareness organization hoodie."></a>
+            <a href="shop/shop.html"><img src="images/mha-sweatshirt.jpg" alt="Mental Health Awareness organization sweatshirt."></a>
+        </div>
+        <div class="image-row-two">
+            <a href="shop/shop.html"><img src="images/mha-tshirt.jpg" alt="Mental Health Awareness organization t-shirt."></a>
+            <a href="shop/shop.html"><img src="images/mha-croptop.jpg" alt="Mental Health Awareness organization croptop."></a>
+        </div>
+    </section>
+
+    <section class="hero-image-home-3">
+        <img src="images/anti-bullying.jpg" class="full-size-image" alt="Kids raising their arms in support of anti-bullying.">
+    </section>
+
+    <section class="mental-health-awareness-community-home">
+        <div class="community-callout-text">
+            <h1 class="mha-heading">Let's fight mental health stigma together.</h1>
+            <p class="mha-paragraph">Join our Mental Health Awareness community and educate yourselves as 
+            well as others around you about the different mental health issues worldwide.</p>
+            <div class="mha-get-started">
+                <a href="sign-in/sign-up.html"><button>Get started</button></a><br>
+            </div>
+        </div>
+    </section>
+
+    <section class="mental-health-emergency">
+        <h1>Get real support from real people.</h1>
+        <div class="call-emergency">
+            <h1>Call an emergency lifeline.</h1>
+            <p>The lifeline provides 24/7, free, and confidential support for people in 
+            distress and who are thinking of hurting themselves.</p>
+            <a href="#"><p>Call them here</p></a>
+        </div>
+        <div class="support-center">
+            <h1>Support Center.</h1>
+            <p>Access helpful tips, articles, videos, and more resources to get help when 
+            confronting your mental health struggles.</p>
+            <a href="help-yourself/help-yourself.html">
+                <p>Visit our support center</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="black-background"></div>
+        <div class="top-footer">
+            <div class="top-left">
+                <img src="images/us-flag.png" id="flag" alt="Flag of the United States of America.">
+                English
+            </div>
+            <div class="top-right">
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="bottom-left">
+                © 2020 Mental Health Awareness Organization
+            </div>
+            <div class="bottom-right">
+                <a href="#">Privacy Notice</a><br>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Javascript bundle -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
