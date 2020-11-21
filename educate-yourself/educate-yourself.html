@@ -2,44 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="The Mental Health Awareness Organization (MHA Org) helps spread awareness and shed light to different mental health problems, the various ways to cope with them, how to help others who might be struggling, and how to spread awareness yourself. It also provides access to a clothing shop where all revenue generated goes to various mental health charities and creates a vibrant community that helps battle mental health stigma from all over the world!">
+    <meta name="description" content="The Mental Health Awareness Organization (MHA Org) helps spread awareness and shed light to different mental health problems, the various ways to cope with them, how to help others who might be struggling, and how to spread awareness yourself. It also provides access to a clothing shop where all profit generated goes to various mental health charities and creates a vibrant community that helps battle mental health stigma from all over the world!">
     <meta name="keywords" content="Mental, Health, Awareness, Help, Depression, Anxiety, PTSD">
     <meta name="author" content="Madyar Kozhakhmetov">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FontAwesome link below -->
     <script src="https://use.fontawesome.com/5d5a7b196b.js"></script>
+    <!-- Google Fonts link below -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
     <!-- Bootstrap link below -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- CSS link below -->
     <link rel="stylesheet" href="../css/style.css">
     <title>MHA Educate Yourself</title>
     <style> 
+        nav {
+            border-bottom: 1px solid #000000;
+            border-top: 1px solid #ffffff;
+        }
         .mha-nav {
             color: #000000 !important;
             font-weight: 600 !important;
-            font-family: Helvetica, Arial, sans-serif !important;
+            font-family: 'Lato', sans-serif !important;
             font-size: 18px !important;
         }
         .mha-nav:hover, .fa-shopping-cart:hover {
-            color: #FF7F50 !important;
-        }
+            color: #FF6347 !important;
+        } 
     </style>
 </head>
 <body>
     <header>
         <aside>
-            <div class="covid-19-awareness"></div>
+            <div id="covid-19-awareness">
+                <a href="#" class="mha-link"><i class="fa fa-info-circle"></i>COVID-19 resources</a>
+            </div>
         </aside>
-        <nav class="navbar navbar-expand-lg my-2 fixed-top navbar-light">
-        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg my-0 navbar-light"> <!-- navbar uses bootstrap code -->
+        <div class="container-fluid"> <!-- css adjustements specified internally. couldn't work externally or without the '!important'-->
             <div class="navbar-header">
-                <a class="navbar-brand active" href="../index.html">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../images/hugging.png" width="33" height="33" class="d-inline-block align-top" alt="Mental Health Awareness Organization logo" loading="lazy">
                     MHA Organization
                 </a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a class="nav-link mha-nav" href="../educate-yourself/educate-yourself.html">Educate Yourself</a></li>
+                <li><a class="nav-link mha-nav active" href="../educate-yourself/educate-yourself.html">Educate Yourself</a></li>
                 <li><a class="nav-link mha-nav" href="../help-yourself/help-yourself.html">Help Yourself</a></li>
                 <li><a class="nav-link mha-nav" href="../help-others/help-others.html">Help Others</a></li>
                 <li><a class="nav-link mha-nav" href="../spread-the-word/spread-the-word.html">Spread the Word</a></li>
@@ -52,8 +61,43 @@
         </div>
         </nav>
     </header>
+    
+    <section class="mental-health-main-information-home">
+        <div class="hero-text">
+            <span class="mha-hero-underline">Mental Health</span><br>
+            <a href="../educate-yourself/educate-yourself.html">What is it?</a><br>
+            <a href="../help-yourself/help-yourself.html">How can you help yourself?</a><br>
+            <a href="../help-others/help-others.html">How can you help others?</a><br>
+        </div>
+        <div class="mha-get-started">
+            <a href="../sign-in/sign-up.html"><button name="get-started">Get started</button><br></a>
+            <a href="../spread-the-word/spread-the-word.html" class="mha-link" id="start-spreading-awareness">Start spreading awareness</a>
+        </div>
+    </section>
 
-    <footer></footer>
+    <footer>
+        <div class="black-background"></div>
+        <div class="top-footer">
+            <div class="top-left">
+                <img src="../images/us-flag.png" id="flag" alt="Flag of the United States of America.">
+                English
+            </div>
+            <div class="top-right">
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="bottom-left">
+                © 2020 Mental Health Awareness Organization
+            </div>
+            <div class="bottom-right">
+                <a href="#">Privacy Notice</a><br>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap Javascript bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
