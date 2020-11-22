@@ -559,11 +559,11 @@ in the '*' section at the top of the css page */
     background-color: #FF6347;
     width: 100%;
     font-family: 'Lato', sans-serif;
-    margin-bottom: 62px;
     margin-top: 32px;
 }
 
 .textual-info {
+    padding-top: 92px;
     background-color: #FF6347;
     width: 65%;
     margin-left: auto;
@@ -578,9 +578,8 @@ in the '*' section at the top of the css page */
 .textual-info h1 {
     font-size: 62px;
     font-weight: 600;
-    margin-top: 32px;
     padding-top: 62px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     color: #000000;
 }
 
@@ -589,15 +588,42 @@ in the '*' section at the top of the css page */
     color: #ffffff;
 }
 
-.textual-info a {
+.textual-info a p { /* had to use margins so the link hover wouldn't be as wide as it is with paddings */
     margin-top: 62px;
-    margin-bottom: 30px;
+    margin-bottom: 62px;
 }
 
 .textual-info a:hover {
     text-decoration: none;
 }
 
+.educate-yourself-call-to-action .mha-get-started {
+    background-color: #FF6347;
+    padding-bottom: 186px;
+    margin-bottom: 0px;
+}
+
+.educate-yourself-call-to-action .mha-get-started button {
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 62px;
+}
+
+.educate-yourself-call-to-action .mha-get-started button:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000000;
+    font-weight: 600; 
+}
+
+.educate-yourself-call-to-action #start-spreading-awareness {
+    color: #000000;
+    font-size: 30px; 
+    font-weight: 600;
+}
 
 /* Covid-19 Resources page */
 
