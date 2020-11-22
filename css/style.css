@@ -32,6 +32,37 @@
     border-bottom: 3px solid #000000;
 }
 
+.mha-get-started {
+    margin-top: 62px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 40px; /* need to make the margin numbers consistent later */
+}
+
+.mha-get-started button, .mha-get-started button a {
+    background-color: #FF6347;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 13px 60px; /* chosen by guess-work, not purely consistent with other numbers */
+    border-radius: 8px;
+    border: 2px solid #FF6347;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.mha-get-started button:hover {
+    background-color: #FF4500;
+    border: 2px solid #FF4500;
+    font-weight: 500;
+}
+
+#start-spreading-awareness {
+    color: #FF6347;
+    font-size: 24px; /* bigger size than the call out to grasp the viewer's attention */
+    font-weight: 500;
+}
+
 .full-size-image {
     min-height: 100%;
     min-width: 1024px;
@@ -172,37 +203,6 @@ footer div {
 .hero-text a:hover {
     color: #FF6347;
     text-decoration: none;
-}
-
-.mha-get-started {
-    margin-top: 62px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    margin-bottom: 40px; /* need to make the margin numbers consistent later */
-}
-
-.mha-get-started button, .mha-get-started button a {
-    background-color: #FF6347;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 13px 60px; /* chosen by guess-work, not purely consistent with other numbers */
-    border-radius: 8px;
-    border: 2px solid #FF6347;
-    font-weight: 500;
-    margin-bottom: 40px;
-}
-
-.mha-get-started button:hover {
-    background-color: #FF4500;
-    border: 2px solid #FF4500;
-    font-weight: 500;
-}
-
-#start-spreading-awareness {
-    color: #FF6347;
-    font-size: 24px; /* bigger size than the call out to grasp the viewer's attention */
-    font-weight: 500;
 }
 
 .hero-image-home {
@@ -527,13 +527,83 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     background-color: #ffffff;
 }
 
+/* Educate Yourself page */
+
+.educate-yourself-statistics { /* reconfirming the essential styles already layed out
+in the '*' section at the top of the css page */ 
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+}
+
+.educate-yourself-statistics .statistics {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 62px;
+    font-weight: 600;
+    font-size: 62px;
+    padding-top: 62px;
+}
+
+.educate-yourself-statistics .statistics div {
+    text-align: center;
+    padding-bottom: 196px;
+}
+
+.educate-yourself-statistics .statistics div span {
+    color: #FF6347;
+}
+
+.educate-yourself-call-to-action {
+    background-color: #FF6347;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 62px;
+    margin-top: 32px;
+}
+
+.textual-info {
+    background-color: #FF6347;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textual-info h1, .textual-info a p {
+    background-color: #FF6347;
+    text-align: center;
+}
+
+.textual-info h1 {
+    font-size: 62px;
+    font-weight: 600;
+    margin-top: 32px;
+    padding-top: 62px;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.textual-info p {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.textual-info a {
+    margin-top: 62px;
+    margin-bottom: 30px;
+}
+
+.textual-info a:hover {
+    text-decoration: none;
+}
+
+
 /* Covid-19 Resources page */
 
 /* Help Others page */
 
 /* Help Yourself page */ 
-
-/* Educate Yourself page */
 
 /* Spread the Word page */ 
 
