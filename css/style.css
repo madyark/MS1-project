@@ -28,10 +28,6 @@
     text-decoration: none !important; /* does not work without the '!important' */
 }
 
-.mha-hero-underline {
-    border-bottom: 3px solid #000000;
-}
-
 .mha-get-started {
     margin-top: 62px;
     margin-right: auto;
@@ -194,6 +190,10 @@ footer div {
     text-align: center;
     font-weight: 600;
     text-decoration: none; /* needed to remove text decoration since they are links */
+}
+
+.mha-hero-underline {
+    border-bottom: 3px solid #000000;
 }
 
 .hero-text a {
@@ -563,7 +563,7 @@ in the '*' section at the top of the css page */
 }
 
 .textual-info {
-    padding-top: 92px;
+    padding-top: 164px;
     background-color: #FF6347;
     width: 65%;
     margin-left: auto;
