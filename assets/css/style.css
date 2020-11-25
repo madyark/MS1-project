@@ -192,6 +192,10 @@ footer div {
     text-decoration: none; /* needed to remove text decoration since they are links */
 }
 
+.hero-text div {
+    margin-bottom: 40px;
+}
+
 .mha-hero-underline {
     border-bottom: 3px solid #000000;
 }
@@ -540,7 +544,7 @@ in the '*' section at the top of the css page */
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 62px;
+    margin-top: 0px;
     font-weight: 600;
     font-size: 62px;
     padding-top: 62px;

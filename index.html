@@ -14,7 +14,7 @@
     <!-- Bootstrap link below -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- CSS link below -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Mental Health Awareness Organization</title>
     <style> 
         nav {
@@ -43,19 +43,19 @@
         <div class="container-fluid"> <!-- css adjustements specified internally. couldn't work externally or without the '!important'-->
             <div class="navbar-header">
                 <a class="navbar-brand active" href="index.html">
-                    <img src="/images/hugging.png" width="33" height="33" class="d-inline-block align-top" alt="Mental Health Awareness Organization logo" loading="lazy">
+                    <img src="assets/images/hugging.png" width="33" height="33" class="d-inline-block align-top" alt="Mental Health Awareness Organization logo" loading="lazy">
                     MHA Organization
                 </a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a class="nav-link mha-nav" href="educate-yourself/educate-yourself.html">Educate Yourself</a></li>
-                <li><a class="nav-link mha-nav" href="help-yourself/help-yourself.html">Help Yourself</a></li>
-                <li><a class="nav-link mha-nav" href="help-others/help-others.html">Help Others</a></li>
-                <li><a class="nav-link mha-nav" href="spread-the-word/spread-the-word.html">Spread the Word</a></li>
+                <li><a class="nav-link mha-nav" href="educate-yourself.html">Educate Yourself</a></li>
+                <li><a class="nav-link mha-nav" href="help-yourself.html">Help Yourself</a></li>
+                <li><a class="nav-link mha-nav" href="help-others.html">Help Others</a></li>
+                <li><a class="nav-link mha-nav" href="spread-the-word.html">Spread the Word</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="nav-link mha-nav" href="sign-in/sign-in.html">Sign In</a></li>
-                <li><a class="nav-link mha-nav" href="shop/shop.html">Shop</a></li>
+                <li><a class="nav-link mha-nav" href="sign-in.html">Sign In</a></li>
+                <li><a class="nav-link mha-nav" href="shop.html">Shop</a></li>
                 <li><a class="nav-link mha-nav" href="#"><i class="fa fa-shopping-cart"></i></a></li>
             </ul>
         </div>
@@ -64,23 +64,23 @@
     
     <section class="mental-health-main-information-home">
         <div class="hero-text">
-            <span class="mha-hero-underline">Mental Health</span><br>
-            <a href="educate-yourself/educate-yourself.html">What is it?</a><br>
-            <a href="help-yourself/help-yourself.html">How can you help yourself?</a><br>
-            <a href="help-others/help-others.html">How can you help others?</a><br>
+            <div><span class="mha-hero-underline">Mental Health</span></div> <!-- the div was added to create a custom bottom margin -->
+            <a href="educate-yourself.html">What is it?</a><br>
+            <a href="help-yourself.html">How can you help yourself?</a><br>
+            <a href="help-others.html">How can you help others?</a><br>
         </div>
         <div class="mha-get-started">
-            <a href="sign-in/sign-up.html"><button name="get-started">Get started</button><br></a>
-            <a href="spread-the-word/spread-the-word.html" class="mha-link" id="start-spreading-awareness">Start spreading awareness</a>
+            <a href="sign-up.html"><button name="get-started">Get started</button><br></a>
+            <a href="spread-the-word.html" class="mha-link" id="start-spreading-awareness">Start spreading awareness</a>
         </div>
     </section>
 
     <section class="hero-image-home">
-        <a href="educate-yourself/educate-yourself.html#stories"><img src="images/man-battling-mental-health.jpg" class="hero-image" alt="Man battling with mental health issues"></a>
+        <a href="educate-yourself.html#stories"><img src="assets/images/man-battling-mental-health.jpg" class="hero-image" alt="Man battling with mental health issues"></a>
         <div class="content">
             <h1>"You wake up every morning to fight the same demons that left you so tired the night before."</h1>
             <p id="message-summary">We set out to hear the stories of the many men and women who battle with mental health problems everyday.</p>
-            <a href="educate-yourself/educate-yourself.html#stories"><p id="callout-hero-image">Listen to their stories</p></a>
+            <a href="educate-yourself.html#stories"><p id="callout-hero-image">Listen to their stories</p></a>
         </div>
     </section>
 
@@ -88,14 +88,14 @@
         <!-- Main types of mental health issues: Depression, Anxiety, PTSD -->
         <div class="depression-home">
             <div class="depression-image">
-                <a href="help-yourself/help-yourself.html"><img src="images/depression.jpg" id="depressed-man" alt="Picture of a man struggling with depression."></a>
+                <a href="help-yourself.html"><img src="assets/images/depression.jpg" id="depressed-man" alt="Picture of a man struggling with depression."></a>
             </div>
             <div class="depression-text">
                 <h1>Guidance on how to manage depression.</h1>
                 <p>Depression is a mood disorder that causes a persistent feeling of sadness and loss 
                 of interest. You may have trouble doing normal day-to-day activities, and sometimes 
                 you may feel as if life isn't worth living.</p>
-                <a href="help-yourself/help-yourself.html"><p>Learn about dealing with depression</p></a>
+                <a href="help-yourself.html"><p>Learn about dealing with depression</p></a>
             </div>
         </div>
 
@@ -104,14 +104,14 @@
 
         <div class="anxiety-home">
             <div class="anxiety-image">
-                <a href="help-yourself/help-yourself.html"><img src="images/anxiety.jpg" id="anxious-woman" alt="Picture of a woman dealing with anxiety."></a>
+                <a href="help-yourself.html"><img src="assets/images/anxiety.jpg" id="anxious-woman" alt="Picture of a woman dealing with anxiety."></a>
             </div>
             <div class="anxiety-text">
                 <h1>Guidance on how to manage anxiety.</h1>
                 <p>Anxiety is a feeling of uneasiness, usually defined as an overreaction to a situation 
                 that is only subjectively seen as menacing. It is often accompanied by restlessness, fatigue 
                 and problems in concentration.</p>
-                <a href="help-yourself/help-yourself.html"><p>Learn about dealing with anxiety</p></a>
+                <a href="help-yourself.html"><p>Learn about dealing with anxiety</p></a>
             </div>
         </div>
 
@@ -119,14 +119,14 @@
 
         <div class="ptsd-home">
             <div class="ptsd-image">
-                <a href="help-yourself/help-yourself.html"><img src="images/ptsd.jpg" id="woman-with-PTSD" alt="Picture of a woman dealing with PTSD."></a>
+                <a href="help-yourself.html"><img src="assets/images/ptsd.jpg" id="woman-with-PTSD" alt="Picture of a woman dealing with PTSD."></a>
             </div>
             <div class="ptsd-text">
                 <h1>Guidance on how to manage PTSD.</h1>
                 <p>Post-traumatic stress disorder is a condition that's triggered by a 
                 terrifying event — either experiencing it or witnessing it. Symptoms may 
                 include flashbacks, nightmares, and uncontrollable thoughts about the event.</p>
-                <a href="help-yourself/help-yourself.html"><p>Learn about dealing with PTSD</p></a>
+                <a href="help-yourself.html"><p>Learn about dealing with PTSD</p></a>
             </div>
         </div>
     </section>
@@ -141,7 +141,7 @@
             <div class="newsletter-form">
                 <form action="#" target="_self" autocomplete="on"> <!-- add ' method="post" ' later -->
                     <label for="email"></label>
-                    <input type="email" id="email" name="email" require placeholder="Enter your email address.">
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address.">
                     <input type="submit" value="Sign up now">
                 </form>
             </div>
@@ -149,22 +149,22 @@
     </section>
 
     <section class="hero-image-home-2">
-        <img src="images/community.jpg" class="full-size-image" alt="Image of a group hugging each other as a sign of community and collaboration.">
+        <img src="assets/images/community.jpg" class="full-size-image" alt="Image of a group hugging each other as a sign of community and collaboration.">
     </section>
 
     <section class="mental-health-shop-home">
         <div class="shop-text">
             <h1>Purchase inspirational clothes in our online store.</h1>
             <p>All profits are donated to the National Suicide Prevention Lifeline.</p>
-            <a href="shop/shop.html"><p>Shop clothes now</p></a>
+            <a href="shop.html"><p>Shop clothes now</p></a>
         </div>
         <div class="image-row-one">
-            <a href="shop/shop.html"><img src="images/mha-hoodie.jpg" alt="Mental Health Awareness organization hoodie."></a>
-            <a href="shop/shop.html"><img src="images/mha-sweatshirt.jpg" alt="Mental Health Awareness organization sweatshirt."></a>
+            <a href="shop.html"><img src="assets/images/mha-hoodie.jpg" alt="Mental Health Awareness organization hoodie."></a>
+            <a href="shop.html"><img src="assets/images/mha-sweatshirt.jpg" alt="Mental Health Awareness organization sweatshirt."></a>
         </div>
         <div class="image-row-two">
-            <a href="shop/shop.html"><img src="images/mha-tshirt.jpg" alt="Mental Health Awareness organization t-shirt."></a>
-            <a href="shop/shop.html"><img src="images/mha-croptop.jpg" alt="Mental Health Awareness organization croptop."></a>
+            <a href="shop.html"><img src="assets/images/mha-tshirt.jpg" alt="Mental Health Awareness organization t-shirt."></a>
+            <a href="shop.html"><img src="assets/images/mha-croptop.jpg" alt="Mental Health Awareness organization croptop."></a>
         </div>
     </section>
 
@@ -178,7 +178,7 @@
             <p class="mha-paragraph">Join our Mental Health Awareness community and educate yourselves as 
             well as others around you about the different mental health issues worldwide.</p>
             <div class="mha-get-started">
-                <a href="sign-in/sign-up.html"><button>Get started</button></a><br>
+                <a href="sign-up.html"><button>Get started</button></a><br>
             </div>
         </div>
     </section>
@@ -195,7 +195,7 @@
             <h1>Support Center.</h1>
             <p>Access helpful tips, articles, videos, and more resources to get help when 
             confronting your mental health struggles.</p>
-            <a href="help-yourself/help-yourself.html">
+            <a href="help-yourself.html">
                 <p>Visit our support center</p>
             </a>
         </div>
@@ -205,7 +205,7 @@
         <div class="black-background"></div>
         <div class="top-footer">
             <div class="top-left">
-                <img src="images/us-flag.png" id="flag" alt="Flag of the United States of America.">
+                <img src="assets/images/us-flag.png" id="flag" alt="Flag of the United States of America.">
                 English
             </div>
             <div class="top-right">
