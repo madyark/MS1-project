@@ -1,6 +1,5 @@
 /* All pages */
 * {
-    background-color: #ffffff;
     color: 	#000000;
     font-family: 'Lato', sans-serif;
 }
@@ -21,7 +20,7 @@
     position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #000000; /* acts as a seperator between the covid-info link and nav */
+    border-bottom: 1px solid #000000;
 }
 
 .mha-link {
@@ -421,50 +420,17 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     border-color: #FF4500;
 }
 
-.mental-health-shop-home, .mental-health-awareness-community-home {
+.mental-health-awareness-community-home {
     background-color: #ffffff;
     padding-top: 64px;
 }
 
-.shop-text, .community-callout-text {
+.community-callout-text {
     color: #000000;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 70%;
-}
-
-.shop-text h1 {
-    font-size: 32px;
-    font-weight: 600;
-    padding-bottom: 20px;
-}
-
-.shop-text>p {
-    font-size: 20px;
-    font-weight: 400;
-    padding-bottom: 20px;
-}
-
-.shop-text a p {
-    font-size: 24px;
-    font-weight: 600;
-    color: #FF6347;
-    padding-bottom: 30px;
-}
-
-.shop-text a:hover {
-    text-decoration: none;
-}
-
-.image-row-one, .image-row-two {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.image-row-one a img, .image-row-two a img {
-    width: 49%;
-    height: auto;
 }
 
 .community-callout-text .mha-heading {

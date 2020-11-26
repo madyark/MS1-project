@@ -19,7 +19,6 @@
     <style> 
         nav {
             border-bottom: 1px solid #000000;
-            border-top: 1px solid #ffffff;
         }
         .mha-nav {
             color: #000000 !important;
@@ -27,16 +26,21 @@
             font-family: 'Lato', sans-serif !important;
             font-size: 18px !important;
         }
-        .mha-nav:hover, .fa-shopping-cart:hover {
+        .mha-nav:hover, .mha-nav:hover span {
             color: #FF6347 !important;
         } 
+        #mha-navbar-right-space {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
     </style>
 </head>
 <body>
     <header>
         <aside>
             <div id="covid-19-awareness">
-                <a href="#" class="mha-link"><i class="fa fa-info-circle"></i>COVID-19 resources</a>
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" 
+                class="mha-link"><i class="fa fa-info-circle"></i>COVID-19 resources</a>
             </div>
         </aside>
         <nav class="navbar navbar-expand-lg my-0 navbar-light"> <!-- navbar uses bootstrap code -->
@@ -54,9 +58,7 @@
                 <li><a class="nav-link mha-nav" href="spread-the-word.html">Spread the Word</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="nav-link mha-nav" href="sign-in.html">Sign In</a></li>
-                <li><a class="nav-link mha-nav" href="shop.html">Shop</a></li>
-                <li><a class="nav-link mha-nav" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a class="nav-link mha-nav" href="sign-in.html">Sign In <span id="mha-navbar-right-space"> | </span> Sign Up</a></li>
             </ul>
         </div>
         </nav>
@@ -150,26 +152,6 @@
 
     <section class="hero-image-home-2">
         <img src="assets/images/community.jpg" class="full-size-image" alt="Image of a group hugging each other as a sign of community and collaboration.">
-    </section>
-
-    <section class="mental-health-shop-home">
-        <div class="shop-text">
-            <h1>Purchase inspirational clothes in our online store.</h1>
-            <p>All profits are donated to the National Suicide Prevention Lifeline.</p>
-            <a href="shop.html"><p>Shop clothes now</p></a>
-        </div>
-        <div class="image-row-one">
-            <a href="shop.html"><img src="assets/images/mha-hoodie.jpg" alt="Mental Health Awareness organization hoodie."></a>
-            <a href="shop.html"><img src="assets/images/mha-sweatshirt.jpg" alt="Mental Health Awareness organization sweatshirt."></a>
-        </div>
-        <div class="image-row-two">
-            <a href="shop.html"><img src="assets/images/mha-tshirt.jpg" alt="Mental Health Awareness organization t-shirt."></a>
-            <a href="shop.html"><img src="assets/images/mha-croptop.jpg" alt="Mental Health Awareness organization croptop."></a>
-        </div>
-    </section>
-
-    <section class="hero-image-home-3">
-        <img src="images/anti-bullying.jpg" class="full-size-image" alt="Kids raising their arms in support of anti-bullying.">
     </section>
 
     <section class="mental-health-awareness-community-home">

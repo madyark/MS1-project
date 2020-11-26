@@ -27,7 +27,7 @@
             font-family: 'Lato', sans-serif !important;
             font-size: 18px !important;
         }
-        .mha-nav:hover, .fa-shopping-cart:hover {
+        .mha-nav:hover, .mha-nav:hover span {
             color: #FF6347 !important;
         } 
 
@@ -38,13 +38,19 @@
         a.mha-active:hover {
             color: #FF4500 !important;
         }
+        
+        #mha-navbar-right-space {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
     </style>
 </head>
 <body>
     <header>
         <aside>
             <div id="covid-19-awareness">
-                <a href="#" class="mha-link"><i class="fa fa-info-circle"></i>COVID-19 resources</a>
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" 
+                class="mha-link"><i class="fa fa-info-circle"></i>COVID-19 resources</a>
             </div>
         </aside>
         <nav class="navbar navbar-expand-lg my-0 navbar-light"> <!-- navbar uses bootstrap code -->
@@ -56,15 +62,13 @@
                 </a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a class="nav-link mha-nav mha-active" href="educate-yourself.html">Educate Yourself</a></li>
+                <li><a class="nav-link mha-nav active mha-active" href="educate-yourself.html">Educate Yourself</a></li>
                 <li><a class="nav-link mha-nav" href="help-yourself.html">Help Yourself</a></li>
                 <li><a class="nav-link mha-nav" href="help-others.html">Help Others</a></li>
                 <li><a class="nav-link mha-nav" href="spread-the-word.html">Spread the Word</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="nav-link mha-nav" href="sign-in.html">Sign In</a></li>
-                <li><a class="nav-link mha-nav" href="shop.html">Shop</a></li>
-                <li><a class="nav-link mha-nav" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a class="nav-link mha-nav" href="sign-in.html">Sign In <span id="mha-navbar-right-space"> | </span> Sign Up</a></li>
             </ul>
         </div>
         </nav>
