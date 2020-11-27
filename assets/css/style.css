@@ -595,16 +595,75 @@ in the '*' section at the top of the css page */
     font-weight: 600;
 }
 
-/* Covid-19 Resources page */
+/* Help Yourself page */ 
+
+#help-yourself-title {
+    background-color: #030303;
+    color: #ffffff;
+}
+
+#help-yourself-title div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 62px;
+    padding-top: 124px;
+    padding-bottom: 124px;
+    width: 75%;
+    color: #ffffff;
+}
+
+#help-yourself-looking-after-yourself, .main-header, .looking-after-description {
+    background-color: #030303;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-header {
+    font-size: 40px;
+    padding-bottom: 124px;
+}
+
+.looking-after-tip {
+    font-size: 32px;
+    padding-bottom: 32px;
+    color: #FF6347;
+}
+
+.looking-after-description {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 124px;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#help-yourself-looking-after-yourself img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 67%;
+    height: auto;
+    border-radius: 5%;
+    margin-bottom: 124px;
+}
+
+#help-yourself-specific-disorders {
+    background-color: #ffffff;
+}
+
+#help-yourself-suicide-hotlines {
+    background-color: #030303;
+}
+
+#helf-yourself-resources {
+    background-color: #ffffff;
+}
 
 /* Help Others page */
-
-/* Help Yourself page */ 
 
 /* Spread the Word page */ 
 
 /* Sign In page */
 
 /* Sign Up page */
-
-/* Shop page */
