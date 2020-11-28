@@ -655,7 +655,7 @@ in the '*' section at the top of the css page */
     margin-bottom: 124px;
 }
 
-#help-yourself-specific-disorders, #help-yourself-specific-disorders div.main-header {
+#help-yourself-specific-disorders, #help-yourself-specific-disorders .main-header, #help-yourself-resources, #help-yourself-resources .main-header {
     padding-top: 124px;
     background-color: #ffffff;
 }
@@ -664,7 +664,7 @@ in the '*' section at the top of the css page */
     padding-bottom: 248px;
 }
 
- #help-yourself-specific-disorders .main-header { /* change this to a different class */
+ #help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header { /* change this to a different class */
      color: #000000;
      font-weight: 600;
      padding-bottom: 0px;
@@ -702,7 +702,6 @@ in the '*' section at the top of the css page */
 
 #help-yourself-suicide-hotlines {
     background-color: #030303;
-    height: 1000px;
     padding-bottom: 248px;
 }
 
@@ -778,9 +777,56 @@ in the '*' section at the top of the css page */
     text-decoration: none;
 }
 
+#help-yourself-resources {
+    padding-bottom: 96px;
+}
 
-#helf-yourself-resources {
-    background-color: #ffffff;
+.help-yourself-resources-title {
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
+    padding-top: 62px;
+}
+
+.help-yourself-resources-videos {
+    margin-top: -32px;
+    padding-bottom: 96px;
+}
+
+.help-yourself-resources-videos iframe, .help-yourself-resources-articles iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 2%;
+    border: 2px solid #000000;
+    margin-top: 96px;
+}
+
+.help-yourself-resources-articles {
+    margin-bottom: 62px;
+}
+
+.help-yourself-resources-links {
+    padding-top: 62px;
+}
+
+.help-yourself-resources-links a {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 62px;
+    text-align: center;
+}
+
+.help-yourself-resources-links a:hover {
+    text-decoration: none;
+    color: #FF6347;
 }
 
 /* Help Others page */
