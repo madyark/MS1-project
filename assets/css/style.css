@@ -619,6 +619,10 @@ in the '*' section at the top of the css page */
     color: #ffffff;
 }
 
+#help-yourself-looking-after-yourself {
+    padding-bottom: 124px;
+}
+
 .main-header {
     font-size: 40px;
     padding-bottom: 124px;
@@ -651,12 +655,58 @@ in the '*' section at the top of the css page */
     margin-bottom: 124px;
 }
 
-#help-yourself-specific-disorders, #help-yourself-specific-disorders div {
-    background-color: #030303;
+#help-yourself-specific-disorders, #help-yourself-specific-disorders div.main-header {
+    padding-top: 124px;
+    background-color: #ffffff;
+}
+
+#help-yourself-specific-disorders {
+    padding-bottom: 248px;
+}
+
+ #help-yourself-specific-disorders .main-header { /* change this to a different class */
+     color: #000000;
+     font-weight: 600;
+     padding-bottom: 0px;
+ }
+
+.specific-disorder-header, .specific-disorder-tip {
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.specific-disorder-header {
+    color: #FF6347;
+    font-size: 32px;
+    padding-top: 124px;
+    padding-bottom: 32px;
+}
+
+.specific-disorder-tip {
+    color: #000000;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.specific-disorder-arrow {
+    color: #FF6347;
+    font-size: 40px;
+    float: left;
+    width: 25%;
+    margin-top: -11px; /* done as the arrow would be positioned downwards compared to the text in the middle */
+    text-align: right;
 }
 
 #help-yourself-suicide-hotlines {
     background-color: #030303;
+    height: 1000px;
+}
+
+#help-yourself-suicide-hotlines .main-header {
+    padding-top: 248px;
 }
 
 #helf-yourself-resources {
