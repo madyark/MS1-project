@@ -622,6 +622,9 @@ in the '*' section at the top of the css page */
 .main-header {
     font-size: 40px;
     padding-bottom: 124px;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .looking-after-tip {
@@ -648,8 +651,8 @@ in the '*' section at the top of the css page */
     margin-bottom: 124px;
 }
 
-#help-yourself-specific-disorders {
-    background-color: #ffffff;
+#help-yourself-specific-disorders, #help-yourself-specific-disorders div {
+    background-color: #030303;
 }
 
 #help-yourself-suicide-hotlines {
@@ -657,7 +660,7 @@ in the '*' section at the top of the css page */
 }
 
 #helf-yourself-resources {
-    background-color: #ffffff;
+    background-color: #030303;
 }
 
 /* Help Others page */
