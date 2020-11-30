@@ -831,13 +831,109 @@ in the '*' section at the top of the css page */
 
 /* Help Others page */
 
-.help-others-title div {
-    margin-left: auto;
-    margin-right: auto;
+.help-others-title {
+    margin-top: 62px;
     text-align: center;
     font-size: 62px;
     color: #000000;
     background-color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 124px;
+}
+
+.help-others-title div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.help-others-acquaintance-struggling {
+    margin-bottom: 0px;
+}
+
+.help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+    height: 800px;
+}
+
+.help-others-portion-left {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.help-others-portion-right {
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.portion-img {
+    overflow: hidden;
+    display: flex; /* display:flex and align-items:center used to vertically align images into the center of the container */
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.portion-img img {
+    width: 75%;
+}
+
+.portion-heading {
+    font-size: 32px;
+    font-weight: 600;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    height: 150px;
+}
+
+.portion-body {
+    font-size: 24px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    overflow: hidden; /* change the height settings for .portion-body, .portion-heading and 
+    .help-others-portion-left & -right in other screen sizes*/
+}
+
+.help-others-big-image {
+    margin-bottom: 124px;
+}
+
+.help-others-big-image img {
+    width: 85%;
+    height: auto;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.help-others-tips {
+    margin-bottom: 62px;
+}
+
+.help-others-tips div {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 80px;
+}
+
+.help-others-tips a, .help-others-tips a:hover {
+    color: #FF6347;
+    text-decoration: none;
 }
 
 /* Spread the Word page */ 
