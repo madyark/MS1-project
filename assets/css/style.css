@@ -831,6 +831,15 @@ in the '*' section at the top of the css page */
 
 /* Help Others page */
 
+.help-others-title div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 62px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
 /* Spread the Word page */ 
 
 /* Sign In page */
