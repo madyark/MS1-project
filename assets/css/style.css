@@ -607,8 +607,8 @@ in the '*' section at the top of the css page */
     margin-right: auto;
     text-align: center;
     font-size: 62px;
-    padding-top: 124px;
-    padding-bottom: 124px;
+    padding-top: 62px;
+    padding-bottom: 155px;
     width: 75%;
     color: #ffffff;
 }
@@ -625,7 +625,7 @@ in the '*' section at the top of the css page */
 
 .main-header {
     font-size: 40px;
-    padding-bottom: 124px;
+    padding-bottom: 62px;
     width: 67%;
     margin-left: auto;
     margin-right: auto;
@@ -937,6 +937,97 @@ in the '*' section at the top of the css page */
 }
 
 /* Spread the Word page */ 
+
+.spread-the-word-title {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 600;
+    margin-top: 62px;
+    margin-bottom: 30px;
+}
+
+.spread-the-word-title div {
+    width: 75%;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spread-the-word-title div span {
+    color: #FF6347; 
+}
+
+.spread-the-word-full-image-white-to-black {
+    background: linear-gradient(#ffffff 50%, #030303 50%)
+}
+
+.spread-the-word-full-image-black-to-white {
+    background: linear-gradient(#030303 50%, #ffffff 50%)
+}
+
+.spread-the-word-full-image-white-to-black img, .spread-the-word-full-image-black-to-white img {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.talking-mental-health-reasons, .ways-to-fight-stigma {
+    background-color: #030303;
+    text-align: center;
+    padding-bottom: 62px;
+}
+
+.talking-heading, .stigma-heading {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    width: 67%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.talking-point {
+    color: #FF6347;
+    font-size: 32px;
+    font-weight: 600;
+    width: 50%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.talking-description {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    width: 50%;
+    padding-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stigma-tip {
+    font-size: 40px;
+    font-weight: 300;
+    width: 67%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tip-white {
+    color: #ffffff;
+}
+
+.tip-orange {
+    color: #FF6347;
+}
 
 /* Sign In page */
 
