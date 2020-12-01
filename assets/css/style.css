@@ -204,18 +204,19 @@ footer div {
 }
 
 .hero-image-home {
-    margin-top: 474px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    margin-top: 124px;
 }
 
-.hero-image { 
+.hero-image {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: linear-gradient(#ffffff 50%, #030303 50%)
+}
+
+.hero-image img { 
     width: 85%;
     height: auto;
-    left: 85px;
-    top: -350px;
-    position: absolute;
     border-radius: 5%;
     border: 1px solid #ffffff;
     /* specifications found in css-tricks.com but had to be altered 
@@ -223,7 +224,7 @@ footer div {
 }
 
 .content {
-    padding-top: 400px;
+    padding-top: 50px;
     background-color: #030303;
     text-align: center;
 }
