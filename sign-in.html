@@ -30,11 +30,11 @@
             color: #FF6347 !important;
         } 
 
-        .mha-active {
+        .mha-active, .mha-active span {
             color: #FF6347 !important;
         }
 
-        a.mha-active:hover {
+        a.mha-active:hover, a.mha-active:hover span {
             color: #FF4500 !important;
         }
         #mha-navbar-right-space {
@@ -72,7 +72,18 @@
         </nav>
     </header>
     
-    <section>
+    <section class="sign-in-page">
+    <div class="sign-in">
+        <div class="sign-in-logo"><img src="assets/images/hugging.png" alt="Mental Health Awareness organization logo."></div>
+        <div class="sign-in-form">
+            <form action="https://formdump.codeinstitute.net/" target="_self" method="post" autocomplete="on">
+                <input type="email" id="email" name="email" required autofocus placeholder="Email Address">
+                <input type="password" id="pass" name="pass" required placeholder="Password">
+                <input type="submit" value="Sign In">
+            </form>
+        </div>
+        <div class="sign-in-redirect">Don't have an account? <a href="sign-up.html">Sign Up</a></div>
+    </div>
     </section>
 
     <footer>

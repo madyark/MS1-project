@@ -1141,4 +1141,71 @@ in the '*' section at the top of the css page */
 
 /* Sign In page */
 
+.sign-in-page {
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.sign-in {
+    text-align: center;
+    width: 50%;
+    padding-bottom: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+
+.sign-in-logo {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.sign-in-logo img {
+    height: 80px;
+    width: 80px;
+}
+
+.sign-in-form {
+    padding-bottom: 40px;
+}
+
+.sign-in-form input[type=password], .sign-in-form input[type="email"] {
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.sign-in-form input[type=submit] {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: 2px solid #FF6347;
+    border-radius: 8px;
+    background-color: #FF6347;
+    width: 35%;
+    padding: 16px 10px;
+    margin-top: 10px;
+}
+
+.sign-in-form input[type=submit]:hover {
+    background-color: #FF4500;
+    border: 2px solid #FF4500;
+}
+
+.sign-in-redirect {
+    font-size: 17px;
+}
+
+.sign-in-redirect a, .sign-in-redirect a:hover {
+    margin-left: 10px;
+    color: #FF6347;
+    text-decoration: none;
+}
+
 /* Sign Up page */
