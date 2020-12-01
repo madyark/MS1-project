@@ -973,6 +973,7 @@ in the '*' section at the top of the css page */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 62px;
     border-radius: 5%;
 }
 
