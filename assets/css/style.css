@@ -973,11 +973,10 @@ in the '*' section at the top of the css page */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 62px;
     border-radius: 5%;
 }
 
-.talking-mental-health-reasons, .ways-to-fight-stigma {
+.talking-mental-health-reasons {
     background-color: #030303;
     text-align: center;
     padding-bottom: 62px;
@@ -1013,6 +1012,12 @@ in the '*' section at the top of the css page */
     margin-right: auto;
 }
 
+.ways-to-fight-stigma {
+    background-color: #030303;
+    text-align: center;
+    padding-bottom: 124px;
+}
+
 .stigma-tip {
     font-size: 40px;
     font-weight: 300;
@@ -1028,6 +1033,61 @@ in the '*' section at the top of the css page */
 
 .tip-orange {
     color: #FF6347;
+}
+
+.world-mental-health-day {
+    text-align: center;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    margin-bottom: 62px;
+}
+
+.world-mental-health-day-heading {
+    font-size: 40px;
+    font-weight: 600;
+    width: 67%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FF6347;
+}
+
+.world-mental-health-day-body {
+    font-size: 24px;
+    font-weight: 600;
+    width: 50%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suicide-prevention {
+    padding-top: 62px;
+    padding-bottom: 62px;
+}
+
+.suicide-prevention-week {
+    text-align: center;
+}
+
+.suicide-week-heading {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FF6347;
+    width: 67%;
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suicide-week-body {
+    font-size: 32px;
+    font-weigh: 400;
+    color: #ffffff;
+    width: 50%;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Sign In page */
