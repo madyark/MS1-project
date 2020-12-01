@@ -169,16 +169,11 @@ footer div {
     letter-spacing: 0.5px;
 }
 
-.bottom-right a {
+.bottom-right span {
     color: #ffffff;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
-}
-
-.bottom-right a:hover {
-    text-decoration: none;
-    color: #ffffff;
 }
 
 /* Home page */
@@ -1083,7 +1078,7 @@ in the '*' section at the top of the css page */
 
 .suicide-week-body {
     font-size: 24px;
-    font-weigh: 400;
+    font-weight: 400;
     color: #ffffff;
     width: 50%;
     padding-top: 62px;
@@ -1198,7 +1193,7 @@ in the '*' section at the top of the css page */
 }
 
 .sign-up-form input[type=submit] {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .sign-in-form input[type=submit]:hover, .sign-up-form input[type=submit]:hover {
@@ -1223,10 +1218,7 @@ in the '*' section at the top of the css page */
     text-decoration: none;
 }
 
-.sign-up-tos a, .sign-up-tos a:hover {
-    text-decoration: none;
-    font-weight: 500;
-    color: #000000;
-    border-bottom: 1px solid #000000;
+.sign-up-tos span {
+    font-weight: 600;
 }
 
