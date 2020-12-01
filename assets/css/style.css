@@ -23,39 +23,48 @@
     border-bottom: 1px solid #000000;
 }
 
-.mha-link {
-    text-decoration: none !important; /* does not work without the '!important' */
-}
-
 .mha-get-started {
     margin-top: 62px;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
     margin-bottom: 40px; /* need to make the margin numbers consistent later */
 }
 
-.mha-get-started button, .mha-get-started button a {
-    background-color: #FF6347;
-    color: #ffffff;
+.get-started-button {
     font-size: 20px;
-    padding: 13px 60px; /* chosen by guess-work, not purely consistent with other numbers */
-    border-radius: 8px;
-    border: 2px solid #FF6347;
     font-weight: 500;
+    color: #ffffff;
+    background-color: #FF6347;
+    border: 2px solid #FF6347;
+    border-radius: 8px;
+    width: 100%;
+    padding: 13px 0px; /* chosen by guess-work, not purely consistent with other numbers */
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 40px;
 }
 
-.mha-get-started button:hover {
+.get-started-button:hover {
     background-color: #FF4500;
     border: 2px solid #FF4500;
     font-weight: 500;
+}
+
+.mha-get-started a:first-child {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mha-get-started a:hover {
+    text-decoration: none;
 }
 
 #start-spreading-awareness {
     color: #FF6347;
     font-size: 24px; /* bigger size than the call out to grasp the viewer's attention */
     font-weight: 500;
+    text-decoration: none;
 }
 
 .full-size-image {
@@ -265,8 +274,10 @@ footer div {
 .depression-home, .anxiety-home, .ptsd-home {
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 80px;
-    margin-bottom: 80px;
+}
+
+.depression-home, .anxiety-home {
+    padding-bottom: 500px;
 }
 
 .depression-image, .anxiety-image, .ptsd-image {
@@ -433,6 +444,10 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     padding-bottom: 40px;
 }
 
+.community-callout-text .mha-get-started a:first-child {
+    width: 28.6%;
+}
+
 .mental-health-emergency {
     background-color: #E5EBED;
     padding-top: 64px;
@@ -569,7 +584,7 @@ in the '*' section at the top of the css page */
     margin-bottom: 0px;
 }
 
-.educate-yourself-call-to-action .mha-get-started button {
+.educate-yourself-call-to-action .get-started-button {
     color: #ffffff;
     background-color: #000000;
     border: 2px solid #ffffff;
@@ -578,7 +593,7 @@ in the '*' section at the top of the css page */
     margin-bottom: 62px;
 }
 
-.educate-yourself-call-to-action .mha-get-started button:hover {
+.educate-yourself-call-to-action .get-started-button:hover {
     background-color: #ffffff;
     border-color: #000000;
     color: #000000;
@@ -1222,4 +1237,3 @@ in the '*' section at the top of the css page */
 .sign-up-tos span {
     font-weight: 600;
 }
-
