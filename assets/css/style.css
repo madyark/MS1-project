@@ -1063,7 +1063,8 @@ in the '*' section at the top of the css page */
 
 .suicide-prevention {
     padding-top: 62px;
-    padding-bottom: 62px;
+    padding-bottom: 124px;
+    background-color: #030303;
 }
 
 .suicide-prevention-week {
@@ -1081,13 +1082,61 @@ in the '*' section at the top of the css page */
 }
 
 .suicide-week-body {
-    font-size: 32px;
+    font-size: 24px;
     font-weigh: 400;
     color: #ffffff;
     width: 50%;
-    padding-top: 40px;
+    padding-top: 62px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.shop {
+    background-color: #ffffff;
+    padding-top: 124px;
+    padding-bottom: 62px;
+    text-align: center;
+}
+
+.shop-heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    width: 67%;
+    padding-bottom: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-heading a, .shop-heading a:hover {
+    color: #FF6347;
+    text-decoration: none;
+}
+
+.shop-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    width: 50%;
+    padding-bottom: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-text a, .shop-text a:hover {
+    color: #FF6347;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.image-row-one, .image-row-two {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.image-row-one a img, .image-row-two a img {
+    width: 49%;
+    height: auto;
 }
 
 /* Sign In page */
