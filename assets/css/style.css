@@ -757,6 +757,43 @@ in the '*' section at the top of the css page */
     font-weight: 600;
 }
 
+@media only screen and (max-width:600px) {
+    .educate-yourself-statistics .statistics {
+        font-size: 32px;
+        padding-top: 62px;
+    }
+    .educate-yourself-statistics .statistics div {
+        padding-bottom: 96px; /* 32px times 3 = 96px */
+    }
+    .educate-yourself-call-to-action {
+        margin-top: 0px;
+    }
+    .textual-info {
+        padding-top: 62px;
+    }
+    .textual-info h1 {
+        padding-top: 34px; /* 34px + 62px = 96px which is equal to the padding-bottom of .educate-yourself-statistics .statistics div */
+        font-size: 32px;
+    }
+    .textual-info p {
+        font-size: 20px;
+    }
+    .textual-info a p {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .educate-yourself-call-to-action .mha-get-started {
+        padding-bottom: 62px;
+    }
+    .educate-yourself-call-to-action .get-started-button {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    .educate-yourself-call-to-action #start-spreading-awareness {
+        font-size: 20px;
+    }
+}
+
 /* Help Yourself page */ 
 
 #help-yourself-title {
