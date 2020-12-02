@@ -863,7 +863,7 @@ in the '*' section at the top of the css page */
     padding-bottom: 248px;
 }
 
- #help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header { /* change this to a different class */
+ #help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header { 
      color: #000000;
      font-weight: 600;
      padding-bottom: 0px;
@@ -952,11 +952,8 @@ in the '*' section at the top of the css page */
 .suicide-hotlines-link a {
     text-decoration: none;
     padding-top: 5px;
-    font-size: 20px;  
-}
-
-#special-hotline-link {
-    margin-left: -25%;
+    font-size: 20px; 
+    word-wrap: break-word; 
 }
 
 .suicide-hotlines-phone, .suicide-hotlines-email {
@@ -1004,8 +1001,18 @@ in the '*' section at the top of the css page */
     margin-top: 96px;
 }
 
+.help-yourself-resources-videos iframe {
+    width: 67%;
+    height: 480px;
+}
+
 .help-yourself-resources-articles {
     margin-bottom: 62px;
+}
+
+.help-yourself-resources-articles iframe {
+    width: 85%;
+    height: 500px;
 }
 
 .help-yourself-resources-links {
@@ -1026,6 +1033,126 @@ in the '*' section at the top of the css page */
 .help-yourself-resources-links a:hover {
     text-decoration: none;
     color: #FF6347;
+}
+
+@media only screen and (max-width:600px) {
+    #help-yourself-title div {
+        font-size: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    #help-yourself-looking-after-yourself {
+        padding-bottom: 62px;
+    }
+    .main-header {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .looking-after-tip {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+    .looking-after-description {
+        font-size: 16px;
+        padding-bottom: 62px;
+    }
+    #help-yourself-looking-after-yourself img {
+        margin-bottom: 62px;
+    }
+    #help-yourself-specific-disorders, #help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header {
+        padding-top: 62px;
+    }
+    #help-yourself-specific-disorders {
+        padding-bottom: 62px;
+    }
+    .specific-disorder-header, .specific-disorder-tip {
+        width: 50%;
+    }
+    .specific-disorder-header {
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 18px;
+    }
+    .specific-disorder-tip {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+    .specific-disorder-arrow {
+        font-size: 20px;
+        margin-top: -4px;
+        width: 20%;
+    }
+    #help-yourself-suicide-hotlines {
+        padding-bottom: 62px;
+    }
+    #help-yourself-suicide-hotlines .main-header {
+        padding-top: 62px;
+    }
+    .suicide-hotlines-body {
+        height: 300px;
+        margin-top: 30px;
+        width: 80%;
+        border: 2px solid #FF6347;
+    }
+    .suicide-hotlines-title {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    .suicide-hotlines-country {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+    .suicide-hotlines-organization {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 2px;
+    }
+    .suicide-hotlines-link, .suicide-hotlines-phone, .suicide-hotlines-email {
+        width: 50%;
+    }
+    .suicide-hotlines-link a, .suicide-hotlines-phone a, .suicide-hotlines-email a {
+        padding-top: 2px;
+        font-size: 10px;
+        word-wrap: break-word;
+        letter-spacing: 0px;
+    }
+    #help-yourself-resources {
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+    .help-yourself-resources-title {
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .help-yourself-resources-videos {
+        padding-bottom: 0px;
+    }
+    .help-yourself-resources-videos iframe {
+        margin-top: 30px;
+    }
+    .help-yourself-resources-videos iframe {
+        height: 200px;
+    }
+    #mobile-display-none {
+        display: none;
+    }
+    .help-yourself-resources-articles iframe {
+        display: none; /* the article does not look good on mobile so the options of its ommitance was selected  */
+    }
+    .help-yourself-resources-links {
+        padding-bottom: 30px;
+    }
+    #mobile-special-padding { /* for unidentified reasons the top- and bottom-padding for the "External Links" title was off */
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: -10px;
+        margin-bottom: -30px;
+    }
+    .help-yourself-resources-links a {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
 }
 
 /* Help Others page */
