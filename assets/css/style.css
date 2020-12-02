@@ -1262,6 +1262,56 @@ in the '*' section at the top of the css page */
     text-decoration: none;
 }
 
+@media only screen and (max-width:600px) {
+    .help-others-title {
+        font-size: 32px;
+        margin-top: 32px;
+        margin-bottom: 62px;
+    }
+    .help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+        height: auto;
+    }
+    .help-others-portion-left, .help-others-portion-right {
+        float: none;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 62px;
+    }
+    .portion-img {
+        height: auto;
+        text-align: center;
+    }
+    .portion-img img {
+        width: 90%;
+    }
+    .portion-heading {
+        font-size: 18px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+    .portion-body {
+        font-size: 16px;
+        height: auto;
+    }
+    .help-others-big-image {
+        margin-bottom: 62px;
+    }
+    .help-others-big-image img {
+        width: 100%;
+        border-radius: 0%;
+    }
+    .help-others-tips {
+        margin-bottom: 32px;
+    }
+    .help-others-tips div {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+}
+
 /* Spread the Word page */ 
 
 .spread-the-word-title {
