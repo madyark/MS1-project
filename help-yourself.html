@@ -16,7 +16,7 @@
     <!-- CSS link below -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>MHA Help Yourself</title>
-    <style> 
+    <style> /* Styles that would not work in the external CSS but would on the internal CSS */
         nav {
             border-bottom: 1px solid #000000;
         }
@@ -42,33 +42,39 @@
             padding-left: 10px !important;
             padding-right: 10px !important;
         }
+        .mha-link {
+            text-decoration: none !important;
+        }
     </style>
 </head>
 <body>
     <header>
         <aside>
             <div id="covid-19-awareness">
-                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" 
-                class="mha-link"><i class="fa fa-info-circle"></i>COVID-19 resources</a>
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="mha-link">
+                <i class="fa fa-info-circle"></i>COVID-19 resources</a>
             </div>
         </aside>
         <nav class="navbar navbar-expand-lg my-0 navbar-light"> <!-- navbar uses bootstrap code -->
-        <div class="container-fluid"> <!-- css adjustements specified internally. couldn't work externally or without the '!important'-->
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/hugging.png" width="33" height="33" class="d-inline-block align-top" alt="Mental Health Awareness Organization logo" loading="lazy">
-                    MHA Organization
-                </a>
+        <div class="container-fluid"> 
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/hugging.png" width="33" height="33" class="d-inline-block align-top" alt="Mental Health Awareness Organization logo" loading="lazy">
+                MHA Organization
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class=><a class="nav-link mha-nav" href="educate-yourself.html">Educate Yourself</a></li>
+                    <li><a class="nav-link mha-nav active mha-active" href="help-yourself.html">Help Yourself</a></li>
+                    <li><a class="nav-link mha-nav" href="help-others.html">Help Others</a></li>
+                    <li><a class="nav-link mha-nav" href="spread-the-word.html">Spread the Word</a></li> 
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-link mha-nav" href="sign-in.html">Sign In <span id="mha-navbar-right-space"> | </span> Sign Up</a></li>
+                </ul>
             </div>
-            <ul class="nav navbar-nav">
-                <li><a class="nav-link mha-nav" href="educate-yourself.html">Educate Yourself</a></li>
-                <li><a class="nav-link mha-nav active mha-active" href="help-yourself.html">Help Yourself</a></li>
-                <li><a class="nav-link mha-nav" href="help-others.html">Help Others</a></li>
-                <li><a class="nav-link mha-nav" href="spread-the-word.html">Spread the Word</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="nav-link mha-nav" href="sign-in.html">Sign In <span id="mha-navbar-right-space"> | </span> Sign Up</a></li>
-            </ul>
         </div>
         </nav>
     </header>
