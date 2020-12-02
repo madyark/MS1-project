@@ -183,6 +183,22 @@ footer div {
     font-weight: 600;
 }
 
+@media only screen and (max-width:600px) {
+    .bottom-left, .bottom-right {
+        float: none;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .bottom-left {
+        margin-top: 5px;
+    }
+    .bottom-right {
+        margin-top: 15px;
+    }
+}
+
 /* Home page */
 .hero-text {
     font-size: 62px;
