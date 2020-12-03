@@ -1515,6 +1515,94 @@ in the '*' section at the top of the css page */
     height: auto;
 }
 
+@media only screen and (max-width:600px) {
+    .spread-the-word-title {
+        font-size: 32px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .spread-the-word-title div {
+        padding-bottom: 32px;
+    }
+    .spread-the-word-full-image-black-to-white img, .spread-the-word-full-image-white-to-black img {
+        width: 100%;
+        border-radius: 0%;
+    }
+    .talking-mental-health-reasons {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .talking-heading, .stigma-heading {
+        font-size: 20px;
+        padding-top: 32px;
+    }
+    .talking-point {
+        font-size: 18px;
+        padding-top: 32px;
+    }
+    .talking-description {
+        font-size: 16px;
+        padding-top: 18px;
+        width: 80%;
+    }
+    .ways-to-fight-stigma {
+        padding-top: 32px;
+        padding-bottom: 62px;
+    }
+    .stigma-tip {
+        font-size: 20px;
+        padding-top: 32px;
+        width: 75%;
+    }
+    .world-mental-health-day {
+        padding-top: 0px;
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+    }
+    .world-mental-health-day-heading {
+        font-size: 20px;
+        padding-top: 32px;
+        width: 80%;
+    }
+    .world-mental-health-day-body {
+        font-size: 16px;
+        padding-top: 32px;
+        width: 75%;
+    }
+    .suicide-prevention {
+        padding-top: 0px;
+        padding-bottom: 62px;
+    }
+    .suicide-week-heading {
+        font-size: 20px;
+        padding-top: 32px;
+        width: 80%;
+    }
+    .suicide-week-body {
+        font-size: 16px;
+        padding-top: 32px;
+        width: 75%;
+    }
+    .shop {
+        padding-top: 32px;
+        padding-bottom: 0px;
+    }
+    .shop-heading {
+        font-size: 18px;
+        padding-bottom: 32px;
+    }
+    .shop-text {
+        font-size: 16px;
+        padding-bottom: 32px;
+    }
+    .shop-text a {
+        font-size: 18px;
+    }
+    .image-row-one a img, .image-row-two a img {
+        width: 100%;
+    }
+}
+
 /* Sign In page + Sign Up page */
 
 .sign-in-page, .sign-up-page {
