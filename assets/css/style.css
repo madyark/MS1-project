@@ -674,7 +674,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
 }
 
-/* Small devices (portrait tablets and large phones) */
+/* Small devices (Tablets and landscape phones) */
 @media only screen and (min-width:718px) {
     .hero-text {
         font-size: 50px;
@@ -951,11 +951,14 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
 }
 
-/* Small devices (portrait tablets and large phones) */
+/* Small devices (Tablets and landscape phones) */
 @media only screen and (min-width:718px) {
     .educate-yourself-statistics .statistics {
         font-size: 45px;
         padding-top: 62px;
+    }
+    .educate-yourself-statistics .statistics:first-child {
+        padding-top: 45px;
     }
     .educate-yourself-statistics .statistics div {
         padding-bottom: 135px;  /* 45px times 3 = 135px */
@@ -1059,7 +1062,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     padding-bottom: 248px;
 }
 
- #help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header { 
+#help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header { 
      color: #000000;
      font-weight: 600;
      padding-bottom: 0px;
@@ -1302,13 +1305,12 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     .suicide-hotlines-organization {
         font-size: 12px;
         padding-top: 20px;
-        padding-bottom: 2px;
     }
     .suicide-hotlines-link, .suicide-hotlines-phone, .suicide-hotlines-email {
         width: 50%;
     }
     .suicide-hotlines-link a, .suicide-hotlines-phone a, .suicide-hotlines-email a {
-        padding-top: 2px;
+        padding-top: 3px;
         font-size: 10px;
         word-wrap: break-word;
         letter-spacing: 0px;
@@ -1327,11 +1329,9 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
     .help-yourself-resources-videos iframe {
         margin-top: 30px;
-    }
-    .help-yourself-resources-videos iframe {
         height: 200px;
     }
-    #mobile-display-none {
+    #media-display-none {
         display: none;
     }
     .help-yourself-resources-articles iframe {
@@ -1349,6 +1349,123 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     .help-yourself-resources-links a {
         font-size: 16px;
         padding-bottom: 30px;
+    }
+}
+
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) {
+    #help-yourself-title div {
+        font-size: 45px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    #help-yourself-looking-after-yourself {
+        padding-bottom: 45px;
+    }
+    .main-header {
+        font-size: 30px;
+        padding-bottom: 45px;
+    }
+    .looking-after-tip {
+        font-size: 26px;
+        padding-bottom: 26px;
+    }
+    .looking-after-description {
+        font-size: 20px;
+        padding-bottom: 45px;
+    }
+    #help-yourself-looking-after-yourself img {
+        margin-bottom: 90px;
+    }
+    #help-yourself-specific-disorders {
+        padding-top: 45px;
+    }
+    #help-yourself-specific-disorders .main-header, #help-yourself-resources .main-header {
+        padding-top: 45px;
+    }
+    #help-yourself-specific-disorders {
+        padding-bottom: 90px;
+    }
+    .specific-disorder-header, .specific-disorder-tip {
+        width: 50%;
+    }
+    .specific-disorder-header {
+        font-size: 26px;
+        padding-bottom: 26px;
+        padding-top: 45px;
+    }
+    .specific-disorder-tip {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .specific-disorder-arrow {
+        width: 20%;
+        font-size: 30px;
+        margin-top: -8px;
+    }
+    #help-yourself-suicide-hotlines {
+        padding-bottom: 90px;
+    }
+    #help-yourself-suicide-hotlines .main-header {
+        padding-top: 90px;
+    }
+    .suicide-hotlines-body {
+        height: 400px;
+        margin-top: 45px;
+        width: 75%;
+        border: 2px solid #FF6347;
+    }
+    .suicide-hotlines-title {
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    .suicide-hotlines-country {
+        font-size: 20px;
+        padding-top: 45px;
+    }
+    .suicide-hotlines-organization {
+        font-size: 18px;
+        padding-bottom: 0px;
+        padding-top: 30px;
+    }
+    .suicide-hotlines-email, .suicide-hotlines-link, .suicide-hotlines-phone {
+        padding-top: 5px;
+        width: 50%;
+    }
+    .suicide-hotlines-email a, .suicide-hotlines-link a, .suicide-hotlines-phone a {
+        font-size: 16px;
+        letter-spacing: 0px;
+        word-wrap: break-word;
+    }
+    #help-yourself-resources {
+        padding-bottom: 30px;
+        padding-top: 45px;
+    }
+    .help-yourself-resources-title {
+        font-size: 26px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .help-yourself-resources-videos {
+        padding-bottom: 0px;
+    }
+    .help-yourself-resources-videos iframe {
+        margin-top: 45px;
+        height: 400px;
+    }
+    #media-display-none {
+        display: none;
+    }
+    .help-yourself-resources-articles iframe {
+        display: none; /* the tablet width and height do not allow for good article functionality */
+    }
+    .help-yourself-resources-links {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .help-yourself-resources-links a {
+        font-size: 20px;
+        padding-bottom: 45px;
     }
 }
 
