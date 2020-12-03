@@ -183,7 +183,8 @@ footer div {
     font-weight: 600;
 }
 
-@media only screen and (max-width:600px) {
+/* Extra small devices (phones) */
+@media only screen and (max-width:717px) {
     .black-background {
         height: 50px;
     }
@@ -205,7 +206,8 @@ footer div {
     }
 }
 
-@media only screen and (min-width:718px) {
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
     .black-background {
         height: 50px; /* smaller height as the device is smaller */
     }
@@ -538,7 +540,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:717px) {
     .hero-text {
         font-size: 38px;
     }
@@ -675,7 +677,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Small devices (Tablets and landscape phones) */
-@media only screen and (min-width:651px) and (max-width:992px) {
+@media only screen and (min-width:718px) and (max-width:992px) {
     .hero-text {
         font-size: 50px;
         margin-top: 50px;
@@ -914,7 +916,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:717px) {
     .educate-yourself-statistics .statistics {
         font-size: 32px;
         padding-top: 62px;
@@ -952,7 +954,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Small devices (Tablets and landscape phones) */
-@media only screen and (min-width:651px) and (max-width: 992px) {
+@media only screen and (min-width:718px) and (max-width: 992px) {
     .educate-yourself-statistics .statistics {
         font-size: 45px;
         padding-top: 62px;
@@ -1235,7 +1237,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:717px) {
     #help-yourself-title div {
         font-size: 32px;
         padding-top: 32px;
@@ -1353,7 +1355,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Small devices (Tablets and landscape phones) */
-@media only screen and (min-width:651px) and (max-width:992px) {
+@media only screen and (min-width:718px) and (max-width:992px) {
     #help-yourself-title div {
         font-size: 45px;
         padding-top: 45px;
@@ -1577,7 +1579,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:717px) {
     .help-others-title {
         font-size: 32px;
         margin-top: 32px;
@@ -1624,6 +1626,48 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     .help-others-tips div {
         font-size: 20px;
         padding-bottom: 40px;
+    }
+}
+
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .help-others-title {
+        font-size: 45px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .help-others-acquaintance-struggling {
+        margin-bottom: 600px;
+    }
+    .help-others-row-one, .help-others-row-two, .help-others-row-three, .help-others-row-four {
+        height: 500px;
+    }
+    .help-others-portion-left, .help-others-portion-right {
+        margin-bottom: 18px;
+    }
+    .portion-img {
+        height: 225px; /* 45px times 5 = 225px */
+    }
+    .portion-heading {
+        font-size: 26px;
+        padding-top: 12px;
+        padding-bottom: 26px;
+    }
+    .portion-body {
+        font-size: 20px;
+        height: 275px;
+    }
+    .help-others-big-image {
+        margin-top: 45px;
+        margin-bottom: 90px;
+    }
+    .help-others-tips {
+        margin-bottom: 45px;
+    }
+    .help-others-tips div {
+        font-size: 30px;
+        padding-bottom: 60px;
+        width: 67%;
     }
 }
 
@@ -1831,7 +1875,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:717px) {
     .spread-the-word-title {
         font-size: 32px;
         margin-top: 32px;
@@ -2008,7 +2052,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:717px) {
     .sign-in-page, .sign-up-page {
         margin-top: 32px;
         margin-bottom: 32px;
