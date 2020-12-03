@@ -2150,3 +2150,30 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 15px;
     }
 }
+
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .sign-in-page { /* bigger margins are used since the footer needs to be at the very bottom of the tablet */
+        margin-top: 135px;
+        margin-bottom: 135px;
+    }
+    .sign-up-page {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .sign-in, .sign-up {
+        width: 60%;
+        padding-bottom: 45px;
+    }
+    .sign-in-form input[type=password], .sign-in-form input[type=email], .sign-up-form input[type=text], 
+    .sign-up-form input[type=password], .sign-up-form input[type=email] {
+        font-size: 14px;
+    }
+    .sign-in-form input[type=submit], .sign-up-form input[type=submit] {
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    .sign-in-redirect, .sign-up-redirect, .sign-up-tos {
+        font-size: 16px;
+    }
+}
