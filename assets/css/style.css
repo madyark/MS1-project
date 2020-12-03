@@ -1963,6 +1963,81 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
 }
 
+/* Small devices (Tablets and landscape phones) */
+@media only screen and (min-width:718px) and (max-width:992px) {
+    .spread-the-word-title {
+        font-size: 45px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .spread-the-word-title div {
+        padding-bottom: 45px;
+    }
+    .talking-mental-health-reasons {
+        padding-bottom: 45px;
+    }
+    .talking-heading, .stigma-heading {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .talking-point {
+        font-size: 26px;
+        padding-top: 45px;
+    }
+    .talking-description {
+        font-size: 20px;
+        padding-top: 26px;
+        width: 60%;
+    }
+    .ways-to-fight-stigma {
+        padding-bottom: 90px;
+    }
+    .stigma-tip {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .world-mental-health-day {
+        padding-top: 0px;
+        padding-bottom: 45px;
+        margin-bottom: 45px;
+    }
+    .world-mental-health-day-heading {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .world-mental-health-day-body {
+        font-size: 20px;
+        padding-top: 45px;
+    }
+    .suicide-prevention {
+        padding-top: 0px;
+        padding-bottom: 45px;
+    }
+    .suicide-week-heading {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .suicide-week-body {
+        font-size: 20px;
+        padding-top: 45px;
+    }
+    .shop {
+        padding-top: 45px;
+        padding-bottom: 0px;
+    }
+    .shop-heading {
+        font-size: 26px;
+        padding-bottom: 45px;
+    }
+    .shop-text {
+        font-size: 20px;
+        padding-bottom: 45px;
+    }
+    .shop-text a {
+        font-size: 26px;
+    }
+}
+
 /* Sign In page + Sign Up page */
 
 .sign-in-page, .sign-up-page {
