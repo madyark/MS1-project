@@ -205,6 +205,15 @@ footer div {
     }
 }
 
+@media only screen and (max-width:768px) {
+    .black-background {
+        height: 50px; /* smaller height as the device is smaller */
+    }
+    .bottom-footer {
+        padding-top: 20px; /* more seperation for aesthetic purposes */
+    }
+}
+
 /* Home page */
 .hero-text {
     font-size: 62px;
@@ -528,6 +537,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     background-color: #ffffff;
 }
 
+/* Extra small devices (phones) */
 @media only screen and (max-width:600px) {
     .hero-text {
         font-size: 38px;
@@ -551,7 +561,6 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 100px;
-
     }
     .depression-image, .anxiety-image, .ptsd-image {
         max-width: 90%;
@@ -665,13 +674,154 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
 }
 
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (max-width:768px) {
+    .hero-text {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .mha-get-started {
+        margin-bottom: 0px;
+    }
+    .mha-get-started a:first-child {
+        width: 25%;
+    }
+    .hero-image-home {
+        margin-top: 80px;
+    }
+    .content {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    #message-summary {
+        font-size: 24px;
+    }
+    #callout-hero-image {
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    .mental-health-more-information-home {
+        margin-top: -40px;
+    }
+    .depression-home, .anxiety-home, .ptsd-home {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    .depression-image, .anxiety-image, .ptsd-image {
+        max-width: 85%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .anxiety-image {
+        padding-left: 0px;
+    }
+    .depression-text, .anxiety-text, .ptsd-text {
+        float: none;
+        max-width: 900%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+    .depression-text h1, .anxiety-text h1, .ptsd-text h1 {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .depression-text>p, .anxiety-text>p, .ptsd-text>p {
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 67%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .depression-text a, .anxiety-text a, .ptsd-text a {
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mental-health-awareness-newsletter-home {
+        margin-top: 0px;
+    }
+    .newsletter-callout {
+        padding-bottom: 10px;
+    }
+    .newsletter-callout h1 {
+        font-size: 24px;
+    }
+    .newsletter-callout p {
+        font-size: 18px;
+    }
+    .newsletter-form {
+        padding-bottom: 30px;
+    }
+    .newsletter-form form {
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter-form form input[type=email] {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 70%;
+        display: block;
+    }
+    .newsletter-form form input[type=submit] {
+        float: none;
+        margin-top: 40px;
+        width: 20%;
+    }
+    .community-callout-text .mha-heading {
+        padding-bottom: 22px;
+        font-size: 24px;
+    }
+    .community-callout-text .mha-paragraph {
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    .community-callout-text .mha-get-started {
+        margin-top: 40px;
+    }
+    .community-callout-text .get-started-button {
+        font-size: 18px;
+    }
+    .mental-health-emergency {
+        padding-bottom: 375px;
+    }
+    .mental-health-emergency>h1 {
+        font-size: 24px;
+    }
+    .call-emergency h1, .call-emergency>p, .call-emergency a p, .support-center h1, .support-center>p, .support-center a p {
+        font-size: 18px;
+        padding: 18px;
+    }
+}
+
 /* Educate Yourself page */
 
-.educate-yourself-statistics { /* reconfirming the essential styles already layed out
-in the '*' section at the top of the css page */ 
+.educate-yourself-statistics {
     background-color: #ffffff;
-    color: #000000;
-    font-family: 'Lato', sans-serif;
 }
 
 .educate-yourself-statistics .statistics {
