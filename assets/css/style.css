@@ -205,7 +205,7 @@ footer div {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:718px) {
     .black-background {
         height: 50px; /* smaller height as the device is smaller */
     }
@@ -675,7 +675,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Small devices (portrait tablets and large phones) */
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:718px) {
     .hero-text {
         font-size: 50px;
         margin-top: 50px;
@@ -952,7 +952,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Small devices (portrait tablets and large phones) */
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:718px) {
     .educate-yourself-statistics .statistics {
         font-size: 45px;
         padding-top: 62px;
