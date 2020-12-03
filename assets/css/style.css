@@ -184,6 +184,12 @@ footer div {
 }
 
 @media only screen and (max-width:600px) {
+    .black-background {
+        height: 50px;
+    }
+    .bottom-footer {
+        padding-bottom: 30px;
+    }
     .bottom-left, .bottom-right {
         float: none;
         text-align: center;
@@ -192,7 +198,7 @@ footer div {
         display: block;
     }
     .bottom-left {
-        margin-top: 5px;
+        margin-top: 15px;
     }
     .bottom-right {
         margin-top: 15px;
@@ -1689,4 +1695,28 @@ in the '*' section at the top of the css page */
 
 .sign-up-tos span {
     font-weight: 600;
+}
+
+@media only screen and (max-width:600px) {
+    .sign-in-page, .sign-up-page {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .sign-in, .sign-up {
+        width: 90%;
+        padding-bottom: 32px;
+    }
+    .sign-in-form input[type=password], .sign-in-form input[type=email], .sign-up-form input[type=text], 
+    .sign-up-form input[type=password], .sign-up-form input[type=email] {
+        font-size: 14px;
+        width: 90%;
+    }
+    .sign-in-form input[type=submit], .sign-up-form input[type=submit] {
+        font-size: 14px;
+        width: 40%;
+        margin-top: 20px;
+    }
+    .sign-in-redirect, .sign-up-redirect, .sign-up-tos {
+        font-size: 15px;
+    }
 }
