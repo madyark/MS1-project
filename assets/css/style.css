@@ -538,7 +538,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
     .hero-text {
         font-size: 38px;
     }
@@ -675,7 +675,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Small devices (Tablets and landscape phones) */
-@media only screen and (min-width:718px) {
+@media only screen and (min-width:651px) and (max-width:992px) {
     .hero-text {
         font-size: 50px;
         margin-top: 50px;
@@ -914,7 +914,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
     .educate-yourself-statistics .statistics {
         font-size: 32px;
         padding-top: 62px;
@@ -952,7 +952,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Small devices (Tablets and landscape phones) */
-@media only screen and (min-width:718px) {
+@media only screen and (min-width:651px) and (max-width: 992px) {
     .educate-yourself-statistics .statistics {
         font-size: 45px;
         padding-top: 62px;
@@ -1235,7 +1235,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
     #help-yourself-title div {
         font-size: 32px;
         padding-top: 32px;
@@ -1353,7 +1353,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Small devices (Tablets and landscape phones) */
-@media only screen and (min-width:718px) {
+@media only screen and (min-width:651px) and (max-width:992px) {
     #help-yourself-title div {
         font-size: 45px;
         padding-top: 45px;
@@ -1577,7 +1577,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
     .help-others-title {
         font-size: 32px;
         margin-top: 32px;
@@ -1831,7 +1831,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
     .spread-the-word-title {
         font-size: 32px;
         margin-top: 32px;
@@ -2008,7 +2008,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
     .sign-in-page, .sign-up-page {
         margin-top: 32px;
         margin-bottom: 32px;
