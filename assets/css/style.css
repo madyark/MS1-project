@@ -157,11 +157,6 @@ footer div {
     color: #ffffff;
 }
 
-.top-right a {
-    background-color: #000000;
-    color: #ffffff;
-}
-
 .bottom-left {
     background-color: #000000;
     color: #737373;
@@ -191,6 +186,12 @@ footer div {
     .bottom-footer {
         padding-bottom: 30px;
     }
+    .top-left, .bottom-left, .bottom-right span {
+        font-size: 10px;
+    }
+    .top-right i {
+        font-size: 14px;
+    }
     .bottom-left, .bottom-right {
         float: none;
         text-align: center;
@@ -213,6 +214,12 @@ footer div {
     }
     .bottom-footer {
         padding-top: 20px; /* more seperation for aesthetic purposes */
+    }
+    .top-left, .bottom-left, .bottom-right span {
+        font-size: 12px;
+    }
+    .top-right i {
+        font-size: 16px;
     }
 }
 
@@ -1116,8 +1123,15 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     margin-right: auto;
     text-align: center;
     overflow: scroll;
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrolbar for Firefox */
     border: 5px solid #FF6347;
     padding-bottom: 62px;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.suicide-hotlines-body::-webkit-scrollbar {
+    display: none;
 }
 
 .suicide-hotlines-title {
