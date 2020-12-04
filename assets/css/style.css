@@ -1125,15 +1125,9 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    -ms-overflow-style: auto; /* Show scrollbar for IE and Edge */
-    scrollbar-width: auto; /* Show scrollbar for Firefox */
     overflow-y: scroll;
     border: 5px solid #FF6347;
     padding-bottom: 62px;
-}
-
-.suicide-hotlines-body::-webkit-scrollbar {
-    display: auto; /* Show scrollbar for Chrome, Safari, and Opera */
 }
 
 .suicide-hotlines-title {
