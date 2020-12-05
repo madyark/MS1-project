@@ -224,7 +224,9 @@ footer div {
 
 /* Large devices (Large desktops and laptops) */
 @media only screen and (min-width: 1824px) {
-
+    .top-footer, .bottom-footer {
+        width: 75%; /* ensures that the footer elements are not too far apart */
+    }
 }
 
 /* Home page */
@@ -270,7 +272,7 @@ footer div {
     height: auto;
     border-radius: 5%;
     border: 1px solid #ffffff;
-    /* specifications found in css-tricks.com but had to be altered 
+    /* specifications found in https://css-tricks.com/perfect-full-page-background-image/ but had to be altered 
     since the hero image is not a background image */
 }
 
@@ -289,6 +291,8 @@ footer div {
 
 .content h1 {
     font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #message-summary {
@@ -314,12 +318,14 @@ footer div {
 }
 
 .depression-home, .anxiety-home, .ptsd-home {
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
 
 .depression-home, .anxiety-home {
-    padding-bottom: 500px;
+    padding-bottom: 150px;
 }
 
 .depression-image, .anxiety-image, .ptsd-image {
@@ -392,7 +398,7 @@ footer div {
 }
 
 .mental-health-awareness-newsletter-home {
-    margin-top: 448px;
+    margin-top: 128px;
     background-color: #E5EBED;
 }
 
@@ -506,12 +512,20 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     padding-bottom: 50px;
 }
 
-.call-emergency {
+.call-emergency, .support-center {
     width: 40%;
-    margin-left: 50px;
     border: 1px solid #000000;
-    float: left;
     background-color: #ffffff;
+}
+
+.call-emergency {
+    margin-left: 50px;
+    float: left;
+}
+
+.support-center {
+    margin-right: 50px;
+    float: right;
 }
 
 .call-emergency h1, .support-center h1 {
@@ -526,6 +540,8 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     font-weight: 400;
     text-align: center;
     padding: 20px;
+    height: 150px; /* height had to be fixed so that the two side-by-side div elements appear to have equal height */
+    overflow: hidden;
 } 
 
 .call-emergency a p, .support-center a p {
@@ -539,14 +555,6 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 .call-emergency a:hover, .support-center a:hover {
     color: #FF6347;
     text-decoration: none;
-}
-
-.support-center {
-    width: 40%;
-    margin-right: 50px;
-    border: 1px solid #000000;
-    float: right;
-    background-color: #ffffff;
 }
 
 /* Extra small devices (phones) */
@@ -573,6 +581,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 100px;
+        width: 100%;
     }
     .depression-image, .anxiety-image, .ptsd-image {
         max-width: 90%;
@@ -683,6 +692,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     .call-emergency h1, .call-emergency>p, .call-emergency a p, .support-center h1, .support-center>p, .support-center a p {
         font-size: 16px;
         padding: 15px;
+        height: auto;
     }
 }
 
@@ -723,6 +733,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         padding-right: 10px;
         padding-bottom: 80px;
         text-align: center;
+        width: 100%;
     }
     .depression-image, .anxiety-image, .ptsd-image {
         max-width: 85%;
@@ -828,6 +839,67 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 18px;
         padding: 18px;
     }
+}
+
+/* Medium devices (Large tablets and small laptops) */
+@media only screen and (min-width:993px) and (max-width:1310px) { 
+    /* only use of this @media screen size to make the mental-health-more-information-home section of the home page look better aesthetically */
+    .depression-home, .anxiety-home, .ptsd-home {
+        width: 90%;
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .mha-get-started a:first-child {
+        width: 10%;
+    }
+    .hero-image img {
+        width: 50%; /* image appears to large for large desktops */
+    }
+    .content h1 { /* content is too wide and needs to be narrower */
+        padding-left: 250px;
+        padding-right: 250px;
+    } 
+    .depression-home, .anxiety-home, .ptsd-home {
+        width: 50%;
+    }
+    .depression-home, .anxiety-home {
+        padding-bottom: 200px;
+    }
+    .newsletter {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hero-image-home-2 img {
+        display: none; /* image appears to large for large desktops therefore it will be removed, set as a background, and cropped out */
+    }
+    /* idea taken from https://css-tricks.com/crop-top/ */
+    .hero-image-home-2 { /* cropping the removed image and adding it back as a background for the div element */
+        width: 100%;
+        height: 1000px;
+        background-image: url(../../assets/images/community.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    .community-callout-text {
+        width: 40%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mental-health-emergency>h1 {
+        padding-top: 50px;
+    }
+    .mental-health-emergency-content {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+
 }
 
 /* Educate Yourself page */
@@ -1208,13 +1280,13 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     margin-right: auto;
     display: block;
     border-radius: 2%;
-    border: 2px solid #000000;
     margin-top: 96px;
 }
 
 .help-yourself-resources-videos iframe {
     width: 67%;
     height: 480px;
+    border: none;
 }
 
 .help-yourself-resources-articles {
@@ -1224,6 +1296,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 .help-yourself-resources-articles iframe {
     width: 85%;
     height: 500px;
+    border: 2px solid #000000;
 }
 
 .help-yourself-resources-links {
