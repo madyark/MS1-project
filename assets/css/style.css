@@ -57,9 +57,10 @@
 
 .mha-get-started a:hover {
     text-decoration: none;
+    color: #FF6347;
 }
 
-#start-spreading-awareness {
+.start-spreading-awareness {
     color: #FF6347;
     font-size: 24px; /* bigger size than the call out to grasp the viewer's attention */
     font-weight: 500;
@@ -580,8 +581,13 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     .depression-home, .anxiety-home, .ptsd-home {
         padding-left: 10px;
         padding-right: 10px;
-        padding-bottom: 100px;
         width: 100%;
+    }
+    .depression-home, .anxiety-home {
+        padding-bottom: 100px;
+    }
+    .ptsd-home {
+        padding-bottom: 32px;
     }
     .depression-image, .anxiety-image, .ptsd-image {
         max-width: 90%;
@@ -975,6 +981,10 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     margin-bottom: 0px;
 }
 
+.educate-yourself-call-to-action .mha-get-started a:hover {
+    color: #000000;
+}
+
 .educate-yourself-call-to-action .get-started-button {
     color: #ffffff;
     background-color: #000000;
@@ -991,7 +1001,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     font-weight: 600; 
 }
 
-.educate-yourself-call-to-action #start-spreading-awareness {
+.educate-yourself-call-to-action .start-spreading-awareness {
     color: #000000;
     font-size: 30px; 
     font-weight: 600;
@@ -1030,7 +1040,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 16px;
         margin-bottom: 32px;
     }
-    .educate-yourself-call-to-action #start-spreading-awareness {
+    .educate-yourself-call-to-action .start-spreading-awareness {
         font-size: 20px;
     }
 }
@@ -1072,8 +1082,22 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 18px;
         margin-bottom: 45px;
     }
-    .educate-yourself-call-to-action #start-spreading-awareness {
+    .educate-yourself-call-to-action .start-spreading-awareness {
         font-size: 24px;
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .educate-yourself-statistics .statistics {
+        width: 50%;
+    }
+    .textual-info {
+        padding-top: 62px;
+        width: 35%;
+    }
+    .educate-yourself-call-to-action .mha-get-started {
+        padding-bottom: 62px;
     }
 }
 
@@ -1171,15 +1195,6 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     color: #000000;
     font-size: 24px;
     padding-bottom: 24px;
-}
-
-.specific-disorder-arrow {
-    color: #FF6347;
-    font-size: 40px;
-    float: left;
-    width: 25%;
-    margin-top: -11px; /* done as the arrow would be positioned downwards compared to the text in the middle */
-    text-align: right;
 }
 
 #help-yourself-suicide-hotlines {
@@ -1362,11 +1377,6 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 16px;
         padding-bottom: 16px;
     }
-    .specific-disorder-arrow {
-        font-size: 20px;
-        margin-top: -4px;
-        width: 20%;
-    }
     #help-yourself-suicide-hotlines {
         padding-bottom: 62px;
     }
@@ -1483,11 +1493,6 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 20px;
         padding-bottom: 20px;
     }
-    .specific-disorder-arrow {
-        width: 20%;
-        font-size: 30px;
-        margin-top: -8px;
-    }
     #help-yourself-suicide-hotlines {
         padding-bottom: 90px;
     }
@@ -1551,6 +1556,42 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     .help-yourself-resources-links a {
         font-size: 20px;
         padding-bottom: 45px;
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    #help-yourself-title div, .main-header {
+        width: 50%;
+    }
+    .looking-after-description, #help-yourself-looking-after-yourself img {
+        width: 40%;
+    }
+    #help-yourself-looking-after-yourself {
+        padding-bottom: 62px;
+    }
+    #help-yourself-specific-disorders, #help-yourself-specific-disorders .main-header, #help-yourself-resources, #help-yourself-resources .main-header {
+        padding-top: 62px;
+    }
+    #help-yourself-specific-disorders {
+        padding-bottom: 124px;
+    }
+    .specific-disorder-header, .specific-disorder-tip {
+        width: 25%;
+    }
+    .suicide-hotlines-body {
+        height: 1000px;
+    }
+    .help-yourself-resources-videos iframe {
+        height: 750px;
+        width: 65%;
+    }
+    .help-yourself-resources-articles iframe {
+        height: 1250px;
+        width: 70%;
+    }
+    .help-yourself-resources-links a {
+        width: 35%;
     }
 }
 
