@@ -2230,17 +2230,14 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 
 /* Large devices (Large desktops and laptops) */
 @media only screen and (min-width: 1824px) {
-    .spread-the-word-title div {
+    .spread-the-word-title div, .talking-heading, .stigma-heading, .suicide-week-heading {
         width: 60%;
     }
-    .spread-the-word-full-image-black-to-white img, .spread-the-word-full-image-white-to-black img, .stigma-tip, .shop-heading {
-        width: 50%;
-    }
-    .talking-heading, .stigma-heading, .suicide-week-heading {
-        width: 60%;
-    }
-    .talking-point, .talking-description, .world-mental-health-day-heading {
+    .spread-the-word-full-image-black-to-white img, .spread-the-word-full-image-white-to-black img, .talking-point, .talking-description, .world-mental-health-day-heading {
         width: 40%;
+    } 
+    .stigma-tip, .shop-heading {
+        width: 50%;
     }
     .world-mental-health-day-body, .suicide-week-body, .shop-text {
         width: 30%;
