@@ -1559,10 +1559,54 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
 }
 
+/* Medium devices (Large tablets and small laptops) */
+@media only screen and (min-width:993px) and (max-width:1310px) {
+    #help-yourself-title div {
+        padding-bottom: 62px;
+    }
+    #help-yourself-looking-after-yourself {
+        padding-bottom: 62px;
+    }
+    #help-yourself-specific-disorders {
+        padding-top: 0px;
+        padding-bottom: 124px;
+    }
+    #help-yourself-suicide-hotlines {
+        padding-bottom: 124px;
+    }
+    #help-yourself-suicide-hotlines .main-header {
+        padding-top: 124px;
+    }
+    #help-yourself-resources {
+        padding-bottom: 62px;
+    }
+    #help-yourself-resources .main-header {
+        padding-top: 0px;
+    }
+    .help-yourself-resources-title {
+        padding-top: 32px;
+    }
+    .help-yourself-resources-videos {
+        padding-bottom: 0px;
+    }
+    #media-display-none {
+        display: none;
+    }
+    .help-yourself-resources-articles iframe {
+        display: none; /* the width and height do not allow for good article functionality */
+    }
+}
+
 /* Large devices (Large desktops and laptops) */
 @media only screen and (min-width: 1824px) {
     #help-yourself-title div, .main-header {
         width: 50%;
+    }
+    #help-yourself-title div {
+        padding-bottom: 62px;
+    }
+    #help-yourself-suicide-hotlines .main-header {
+        padding-top: 124px;
     }
     .looking-after-description, #help-yourself-looking-after-yourself img {
         width: 40%;
@@ -1792,6 +1836,28 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 30px;
         padding-bottom: 60px;
         width: 67%;
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .help-others-title div {
+        width: 60%;
+    }
+    .help-others-acquaintance-struggling {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .help-others-big-image {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .help-others-tips {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -2159,6 +2225,30 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
     .shop-text a {
         font-size: 26px;
+    }
+}
+
+/* Large devices (Large desktops and laptops) */
+@media only screen and (min-width: 1824px) {
+    .spread-the-word-title div {
+        width: 60%;
+    }
+    .spread-the-word-full-image-black-to-white img, .spread-the-word-full-image-white-to-black img, .stigma-tip, .shop-heading {
+        width: 50%;
+    }
+    .talking-heading, .stigma-heading, .suicide-week-heading {
+        width: 60%;
+    }
+    .talking-point, .talking-description, .world-mental-health-day-heading {
+        width: 40%;
+    }
+    .world-mental-health-day-body, .suicide-week-body, .shop-text {
+        width: 30%;
+    }
+    .image-row-one, .image-row-two {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
