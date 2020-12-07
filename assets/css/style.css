@@ -2280,6 +2280,10 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     padding-bottom: 40px;
 }
 
+.sign-in-form label, .sign-up-form label {
+    display: none;
+}
+
 .sign-in-form input[type=password], .sign-in-form input[type=email], .sign-up-form input[type=text], 
 .sign-up-form input[type=password], .sign-up-form input[type=email] {
     padding: 20px 10px;

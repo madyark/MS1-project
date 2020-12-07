@@ -83,10 +83,15 @@
         <div class="sign-up-logo"><img src="assets/images/hugging.png" alt="Mental Health Awareness organization logo."></div>
         <div class="sign-up-form">
             <form action="https://formdump.codeinstitute.net/" target="_blank" method="post" autocomplete="on">
+                <label for="fname">First name</label> <!-- all labels will be hidden but are used screen readers and speech input users -->
                 <input type="text" id="fname" name="fname" required placeholder="First Name">
+                <label for="lname">Last name</label>
                 <input type="text" id="lname" name="lname" required placeholder="Last Name">
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email" required placeholder="Email Address">
+                <label for="pass">Password</label>
                 <input type="password" id="pass" name="pass" required placeholder="Password">
+                <label for="pass-confirm">Confirm password</label>
                 <input type="password" id="pass-confirm" name="pass-confirm" required placeholder="Confirm Password">
                 <input type="submit" value="Sign Up">
             </form>
