@@ -64,7 +64,6 @@
     color: #FF6347;
     font-size: 24px; /* bigger size than the call out to grasp the viewer's attention */
     font-weight: 500;
-    text-decoration: none;
 }
 
 .full-size-image {
@@ -969,10 +968,11 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 .textual-info a p { /* had to use margins so the link hover wouldn't be as wide as it is with paddings */
     margin-top: 62px;
     margin-bottom: 62px;
+    text-decoration: underline;
 }
 
 .textual-info a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .educate-yourself-call-to-action .mha-get-started {
@@ -1001,8 +1001,9 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     font-weight: 600; 
 }
 
-.educate-yourself-call-to-action .start-spreading-awareness {
+.educate-yourself-call-to-action .start-spreading-awareness, .educate-yourself-call-to-action .start-spreading-awareness:hover {
     color: #000000;
+    text-decoration: underline;
     font-size: 30px; 
     font-weight: 600;
 }
@@ -1324,14 +1325,14 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     margin-left: auto;
     margin-right: auto;
     font-size: 24px;
-    color: #000000;
+    color: #49A4D5;
     padding-bottom: 62px;
     text-align: center;
 }
 
 .help-yourself-resources-links a:hover {
     text-decoration: none;
-    color: #FF6347;
+    color: #49A4D5;
 }
 
 /* Extra small devices (phones) */
@@ -1743,7 +1744,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 
 .help-others-tips a, .help-others-tips a:hover {
     color: #FF6347;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Extra small devices (phones) */
@@ -2051,7 +2052,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 .shop-text a, .shop-text a:hover {
     color: #FF6347;
     font-size: 32px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .image-row-one, .image-row-two {
