@@ -24,36 +24,41 @@
 }
 
 #custom-nav-css {
-    border-bottom: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000;
 }
 
-.mha-nav {
-    color: #000000 !important;
-    font-weight: 600 !important;
-    font-family: 'Lato', sans-serif !important;
-    font-size: 18px !important;
+.navbar-brand img {
+    height: 33px;
+    width: 33px;
+}
+
+.mha-nav { 
+    color: #000000 !important; /* !important had to be used as then the bootstrap stylings would take priority over the custom css stylings */
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
 }
 
 .mha-nav:hover, .mha-nav:hover span {
-    color: #FF6347 !important;
+    color: #FF6347 !important; /* !important had to be used as then the bootstrap stylings would take priority over the custom css stylings */
 } 
 
 .mha-active, .mha-active span {
-    color: #FF6347 !important;
+    color: #FF6347 !important; /* !important had to be used as then the bootstrap stylings would take priority over the custom css stylings */
 }
 
-a.mha-active:hover, a.mha-active:hover span {
-    color: #FF4500 !important;
+a.mha-active:hover, a.mha-active:hover span { /* !important had to be used as then the bootstrap stylings would take priority over the custom css stylings */
+    color: #FF4500 !important; /* a little bit of a darker orange color to have the user notice a difference but still maintain aesthetic integrity */
 }
 
 
 #mha-navbar-right-space {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .mha-link {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .mha-get-started {
@@ -218,6 +223,16 @@ footer div {
 
 /* Extra small devices (phones) */
 @media only screen and (max-width:717px) {
+    #custom-navbar-brand-mobile-responsiveness { 
+        font-size: 16px; /* smaller font for the navbar-brand text on small devices */
+    }
+    #custom-navbar-brand-mobile-responsiveness img { /* a little of a smaller logo on small devices */
+        height: 28px;
+        width: 28px;
+    }
+    .mha-nav {
+        font-size: 16px;
+    }
     .fa-angle-right {
         margin-left: 5px; /* smaller margin to stay consistent with the size of the device */
     }
