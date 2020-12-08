@@ -66,6 +66,12 @@
     font-weight: 500;
 }
 
+.fa-angle-right {
+    margin-left: 10px;
+    color: #FF6347;
+    font-size: inherit;
+}
+
 .full-size-image {
     width: 100%;
     height: auto;
@@ -179,6 +185,9 @@ footer div {
 
 /* Extra small devices (phones) */
 @media only screen and (max-width:717px) {
+    .fa-angle-right {
+        margin-left: 5px; /* smaller margin to stay consistent with the size of the device */
+    }
     .black-background {
         height: 50px;
     }
@@ -208,6 +217,9 @@ footer div {
 
 /* Small devices (Tablets and landscape phones) */
 @media only screen and (min-width:718px) and (max-width:992px) {
+    .fa-angle-right {
+        margin-left: 8px; /* smaller margin to stay consistent with the size of the device */
+    }
     .black-background {
         height: 50px; /* smaller height as the device is smaller */
     }
@@ -968,11 +980,15 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 .textual-info a p { /* had to use margins so the link hover wouldn't be as wide as it is with paddings */
     margin-top: 62px;
     margin-bottom: 62px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .textual-info a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.textual-info .fa-angle-right {
+    color: #ffffff;
 }
 
 .educate-yourself-call-to-action .mha-get-started {
@@ -982,7 +998,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 }
 
 .educate-yourself-call-to-action .mha-get-started a:hover {
-    color: #000000;
+    color: #000000; /* set the color of the icon to white to match with the text */
 }
 
 .educate-yourself-call-to-action .get-started-button {
@@ -1003,9 +1019,13 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 
 .educate-yourself-call-to-action .start-spreading-awareness, .educate-yourself-call-to-action .start-spreading-awareness:hover {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 30px; 
     font-weight: 600;
+}
+
+.angle-color-black .fa-angle-right {
+    color: #000000; /* set the color of the icon to black to match with the text */
 }
 
 /* Extra small devices (phones) */
@@ -1333,6 +1353,10 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 .help-yourself-resources-links a:hover {
     text-decoration: none;
     color: #49A4D5;
+}
+
+.help-yourself-resources-links .fa-angle-right {
+    color: #49A4D5; /* the color of the icon should match the color of the text */
 }
 
 /* Extra small devices (phones) */
@@ -1744,7 +1768,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 
 .help-others-tips a, .help-others-tips a:hover {
     color: #FF6347;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Extra small devices (phones) */
@@ -2052,7 +2076,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 .shop-text a, .shop-text a:hover {
     color: #FF6347;
     font-size: 32px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .image-row-one, .image-row-two {
@@ -2331,14 +2355,18 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     margin-right: auto;
 }
 
+.sign-up-tos span {
+    font-weight: 600;
+}
+
 .sign-in-redirect a, .sign-in-redirect a:hover, .sign-up-redirect a, .sign-up-redirect a:hover {
     margin-left: 10px;
     color: #FF6347;
     text-decoration: none;
 }
 
-.sign-up-tos span {
-    font-weight: 600;
+.sign-in-redirect .fa-angle-right, .sign-up-redirect .fa-angle-right {
+    margin-left: 5px; /* smaller margins to accomodate the smaller font */
 }
 
 .sign-in-sticky-bottom { /* footer element to be fixed at the bottom of the sign-in page */
@@ -2399,6 +2427,9 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
     .sign-in-redirect, .sign-up-redirect, .sign-up-tos {
         font-size: 16px;
+    }
+    .sign-in-redirect .fa-angle-right, .sign-up-redirect .fa-angle-right {
+        margin-left: 5px; /* smaller margins to accomodate the smaller font and smaller device screen size */
     }
 }
 
