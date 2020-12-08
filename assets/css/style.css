@@ -2310,8 +2310,8 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
 /* Sign In page + Sign Up page */
 
 .sign-in-page, .sign-up-page {
-    margin-top: 10%;
-    margin-bottom: 15%;
+    margin-top: 62px;
+    margin-bottom: 62px;
 }
 
 .sign-in, .sign-up {
@@ -2402,12 +2402,6 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     margin-left: 5px; /* smaller margins to accomodate the smaller font */
 }
 
-.sign-in-sticky-bottom { /* footer element to be fixed at the bottom of the sign-in page */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 /* Extra small devices (phones) */
 @media only screen and (max-width:717px) {
     .sign-in-page, .sign-up-page {
@@ -2430,9 +2424,6 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
     .sign-in-redirect, .sign-up-redirect, .sign-up-tos {
         font-size: 15px;
-    }
-    .sign-in-sticky-bottom {
-        position: static;
     }
 }
 
@@ -2466,13 +2457,6 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
 }
 
-/* Medium devices (Large tablets and small laptops) */
-@media only screen and (min-width:993px) and (max-width:1310px) {
-    .sign-in-page, .sign-up-page {
-        margin-top: 15%;
-    }
-}
-
 /* Large devices (Large desktops and laptops) */
 @media only screen and (min-width: 1824px) {
     .sign-in-page, .sign-up-page {
@@ -2480,17 +2464,104 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+/* @media queries with min-height settings to ensure the footer stays at the bottom of the sign-in and sign-up pages */
+@media only screen and (min-height:940px) {
     .sign-in-page {
-        margin-top: 5%;
-        margin-bottom: 10%;
+        margin-top: 150px;
+        margin-bottom: 150px;
     }
     .sign-up-page {
-        margin-top: 3%;
-        margin-bottom: 10%;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
-    .sign-up-sticky-bottom { /* footer element to be fixed at the bottom of the sign-up page */
-        position: fixed;
-        bottom: 0;
-        width: 100%;
+}
+
+@media only screen and (min-height:1110px) {
+    .sign-in-page {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    .sign-up-page {
+        margin-top: 125px;
+        margin-bottom: 125px;
+    }
+}
+
+@media only screen and (min-height:1230px) {
+    .sign-in-page {
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+    .sign-up-page {
+        margin-top: 180px;
+        margin-bottom: 180px;
+    }
+}
+
+@media only screen and (min-height:1430px) {
+    .sign-in-page {
+        margin-top: 400px;
+        margin-bottom: 400px;
+    }
+    .sign-up-page {
+        margin-top: 240px;
+        margin-bottom: 240px;
+    }
+}
+
+@media only screen and (min-height:1570px) {
+    .sign-in-page {
+        margin-top: 500px;
+        margin-bottom: 500px;
+    }
+    .sign-up-page {
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+}
+
+@media only screen and (min-height:1760px) {
+    .sign-in-page {
+        margin-top: 600px;
+        margin-bottom: 600px;
+    }
+    .sign-up-page {
+        margin-top: 480px;
+        margin-bottom: 480px;
+    }
+}
+
+@media only screen and (min-height:2030px) {
+    .sign-in-page {
+        margin-top: 800px;
+        margin-bottom: 800px;
+    }
+    .sign-up-page {
+        margin-top: 640px;
+        margin-bottom: 640px;
+    }
+}
+
+@media only screen and (min-height:2430px) {
+    .sign-in-page {
+        margin-top: 1000px;
+        margin-bottom: 1000px;
+    }
+    .sign-up-page {
+        margin-top: 850px;
+        margin-bottom: 850px;
+    }
+}
+
+@media only screen and (min-height:2850px) {
+    .sign-in-page {
+        margin-top: 1400px;
+        margin-bottom: 1400px;
+    }
+    .sign-up-page {
+        margin-top: 1200px;
+        margin-bottom: 1200px;
     }
 }
