@@ -1,7 +1,5 @@
 # <div align="center">Mental Health Awareness Organization Website</div>
 
----
-
 [View the live project here.](https://madyark.github.io/MS1-project/ "MHA Organization website")
 
 This is the website of the Mental Health Awareness Organization. It is designed to be responsive on a variety of devices and accessible from different web browsers, including Mozilla Firefox, Safari, Google Chrome, Opera, and Microsoft 
@@ -17,4 +15,9 @@ community and help fight mental health stigma alongside our volunteers.
 
 ---
 
+- ### User Stories
+
+- ### Design
+
+- ### Wireframes
 

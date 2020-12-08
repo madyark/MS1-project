@@ -1,4 +1,4 @@
-/* All pages */
+/* All pages (navigation, footer, and other elements that are used in multiple pages) */
 * {
     color: 	#000000;
     font-family: 'Lato', sans-serif;
@@ -21,6 +21,39 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #000000;
+}
+
+#custom-nav-css {
+    border-bottom: 1px solid #000000 !important;
+}
+
+.mha-nav {
+    color: #000000 !important;
+    font-weight: 600 !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 18px !important;
+}
+
+.mha-nav:hover, .mha-nav:hover span {
+    color: #FF6347 !important;
+} 
+
+.mha-active, .mha-active span {
+    color: #FF6347 !important;
+}
+
+a.mha-active:hover, a.mha-active:hover span {
+    color: #FF4500 !important;
+}
+
+
+#mha-navbar-right-space {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.mha-link {
+    text-decoration: none !important;
 }
 
 .mha-get-started {
