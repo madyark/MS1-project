@@ -4,6 +4,13 @@
     font-family: 'Lato', sans-serif;
 }
 
+#covid-19-awareness {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+
 #covid-19-awareness, #covid-19-awareness a, .fa-info-circle {
     background-color: #FF6347;
     color: white;
@@ -12,15 +19,23 @@
     letter-spacing: 1px;
 }
 
-.fa-info-circle {
-    margin-right: 10px; /* to ensure space for aesthetics */
+#covid-19-awareness a:hover {
+    text-decoration: none;
 }
 
-#covid-19-awareness {
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #000000;
+.fa-angle-right {
+    margin-left: 10px;
+    color: #FF6347;
+    font-size: inherit;
+}
+
+#covid-19-awareness .fa-angle-right {
+    color: #ffffff; /* color had to be changed due to the orange background */
+    margin-left: 5px;
+}
+
+.fa-info-circle {
+    margin-right: 10px; /* to ensure space for aesthetics */
 }
 
 #custom-nav-css {
@@ -102,12 +117,6 @@ a.mha-active:hover, a.mha-active:hover span { /* !important had to be used as th
     color: #FF6347;
     font-size: 24px; /* bigger size than the call out to grasp the viewer's attention */
     font-weight: 500;
-}
-
-.fa-angle-right {
-    margin-left: 10px;
-    color: #FF6347;
-    font-size: inherit;
 }
 
 .full-size-image {
@@ -267,6 +276,9 @@ footer div {
 @media only screen and (min-width:718px) and (max-width:992px) {
     .fa-angle-right {
         margin-left: 8px; /* smaller margin to stay consistent with the size of the device */
+    }
+    #covid-19-awareness .fa-angle-right {
+        margin-left: 5px;
     }
     .black-background {
         height: 50px; /* smaller height as the device is smaller */
