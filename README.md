@@ -2,9 +2,9 @@
 
 [View the live project here.](https://madyark.github.io/MS1-project/ "MHA Organization website")
 
-This is the website of the Mental Health Awareness Organization. It is designed to be responsive on a variety of devices and accessible from different web browsers, providing easy-of-use to 
+This is the website of the Mental Health Awareness Organization. It is designed to be responsive on a variety of devices and accessible from different web browsers, providing ease-of-use to 
 potential viewers who wish to learn about mental health, help themselves in their mental struggles, help others in their mental struggles, or support campaigns promoting mental health 
-education.
+awareness.
 
 # ![The look of the Mental Health Organization Website on different devices showcasing its responsiveness](assets/readme-media/website-responsiveness.PNG) 
 
@@ -16,13 +16,9 @@ education.
 
         1. I want to learn more on mental health and its ramifications upon the general population.
 
-        2. I want to easily navigate around the website to find different bits of information on mental health.
+        2. I want to read some of the stories of people who suffer from mental health problems to further my understanding of its effect on people's daily lives.
 
-        3. I want to read some of the stories of people who suffer from mental health problems to further my understanding of its effect on people's daily lives.
-
-        4. I want to sign up to a virtual community where I can put my newfound-knowledge to use. 
-
-        5. I want to discover the social media pages of the organization to see its following numbers, community events, and have the chance to share their posts on my own social media accounts.
+        3. I want to easily navigate around the website to find different bits of information on mental health.
 
     - #### Visitor with Mental Health Problems \- Goals
 
@@ -36,11 +32,35 @@ education.
 
         5. I want to discover links to external apps and other organizations that can be more oriented to my needs and provide further guidance on how to treat my problems.   
 
-        6. I want to be able to subscribe to a montly newsletter when I can receive support articles, news on community events, written testimonials, and tips from industry professionals to help guide me in my struggles. 
-
     - #### Visitor with Desires to Help Someone with Mental Health Problems \- Goals
 
+        1. I want to have the knowledge on how to help somebody I know in their mental health struggles.
+
+        2. I want to understand the ways I can help somebody I do not know with their mental health problems.
+
+        3. I want to be re-affirmed in my quest to support people with mental health problems by a motivating message, despite my potential frustrations or reservedness. 
+
     - #### Visitor with Aspirations to Bring Awareness to Mental Health Issues \- Goals
+
+        1. I want to find out why talking about mental health in my sphere of influence is important.
+
+        2. I want to discover the specific ways I can help combat mental health stigma within my community.
+
+        3. I want to learn about what World Mental Health Day is, what is its purpose, how will it help bring awareness to mental health issues, and why should I participate in it.
+
+        4. I want to gain insight into what Suicide Prevention Week is, what I can do to push against the stigma associated with suicide, and how can I help educate the people around me on suicide-prevention.
+
+        5. I want to have access to an online shop where I can purchase clothes with inspirational messages on them that spread awareness on mental health and whose share of profits is donated to a non-profit organization. 
+
+    - #### Administrator of the Website \- Goals
+
+        1. I want to provide an external link to the official WHO Covid-19 website to direct visitors who may be in need of the latest information and tools pertaining to Covid-19 when living in these unique times. 
+
+        2. I want to add a mock-up of the sign-up page, the sign-in page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
+
+        3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
+
+        4. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to increase public attention on our organization and our mission. 
 
 - ### Design
 
@@ -50,7 +70,7 @@ education.
 
         2. An orange-red color was used for hovering on active navigation menu elements to provide a more enjoyable user experience.
 
-        3. A dark-blue color was used for displaying links in the 'International Suicide Hotline Numbers' section of the 'Help-Yourself' page draw even greater attention to the user.
+        3. A dark-blue color was used for displaying links in the 'International Suicide Hotline Numbers' section of the 'Help-Yourself' page to draw attention to the user by having a conventional appearance of a web-link.
 
         4. A light-blue color was used underneath the 'External Links' section of the 'Help-Yourself' page to convey greater emphasis on the links.
 
@@ -62,7 +82,7 @@ education.
 
 - ### Wireframe
 
-    - #### Full Wireframe \- [View](assets/wireframes/MS1-wireframes.pdf)
+    - #### Full Wireframe \- [View](wireframes/MS1-wireframes.pdf)
 
 ## Technologies Used
 
