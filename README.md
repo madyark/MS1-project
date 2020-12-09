@@ -60,7 +60,7 @@ awareness.
 
         3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
 
-        4. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to increase public attention on our organization and our mission. 
+        4. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
 
 - ### Design
 
@@ -76,13 +76,32 @@ awareness.
 
     - #### Typography
 
-        1. 
+        1. The Lato font is the main font used throughout the website with Sans-Serif set as the fallback font if for any reason the Lato font does not render correctly for any reason. Lato is considered to be a very professional font that is 
+        suitable for both titles and body text.
 
-    - #### Imagery
+    - #### Images, Videos, and Other Forms of Media
+
+        1. The images used in this website are always in the foreground, without any text interfering with their appearance. The images come at a variety of types, sizes, and positions within their respective pages, but always serve the same 
+        purpose: ensure that the viewer gets a pleasurable experience when scrolling through page contents, rather than having to sift through large pieces of text. The images allow the viewer to take a small 'break' from reading chunks of text 
+        and to gain perspective into what is the context behind different pieces of text. Most of the images also have rounded corners to provide them with greater aesthetic appearances. All of the images are responsive. 
+
+        2. The videos used in this website solely appear in the 'Help-Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. They are inserted as iframe elements of youtube links, and they allow the 
+        viewer to decide when to press play and when to press stop. They also have a 'Youtube' button at the bottom-right corner that permits the viewer to watch them on youtube.com. All of the videos are responsive. 
+
+        3. An article appears in the 'Help-Yourself' page of the website. It also has rounded corners and is also inserted as an iframe element. The article is hidden on mobile and tablet devices as the small device screen size makes the iframe 
+        difficult to operate. The article is also responsive.   
 
 - ### Wireframe
 
     - #### Full Wireframe \- [View](wireframes/MS1-wireframes.pdf)
+
+## Features
+
+- ### Existing Features
+
+    - 
+
+- ### Features Left to Implement
 
 ## Technologies Used
 
