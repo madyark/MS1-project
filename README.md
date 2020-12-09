@@ -6,31 +6,41 @@ This is the website of the Mental Health Awareness Organization. It is designed 
 potential viewers who wish to learn about mental health, help themselves in their mental struggles, help others in their mental struggles, or support campaigns promoting mental health 
 education.
 
-# ![The look of the Mental Health Organization Website on different devices showcasing its responsiveness](assets/readme-media/website-responsiveness.PNG)
+# ![The look of the Mental Health Organization Website on different devices showcasing its responsiveness](assets/readme-media/website-responsiveness.PNG) 
 
 ## User Experience (UX)
 
 - ### User Stories
 
-    - #### Visitor with No Prior Mental Health Knowledge Goals
+    - #### Visitor with No Prior Mental Health Knowledge \- Goals
 
         1. I want to learn more on mental health and its ramifications upon the general population.
 
         2. I want to easily navigate around the website to find different bits of information on mental health.
 
-        3. I want to  
+        3. I want to read some of the stories of people who suffer from mental health problems to further my understanding of its effect on people's daily lives.
 
         4. I want to sign up to a virtual community where I can put my newfound-knowledge to use. 
 
-        5. I want to 
+        5. I want to discover the social media pages of the organization to see its following numbers, community events, and have the chance to share their posts on my own social media accounts.
 
-    - #### Visitor with Mental Health Problems Goals
+    - #### Visitor with Mental Health Problems \- Goals
 
-        1. I want to understand 
+        1. I want to learn about the different lifestyle changes I can make to help improve my personal mental wellbeing.
 
-    - #### Visitor with Desires to Help Someone with Mental Health Problems Goals
+        2. I want to find out what immediate actions I can take to help cope with specific mental disorders such as depression, anxiety, and PTSD.
 
-    - #### Visitor with Aspirations to Bring Awareness to Mental Health Issues Goals
+        3. I want to have knowledge of the specific links, emails, telephone numbers, and other suicide hotline resources in various countries that are available to me.
+
+        4. I want to be able to access informative videos and articles on mental health to help myself feel better, less-isolated, and inspired whenever I am feeling down and facing inner adversity. 
+
+        5. I want to discover links to external apps and other organizations that can be more oriented to my needs and provide further guidance on how to treat my problems.   
+
+        6. I want to be able to subscribe to a montly newsletter when I can receive support articles, news on community events, written testimonials, and tips from industry professionals to help guide me in my struggles. 
+
+    - #### Visitor with Desires to Help Someone with Mental Health Problems \- Goals
+
+    - #### Visitor with Aspirations to Bring Awareness to Mental Health Issues \- Goals
 
 - ### Design
 
@@ -40,7 +50,9 @@ education.
 
         2. An orange-red color was used for hovering on active navigation menu elements to provide a more enjoyable user experience.
 
-        3. A light-blue color was used underneath the 'External Links' section of the 'Help-Yourself' page to convey greater emphasis on the links.
+        3. A dark-blue color was used for displaying links in the 'International Suicide Hotline Numbers' section of the 'Help-Yourself' page draw even greater attention to the user.
+
+        4. A light-blue color was used underneath the 'External Links' section of the 'Help-Yourself' page to convey greater emphasis on the links.
 
     - #### Typography
 
