@@ -3,7 +3,7 @@
 [View the live project here.](https://madyark.github.io/MS1-project/ "MHA Organization website")
 
 This is the website of the Mental Health Awareness Organization. It is designed to be responsive on a variety of devices and accessible from different web browsers, providing ease-of-use to 
-potential viewers who wish to learn about mental health, help themselves in their mental struggles, help others in their mental struggles, or support campaigns promoting mental health 
+potential viewers who wish to learn about mental health, help themselves in their mental struggles, help others who face mental struggles, or support campaigns promoting mental health 
 awareness.
 
 # ![The look of the Mental Health Organization Website on different devices showcasing its responsiveness](assets/readme-media/website-responsiveness.PNG) 
@@ -70,30 +70,40 @@ awareness.
 
         2. An orange-red color was used for hovering on active navigation menu elements to provide a more enjoyable user experience.
 
-        3. A dark-blue color was used for displaying links in the 'International Suicide Hotline Numbers' section of the 'Help-Yourself' page to draw attention to the user by having a conventional appearance of a web-link.
+        3. A dark-blue color was used for displaying links in the 'International Suicide Hotline Numbers' section of the 'Help Yourself' page to draw attention to the user by having a conventional appearance of a web-link.
 
-        4. A light-blue color was used underneath the 'External Links' section of the 'Help-Yourself' page to convey greater emphasis on the links.
+        4. A light-blue color was used underneath the 'External Links' section of the 'Help Yourself' page to convey greater emphasis on the links.
 
     - #### Typography
 
-        1. The Lato font is the main font used throughout the website with Sans-Serif set as the fallback font if for any reason the Lato font does not render correctly for any reason. Lato is considered to be a very professional font that is 
+        1. The Lato font is the main font used throughout the website with Sans-Serif set as the fallback font if for any reason the Lato font does not render correctly. Lato is considered to be a very professional font that is 
         suitable for both titles and body text.
 
     - #### Images, Videos, and Other Forms of Media
 
-        1. The images used in this website are always in the foreground, without any text interfering with their appearance. The images come at a variety of types, sizes, and positions within their respective pages, but always serve the same 
-        purpose: ensure that the viewer gets a pleasurable experience when scrolling through page contents, rather than having to sift through large pieces of text. The images allow the viewer to take a small 'break' from reading chunks of text 
-        and to gain perspective into what is the context behind different pieces of text. Most of the images also have rounded corners to provide them with greater aesthetic appearances. All of the images are responsive. 
+        1. The images used in this website are always in the foreground, without any text interfering with their appearance. Most of the images have rounded corners to provide them with greater aesthetic appearances. 
+        
+            The images come at a variety of types, sizes, and positions within their respective pages, but always serve the same purpose: ensure that the viewer gets a pleasurable experience when scrolling through page contents, rather 
+            than having to sift through large pieces of text. They also allow the viewer to gain perspective into what is the context behind different pieces of text. 
+        
+             All of the images are responsive. 
 
-        2. The videos used in this website solely appear in the 'Help-Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. They are inserted as iframe elements of youtube links, and they allow the 
-        viewer to decide when to press play and when to press stop. They also have a 'Youtube' button at the bottom-right corner that permits the viewer to watch them on youtube.com. All of the videos are responsive. 
+        2. The videos used in this website solely appear in the 'Help Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. 
+        
+            They are inserted as iframe elements of youtube links, and they allow the viewer to decide when to press play and when to press stop. They also have a 'Youtube' button at the bottom-right corner that permits the viewer to 
+            watch them on youtube.com. 
+            
+            All of the videos are responsive. 
 
-        3. An article appears in the 'Help-Yourself' page of the website. It also has rounded corners and is also inserted as an iframe element. The article is hidden on mobile and tablet devices as the small device screen size makes the iframe 
-        difficult to operate. The article is also responsive.   
+        3. An article appears in the 'Help Yourself' page of the website. It also has rounded corners and is also inserted as an iframe element. 
+        
+            The article is hidden on mobile and tablet devices as the small device screen size makes the iframe difficult to operate. 
+            
+            The article is also responsive.   
 
 - ### Wireframe
 
-    - #### Full Wireframe \- [View](wireframes/MS1-wireframes.pdf)
+    - Full Wireframe \- [View](wireframes/MS1-wireframes.pdf)
 
 ## Features
 
