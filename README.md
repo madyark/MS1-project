@@ -84,6 +84,8 @@ On our website, users can easily navigate across different pages to find the inf
 
         4. A light-blue color was used underneath the 'External Links' section of the 'Help Yourself' page to convey greater emphasis on the links.
 
+        5. A gray color was used as the background-color for the 'Mental Health Awareness Newsletter' and 'Mental Health Emergency' sections of the 'Home' page to create a contrast between this section and the section that precedes it. 
+
     - #### Typography
 
         1. The Lato font is the main font used throughout the website with Sans-Serif set as the fallback font if for any reason the Lato font does not render correctly. Lato is considered to be a very professional font that is 
@@ -108,7 +110,7 @@ On our website, users can easily navigate across different pages to find the inf
         
             The article is hidden on mobile and tablet devices as the small device screen size makes the iframe difficult to operate. 
             
-            The article is also responsive.   
+            The article is responsive.   
 
 - ### Wireframe
 
@@ -118,7 +120,7 @@ On our website, users can easily navigate across different pages to find the inf
 
 ### Existing Features
 
-- Responsive on all device sizes. The website is specifically configured for mobile devices, tablets, laptops and medium-sized desktops, and large desktops. 
+- Responsiveness on all device sizes. The website is specifically configured for mobile devices, tablets, laptops and medium-sized desktops, and large desktops. 
 
 - Link to the official World Health Organization Covid-19 Information page, where users can access the latest Covid-19 data, advice, and other resources for guidance.
 
@@ -127,7 +129,21 @@ On our website, users can easily navigate across different pages to find the inf
 - A responsive footer at the bottom of every page containing a copyright text, an American flag indicating the organization's country-of-origin, language the website is written in, 'Privacy Notice' and 'Terms of Service' texts, and links 
     to the Twitter, Facebook, and Instagram home pages.
 
-- 
+- A featured introduction consisting of four large headers in the 'Home' page, three of which are hoverable links to supplemental pages that change their color from black to orange when hovered upon. 
+
+- A 'Get Started' button that appears on multiple pages and provides a direct link to the 'Sign Up' page. 
+
+- A 'Start Spreading Awareness' link that also appears on multiple pages (often times in conjunction with the 'Get Started' button) and provides a link to the 'Spread the Word' page.
+
+- A scrollable 'div' element inside of the 'Help Yourself Suicide Hotlines' section of the 'Help Yourself' page that contains suicide-hotline resources (email addresses, webpage links, telephone numbers) for various countries around the world.
+
+- 'Iframe' elements of youtube videos and an article from the 'Scientific American' in the 'Help Yourself Resources' section of the 'Help Yourself' page that allow the user to have control over whether they want to play the videos and read 
+    the article or rather scroll through the entire section.
+
+- External links to outside resources (mainly websites and mobile applications) in the 'Help Yourself Resources' section of the 'Help Yourself' page that give the users the opportunity to find support that may be more tailored to their needs.
+
+- A link to an external shopping page and images of four different articles of clothing (which are also clickable links) in the 'Shop' section of the 'Spread the Word' page within which users can purchase clothes that spread 
+    awareness on mental health. 
 
 
 ### Features Left to Implement
