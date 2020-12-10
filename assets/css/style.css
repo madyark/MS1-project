@@ -744,8 +744,8 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         margin-top: 30px;
         width: 100%;
     }
-    .community-callout-text .mha-get-started a {
-        width: 100%;
+    .community-callout-text .mha-get-started a:first-child {
+        width: 35%;
     }
     .community-callout-text .get-started-button {
         font-size: 16px;
@@ -1102,6 +1102,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
     }
     .textual-info {
         padding-top: 62px;
+        width: 70%;
     }
     .textual-info h1 {
         padding-top: 34px; /* 34px + 62px = 96px which is equal to the padding-bottom of .educate-yourself-statistics .statistics div */
@@ -1114,6 +1115,9 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         margin-top: 32px;
         margin-bottom: 32px;
     }
+    .textual-info .fa-angle-right {
+        margin-left: 5px; /* make sure the icon does not jump over to the next line */
+    }
     .educate-yourself-call-to-action .mha-get-started {
         padding-bottom: 62px;
     }
@@ -1121,7 +1125,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 16px;
         margin-bottom: 32px;
     }
-    .educate-yourself-call-to-action .start-spreading-awareness {
+    .educate-yourself-call-to-action .start-spreading-awareness, .educate-yourself-call-to-action .start-spreading-awareness:hover {
         font-size: 20px;
     }
 }
@@ -1163,7 +1167,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 18px;
         margin-bottom: 45px;
     }
-    .educate-yourself-call-to-action .start-spreading-awareness {
+    .educate-yourself-call-to-action .start-spreading-awareness, .educate-yourself-call-to-action .start-spreading-awareness:hover {
         font-size: 24px;
     }
 }
@@ -2230,7 +2234,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 16px;
         padding-bottom: 32px;
     }
-    .shop-text a {
+    .shop-text a, .shop-text a:hover {
         font-size: 18px;
     }
     .image-row-one a img, .image-row-two a img {
@@ -2308,7 +2312,7 @@ textarea:focus, input:focus{  /* removes the blue border that appears when the e
         font-size: 20px;
         padding-bottom: 45px;
     }
-    .shop-text a {
+    .shop-text a, .shop-text a:hover {
         font-size: 26px;
     }
 }
