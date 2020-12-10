@@ -6,12 +6,12 @@ This is the website of the Mental Health Awareness Organization. It is designed 
 potential viewers who wish to learn about mental health, help themselves in their mental struggles, help others who face mental struggles, or support campaigns promoting mental health 
 awareness.
 
-The goal for this projet was to create a single website where users with different needs can retrieve information on mental health without having to sift through multiple webpages. 
+The goal for this project was to create a single website where users with different needs can retrieve information on mental health without having to sift through multiple webpages. 
 
 Right now, it is difficult to find a single platform that offers educational value for people who have never faced or even heard about these issues and at the same time offers practical help for the ones who have a great deal of experience 
 with such problems and are looking for ways on resolving them. 
 
-Since mental health issues are exceptionally prevalent in modern society, and since stigma leaves the victims of mental illnesses belittled, misinformed, and uneducated, we attempted to create a platform within which users can access resources 
+Since mental health issues are exceptionally prevalent in modern society, and since stigma leaves the victims of mental illnesses belittled, misinformed, and uneducated, we attempted to create a website within which users can access resources 
 to educate themselves, help themselves, help others, and spread awareness on mental health.  
 
 On our website, users can easily navigate across different pages to find the information that they are looking for depending on their interests within the area of mental health and mental health awareness.
@@ -100,7 +100,7 @@ On our website, users can easily navigate across different pages to find the inf
 
         2. The videos used in this website solely appear in the 'Help Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. 
         
-            They are inserted as iframe elements of youtube links, and they allow the viewer to decide when to press play and when to press stop. Autoplay is turned off as the website allows the viewer to initiate and control such actions.
+            The videos are inserted as iframe elements of youtube links, and they allow the viewer to decide when to press play and when to press stop. Autoplay is turned off as the website allows the viewer to initiate and control such actions.
             
             All of the videos are responsive. 
 
@@ -124,9 +124,63 @@ On our website, users can easily navigate across different pages to find the inf
 
 ## Technologies Used
 
-- ### Languages Used
+### Languages Used
 
-- ### Frameworks, Libraries, and Programs Used
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+2. [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, Libraries, & Programs Used
+
+1. [Bootstrap 4.5.3:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
+    - Bootstrap was used to assist with the navigation bar and its responsiveness on all pages.
+
+2. [Google Fonts:](https://fonts.google.com/)
+
+    - Google Fonts was used to download the 'Lato' font, which was the only font used on all pages.
+
+3. [Font Awesome:](https://fontawesome.com/)
+
+    - Font Awesome was used to download icons for aesthetic purposes and UX. Font Awesome icons were used in the header, footer, and all of the textual-links on all pages.
+
+    - The HTML for the Font Awesome icons had to use the class 'fa' instead of 'fas' for all icons. The icons would not display using the class 'fas' since Font Awesome version 4 kit was downloaded, not version 5.
+
+4. [Git:](https://git-scm.com/)
+
+    - Git was used for version control through the use of the Gitpod terminal to commit the changed code to Git and push it to Github.
+
+    - Git was especially useful for accessing the code that was previously (intentionally or unintentionally) removed or modified and for adding it back in its original form to the HTML or CSS files.  
+
+5. [Github:](https://github.com/)
+
+    - Github was used for storing the code of the website and accessing it later for future alterations.
+
+    - Github Pages were used to deploy the project, to access the project from various devices, and to share it with friends and family members. 
+
+6. [Gitpod:](https://www.gitpod.io/docs/)
+
+    - Gitpod was used to write all of the code, commit and push changes in the terminal, upload files, create the directory structure of the website, and to write the README.md file.
+
+7. [Favicon:](http://www.prodraw.net/favicon/index.php)
+
+    - Prodraw.net was used to create the favicon which appears on the webpage tab on some browsers. 
+    
+    - The image used is the [logo of the organization](assets/images/hugging.png), which appears at the very left of the navigation bar on every page. 
+
+8. [Wireframe.cc:](https://wireframe.cc/)
+
+    - Wireframe.cc was used to create the [wireframe](wireframes/MS1-wireframes.pdf) for this project. 
+
+    - Wireframe.cc offered a free-trial that unfortunately ended before all of the wireframe pages had been developed. 
+        
+        Therefore, the wireframe stops in the middle of the 'Spread the Word' page and lacks content for the 'Sign In' and 'Sign Up' pages. There is also no content for the mobile and tablet responsiveness. 
+
+    - The wireframe created is very high-fidelity, meaning it incorporates high levels of detail. 
+    
+        This has slowed down the process of drafting the wireframes, but also allowed for a quicker development process as the textual content was simply copy-pasted from the wireframes into the HTML.
+
+        This, in turn, led to a greater prioritization of the HTML page structure, CSS stylings, and the media that was to be hand-picked and used throughout the website. 
 
 ## Testing
 
@@ -136,6 +190,3 @@ On our website, users can easily navigate across different pages to find the inf
 The main priorities for this website were ease-of-access and ease-of-use for different potential viewers. Consistent front-end design was used throughout the entirety of the site, including the same font for different web browsers and 
 devices, interchangeable colors for the background and foreground, uniform font-sizes, margins, and paddings for different elements, and easy-to-read layouts with supporting headers, images, links, and even videos and articles to create 
 an enjoyable and straightforward user experience. We found simplicity to be the key in providing a well-structured layout that has great responsivity on different devices. 
-
-The website was built using HTML5, CSS3, and Bootstrap v4.5. Git software was used for version control and Github was used for task management and continuous integration. Each individual feature and fix was documented through the use of 
-commit-messages. The website was deployed on Github pages.
