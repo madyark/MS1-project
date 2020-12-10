@@ -116,11 +116,21 @@ On our website, users can easily navigate across different pages to find the inf
 
 ## Features
 
-- ### Existing Features
+### Existing Features
 
-    - 
+- Responsive on all device sizes. The website is specifically configured for mobile devices, tablets, laptops and medium-sized desktops, and large desktops. 
 
-- ### Features Left to Implement
+- Link to the official World Health Organization Covid-19 Information page, where users can access the latest Covid-19 data, advice, and other resources for guidance.
+
+- A responsive navigation bar at the top of every page which contains the links to all pages including the home page through a logo with our organization name. 
+
+- A responsive footer at the bottom of every page containing a copyright text, an American flag indicating the organization's country-of-origin, language the website is written in, 'Privacy Notice' and 'Terms of Service' texts, and links 
+    to the Twitter, Facebook, and Instagram home pages.
+
+- 
+
+
+### Features Left to Implement
 
 ## Technologies Used
 
@@ -186,6 +196,7 @@ On our website, users can easily navigate across different pages to find the inf
 
 - ### W3C Validators
 
+![A gif demonstrating the responsiveness of the website on an iPhone X](assets/readme-media/iphone-responsiveness-home-page.gif)
 
 The main priorities for this website were ease-of-access and ease-of-use for different potential viewers. Consistent front-end design was used throughout the entirety of the site, including the same font for different web browsers and 
 devices, interchangeable colors for the background and foreground, uniform font-sizes, margins, and paddings for different elements, and easy-to-read layouts with supporting headers, images, links, and even videos and articles to create 
