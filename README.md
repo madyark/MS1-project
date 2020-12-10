@@ -6,6 +6,16 @@ This is the website of the Mental Health Awareness Organization. It is designed 
 potential viewers who wish to learn about mental health, help themselves in their mental struggles, help others who face mental struggles, or support campaigns promoting mental health 
 awareness.
 
+The goal for this projet was to create a single website where users with different needs can retrieve information on mental health without having to sift through multiple webpages. 
+
+Right now, it is difficult to find a single platform that offers educational value for people who have never faced or even heard about these issues and at the same time offers practical help for the ones who have a great deal of experience 
+with such problems and are looking for ways on resolving them. 
+
+Since mental health issues are exceptionally prevalent in modern society, and since stigma leaves the victims of mental illnesses belittled, misinformed, and uneducated, we attempted to create a platform within which users can access resources 
+to educate themselves, help themselves, help others, and spread awareness on mental health.  
+
+On our website, users can easily navigate across different pages to find the information that they are looking for depending on their interests within the area of mental health and mental health awareness.
+
 # ![The look of the Mental Health Organization Website on different devices showcasing its responsiveness](assets/readme-media/website-responsiveness.PNG) 
 
 ## User Experience (UX)
@@ -83,15 +93,14 @@ awareness.
 
         1. The images used in this website are always in the foreground, without any text interfering with their appearance. Most of the images have rounded corners to provide them with greater aesthetic appearances. 
         
-            The images come at a variety of types, sizes, and positions within their respective pages, but always serve the same purpose: ensure that the viewer gets a pleasurable experience when scrolling through page contents, rather 
-            than having to sift through large pieces of text. They also allow the viewer to gain perspective into what is the context behind different pieces of text. 
+            The images ensure that the viewer gets a pleasurable experience when scrolling through page contents, rather than having to sift through large pieces of text. They also allow the viewer to gain perspective into what is 
+            the context behind different pieces of text. 
         
              All of the images are responsive. 
 
         2. The videos used in this website solely appear in the 'Help Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. 
         
-            They are inserted as iframe elements of youtube links, and they allow the viewer to decide when to press play and when to press stop. They also have a 'Youtube' button at the bottom-right corner that permits the viewer to 
-            watch them on youtube.com. 
+            They are inserted as iframe elements of youtube links, and they allow the viewer to decide when to press play and when to press stop. Autoplay is turned off as the website allows the viewer to initiate and control such actions.
             
             All of the videos are responsive. 
 
@@ -127,15 +136,6 @@ awareness.
 The main priorities for this website were ease-of-access and ease-of-use for different potential viewers. Consistent front-end design was used throughout the entirety of the site, including the same font for different web browsers and 
 devices, interchangeable colors for the background and foreground, uniform font-sizes, margins, and paddings for different elements, and easy-to-read layouts with supporting headers, images, links, and even videos and articles to create 
 an enjoyable and straightforward user experience. We found simplicity to be the key in providing a well-structured layout that has great responsivity on different devices. 
-
-The website was built for all kinds of users. Whether their intentions are to simply discover the area of mental health and its ramifications upon the general population, gain insight on how to help themselves if they are struggling with 
-mental health problems, understand how they can help others if they know someone who is struggling with these problems, or find ways to spread the word on the importance of mental health in their community, they will be able to find what 
-they are looking for and more in this multipurpose website. In general, the users will be left gratified and their demands and expectations fulfilled. 
-
-This site serves multiple real-world applications. Since mental health still carries a lot of stigma in the modern world, it is difficult to find a single platform that offers educational value for people who have never faced or even heard 
-about some of these issue and at the same time offers practical help for the ones who have a great deal of experience with such problems and are looking for ways on resolving them. Usually, web users have to access and move across different 
-sites in order to learn about these issues and find ways on dealing with them. Therefore the goal for this project was to create a single website where users with different needs and aims can retrieve information without having to sift 
-through multiple webpages and can find these bits of information wiith ease without our website. 
 
 The website was built using HTML5, CSS3, and Bootstrap v4.5. Git software was used for version control and Github was used for task management and continuous integration. Each individual feature and fix was documented through the use of 
 commit-messages. The website was deployed on Github pages.
