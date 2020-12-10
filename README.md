@@ -135,18 +135,25 @@ On our website, users can easily navigate across different pages to find the inf
 
 - A 'Start Spreading Awareness' link that also appears on multiple pages (often times in conjunction with the 'Get Started' button) and provides a link to the 'Spread the Word' page.
 
-- A scrollable 'div' element inside of the 'Help Yourself Suicide Hotlines' section of the 'Help Yourself' page that contains suicide-hotline resources (email addresses, webpage links, telephone numbers) for various countries around the world.
+- A scrollable `<div>` element inside of the 'Help Yourself Suicide Hotlines' section of the 'Help Yourself' page that contains suicide-hotline resources (email addresses, webpage links, telephone numbers) for various countries around the world.
 
-- 'Iframe' elements of youtube videos and an article from the 'Scientific American' in the 'Help Yourself Resources' section of the 'Help Yourself' page that allow the user to have control over whether they want to play the videos and read 
-    the article or rather scroll through the entire section.
+- Four `<iframe>` elements of youtube videos and an article from the 'Scientific American' in the 'Help Yourself Resources' section of the 'Help Yourself' page.
 
 - External links to outside resources (mainly websites and mobile applications) in the 'Help Yourself Resources' section of the 'Help Yourself' page that give the users the opportunity to find support that may be more tailored to their needs.
 
-- A link to an external shopping page and images of four different articles of clothing (which are also clickable links) in the 'Shop' section of the 'Spread the Word' page within which users can purchase clothes that spread 
-    awareness on mental health. 
+- A link to an external shopping page (Self Care is for Everyone) and images of four different articles of clothing (which are also clickable links) in the 'Shop' section of the 'Spread the Word' page. 
 
 
 ### Features Left to Implement
+
+- Functioning sign-up and sign-in utilities that would allow users to have access to a virtual community where they could recount personal experiences, share uplifting messages, organize events, and potentially give donations to non-profit 
+    organizations.
+
+- A functioning monthly newsletter in which participants would be able to receive offical news from our organization, our community events, support articles, tips from industry professionals, and general 
+
+- Official Mental Health Awareness Organization social media accounts on Twitter, Facebook, and Instagram in which we can share our events, inspirational messages, and spread awareness on our mission of encouraging mental health care.
+
+- 'Privacy Notice' and 'Terms of Service' documents which our users can read and agree to before signing up to our platform and agreeing to share their personal data with our organization. 
 
 ## Technologies Used
 
@@ -170,7 +177,7 @@ On our website, users can easily navigate across different pages to find the inf
 
     - Font Awesome was used to download icons for aesthetic purposes and UX. Font Awesome icons were used in the header, footer, and all of the textual-links on all pages.
 
-    - The HTML for the Font Awesome icons had to use the class 'fa' instead of 'fas' for all icons. The icons would not display using the class 'fas' since Font Awesome version 4 kit was downloaded, not version 5.
+    - The HTML for the Font Awesome icons had to use `<i class="fa">` instead of `<i class="fas">` for all icons. The icons would not display themselves when using `<i class="fas">` since Font Awesome version 4 kit was downloaded, not version 5.
 
 4. [Git:](https://git-scm.com/)
 
