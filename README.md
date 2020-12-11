@@ -98,11 +98,9 @@ On our website, users can easily navigate across different pages to find the inf
             The images ensure that the viewer gets a pleasurable experience when scrolling through page contents, rather than having to sift through large pieces of text. They also allow the viewer to gain perspective into what is 
             the context behind different pieces of text. 
 
-            Most of the images appear in .jpg or .png formats, however there are a couple that appear in the .webp format which allows for better compression. 
+            All of the images appear in .jpg (sometimes .jpeg) or .png formats. There were, however, a couple that appeared in the .webp format which allowed for better compression but were removed since 
+            [some browsers](https://caniuse.com/webp "Chart showing the support status of specific browser versions for .webp files") still do not support .webp files. 
             
-            The global support for .webp is now around 90% and rising, yet there are still [some browsers](https://caniuse.com/webp "Chart showing specific browser versions' support status for .webp files") with versions that do not 
-            support .webp, which is why we used .png as a fallback for those particular images.
-        
              All of the images are responsive. 
 
         2. The videos used in this website solely appear in the 'Help Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. 
