@@ -258,19 +258,20 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. Upon entering the site, the user is greeted with a clean and readable navigation bar where they can find the link to the page titled 'Educate Yourself' (the first link in the middle), which will take them to that exact page whose 
             content is self-revealing from the title.
 
-        1. Upon entering the site, the user will also find a large body of text below the navigation bar, which consists of four different headers that read 'Mental Health', 'What is it?', 'How can you help yourself?', and 'How can you help 
-            others?'. If the user decides to hover over the latter three headers, they will see that these headers serve as links to supplemental pages as they change their color from black to orange and the cursor changes from a text-cursor 
-            to a pointer-cursor. A user with no prior knowledge on mental health will most likely press on the 'What is it?' header which will also take them to the 'Educate Yourself' page.  
+        1. Below the navigation bar, the user will find a large body of text which consists of four headers that read 'Mental Health', 'What is it?', 'How can you help yourself?', and 'How can you help others?'. The latter three headers are 
+            links to supplemental pages, which when hovered upon change their colors to orange. The user can click on the 'What is it?' header which will take them to the 'Educate Yourself' page.  
         
         1. Inside of the 'Educate Yourself' page, the user can find general information about what mental health is and different figures relating to mental health and mental health issuess.
 
     2. I want to read some of the stories of people who suffer from mental health problems to further my understanding of its effect on people's daily lives.
 
         1. After entering the 'Educate Yourself' page from either the navigation bar or the 'What is it?' header-link, the user can scroll down to the 'Stories' section of the page, denoted by the 'Listen to their stories.' text which appears
-            in orange. There they will find various extracts from personal anecdotes of the people who have struggled or are still struggling with mental issues.
+            in orange. 
 
         1. The user also can continue scrolling through the 'Home' page until they find an orange link with the text 'Listen to their stories', which is located under two white texts and a black-and-white image. When clicking the orange 
-            link the user will head straight to the 'Story' section, without them having to scroll through the 'Educate Yourself' page. 
+            link the user will head straight to the 'Story' section, without having to scroll through the 'Educate Yourself' page. 
+
+        1. Inside of the 'Story' section, the user will find various extracts from personal anecdotes of the people who have struggled or are still struggling with mental issues.
 
     3. I want to easily navigate around the website to find different bits of information on mental health.
 
