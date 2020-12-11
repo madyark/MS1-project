@@ -113,7 +113,7 @@ On our website, users can easily navigate across different pages to find the inf
         
             The article is hidden on mobile and tablet devices as the small device screen size makes the iframe difficult to operate. 
             
-            The article is responsive. The article has the `<img loading="lazy">` attribute set on it.   
+            The article is responsive. The article has the `<iframe loading="lazy">` attribute set on it.   
 
 - ### Wireframe
 
