@@ -84,7 +84,7 @@ On our website, users can easily navigate across different pages to find the inf
 
         4. A light-blue color was used underneath the 'External Links' section of the 'Help Yourself' page to convey greater emphasis on the links.
 
-        5. A gray color was used as the background-color for the 'Mental Health Awareness Newsletter' and 'Mental Health Emergency' sections of the 'Home' page to create a contrast between this section and the section that precedes it. 
+        5. A gray color was used as the background-color for the 'Mental Health Awareness Newsletter' and 'Mental Health Emergency' sections of the 'Home' page to create a contrast between these sections and the sections that precede them. 
 
     - #### Typography
 
@@ -204,7 +204,7 @@ On our website, users can easily navigate across different pages to find the inf
 
     - Font Awesome was used to download icons for aesthetic purposes and UX. Font Awesome icons were used in the header, footer, and all of the textual-links on all pages.
 
-    - The HTML for the Font Awesome icons had to use `<i class="fa">` instead of `<i class="fas">` for all icons. The icons would not display themselves when using `<i class="fas">` since Font Awesome version 4 kit was downloaded, not version 5.
+    - The HTML for all of the Font Awesome icons had to use `<i class="fa">` instead of `<i class="fas">`. The icons would not display themselves when using `<i class="fas">` since Font Awesome version 4 kit was downloaded, not version 5.
 
 4. [Git:](https://git-scm.com/)
 
@@ -243,6 +243,12 @@ On our website, users can easily navigate across different pages to find the inf
         This, in turn, led to a greater prioritization of the HTML page structure, CSS stylings, and the media that was to be hand-picked and used throughout the website. 
 
 ## Testing
+
+The W3C Markup Validation Service and the W3C CSS Validation Service were used to validate all of the HTML files and the CSS file, respectively, to ensure that all of the codes used were appropriate and had the correct syntax.
+
+- [W3C Markup Validator](https://validator.w3.org/)
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 
 ## Development Process
 
