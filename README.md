@@ -120,40 +120,69 @@ On our website, users can easily navigate across different pages to find the inf
 
 ### Existing Features
 
-- Responsiveness on all device sizes. The website is specifically configured for mobile devices, tablets, laptops and medium-sized desktops, and large desktops. 
+- Responsiveness on all device sizes. The website is specifically configured for mobile devices, tablets, laptops, and large desktops. 
 
 - Link to the official World Health Organization Covid-19 Information page, where users can access the latest Covid-19 data, advice, and other resources for guidance.
 
+    ![Gif showing how a user can open the WHO Covid-19 Information page from out website](assets/readme-media/covid-resources.gif)
+
 - A responsive navigation bar at the top of every page which contains the links to all pages including the home page through a logo with our organization name. 
+
+    ![Gif showing the use of the navigation bar on a large desktop screen](assets/readme-media/navbar-desktop.gif)
+
+
+
+    ![Gif showing the use of the navigation bar on a screen with a smaller width](assets/readme-media/navbar-small-screen.gif)
 
 - A responsive footer at the bottom of every page containing a copyright text, an American flag indicating the organization's country-of-origin, language the website is written in, 'Privacy Notice' and 'Terms of Service' texts, and links 
     to the Twitter, Facebook, and Instagram home pages.
 
+    ![Gif showing the use of the social media links inside of the footer](assets/readme-media/footer-links.gif)
+
 - A featured introduction consisting of four large headers in the 'Home' page, three of which are hoverable links to supplemental pages that change their color from black to orange when hovered upon. 
+
+    ![Gif showing the use of the featured introduction headers as links to direct to supplemental website pages](assets/readme-media/home-featured-intro.gif)
 
 - A 'Get Started' button that appears on multiple pages and provides a direct link to the 'Sign Up' page. 
 
+    ![Gif showing the use of the 'Get Started' button that links to the 'Sign Up' page and appears on the 'Home' and 'Educate Yourself' pages](assets/readme-media/get-started-button.gif)
+
 - A 'Start Spreading Awareness' link that also appears on multiple pages (often times in conjunction with the 'Get Started' button) and provides a link to the 'Spread the Word' page.
+
+    ![Gif showing the use of the 'Start Spreading Awareness' link that links to the 'Spread the Word' page and appears on the 'Home' and 'Educate Yourself' pages](assets/readme-media/start-spreading-awareness-link.gif)
 
 - A scrollable `<div>` element inside of the 'Help Yourself Suicide Hotlines' section of the 'Help Yourself' page that contains suicide-hotline resources (email addresses, webpage links, telephone numbers) for various countries around the world.
 
+    ![Gif showing the use of the scrollable div element inside of the 'Help Yourself Suicide Hotlines' section](assets/readme-media/suicide-hotlines.gif)
+
 - Four `<iframe>` elements of youtube videos and an article from the 'Scientific American' in the 'Help Yourself Resources' section of the 'Help Yourself' page.
+
+    ![Gif showing the use of the iframe elements inside inside of the 'Help Yourself Resources' section](assets/readme-media/iframe-elements.gif)
 
 - External links to outside resources (mainly websites and mobile applications) in the 'Help Yourself Resources' section of the 'Help Yourself' page that give the users the opportunity to find support that may be more tailored to their needs.
 
+    ![Gif showing the use of the external links in the 'Help Yourself Resources' section that link to outside resources (mainly websites and mobile applications)](assets/readme-media/external-links.gif)
+
 - A link to an external shopping page (Self Care is for Everyone) and images of four different articles of clothing (which are also clickable links) in the 'Shop' section of the 'Spread the Word' page. 
 
+    ![Gif showing the use of the various links to the external shopping page inside of the 'Shop' section](assets/readme-media/shop-clothes.gif)
 
 ### Features Left to Implement
 
 - Functioning sign-up and sign-in utilities that would allow users to have access to a virtual community where they could recount personal experiences, share uplifting messages, organize events, and potentially give donations to non-profit 
     organizations.
 
-- A functioning monthly newsletter in which participants would be able to receive offical news from our organization, our community events, support articles, tips from industry professionals, and general 
+    ![Gif showing the effect of the use of the current sign-in and sign-up utlities in the 'Sign In' and 'Sign Up' pages, respectively](assets/readme-media/sign-in-sign-up.gif)
+
+- A functioning monthly newsletter in which participants would be able to receive offical news from our organization, our community events, support articles, tips from industry professionals, and other forms of support from our organization.
+
+    ![Gif showing the effect of the use of the current newsletter sign-up utility of the 'Mental Health Newsletter Home' section](assets/readme-media/newsletter.gif)
 
 - Official Mental Health Awareness Organization social media accounts on Twitter, Facebook, and Instagram in which we can share our events, inspirational messages, and spread awareness on our mission of encouraging mental health care.
 
 - 'Privacy Notice' and 'Terms of Service' documents which our users can read and agree to before signing up to our platform and agreeing to share their personal data with our organization. 
+
+    ![Image of the sign-up form with the Terms of Service and Privacy Notice text circled for emphasis](assets/readme-media/privacy-notice-and-tos.PNG)
 
 ## Technologies Used
 
@@ -217,9 +246,13 @@ On our website, users can easily navigate across different pages to find the inf
 
 ## Testing
 
-- ### W3C Validators
+## Development Process
 
-![A gif demonstrating the responsiveness of the website on an iPhone X](assets/readme-media/iphone-responsiveness-home-page.gif)
+## Deployment
+
+## Credits
+
+- ### W3C Validators
 
 The main priorities for this website were ease-of-access and ease-of-use for different potential viewers. Consistent front-end design was used throughout the entirety of the site, including the same font for different web browsers and 
 devices, interchangeable colors for the background and foreground, uniform font-sizes, margins, and paddings for different elements, and easy-to-read layouts with supporting headers, images, links, and even videos and articles to create 
