@@ -100,7 +100,7 @@ On our website, users can easily navigate across different pages to find the inf
 
             All of the images appear in .jpg (sometimes .jpeg) or .png formats. There were, however, a couple that appeared in the .webp format which allowed for better compression but were removed since 
             [some browsers](https://caniuse.com/webp "Chart showing the support status of specific browser versions for .webp files") still do not support .webp files. 
-            
+
              All of the images are responsive. 
 
         2. The videos used in this website solely appear in the 'Help Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. 
@@ -262,12 +262,15 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
             others?'. If the user decides to hover over the latter three headers, they will see that these headers serve as links to supplemental pages as they change their color from black to orange and the cursor changes from a text-cursor 
             to a pointer-cursor. A user with no prior knowledge on mental health will most likely press on the 'What is it?' header which will also take them to the 'Educate Yourself' page.  
         
-        1. Inside of the 'Educate Yourself' page, the user can find general information about what mental health is, different figures regarding mental health and mental health issues, and various extracts from personal anecdotes of the 
-            people who have struggled or are still struggling with mental issues.
+        1. Inside of the 'Educate Yourself' page, the user can find general information about what mental health is and different figures relating to mental health and mental health issuess.
 
     2. I want to read some of the stories of people who suffer from mental health problems to further my understanding of its effect on people's daily lives.
 
-        2. 
+        2. After entering the 'Educate Yourself' page from either the navigation bar or the 'What is it?' header-link, the user can scroll down to the 'Stories' section of the page, denoted by the 'Listen to their stories.' text which appears
+            in orange. There they will find various extracts from personal anecdotes of the people who have struggled or are still struggling with mental issues.
+
+        2. The user also can continue scrolling through the 'Home' page until they find an orange link with the text 'Listen to their stories', which is located under tw white texts and a black-and-white image. The white texts and the image try 
+            to convince the user to visit the 'Story' section. When clicking the orange link the user will head straight to the 'Story' section, without them having to scroll through the 'Educate Yourself' page. 
 
     3. I want to easily navigate around the website to find different bits of information on mental health.
 
