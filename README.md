@@ -182,8 +182,6 @@ On our website, users can easily navigate across different pages to find the inf
 
 - 'Privacy Notice' and 'Terms of Service' documents which our users can read and agree to before signing up to our platform and agreeing to share their personal data with our organization. 
 
-    ![Image of the sign-up form with the Terms of Service and Privacy Notice text circled for emphasis](assets/readme-media/privacy-notice-and-tos.PNG)
-
 ## Technologies Used
 
 ### Languages Used
