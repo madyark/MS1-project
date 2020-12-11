@@ -101,19 +101,19 @@ On our website, users can easily navigate across different pages to find the inf
             All of the images appear in .jpg (sometimes .jpeg) or .png formats. There were, however, a couple that appeared in the .webp format which allowed for better compression but were removed since 
             [some browsers](https://caniuse.com/webp "Chart showing the support status of specific browser versions for .webp files") still do not support .webp files. 
 
-             All of the images are responsive. All of the images have the `<img loading="lazy">` attribute set on them.
+             All of the images are responsive. All of the images have the `<img loading="lazy">` attribute set on them to reduce page load times.
 
         2. The videos used in this website solely appear in the 'Help Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. 
         
             The videos are inserted as iframe elements of youtube links, and they allow the viewer to decide when to press play and when to press stop. Autoplay is turned off as the website allows the viewer to initiate and control such actions.
             
-            All of the videos are responsive. All of the videos have the `<iframe loading="lazy">` attribute set on them.
+            All of the videos are responsive. All of the videos have the `<iframe loading="lazy">` attribute set on them to reduce page load times.
 
         3. An article appears in the 'Help Yourself' page of the website. It also has rounded corners and is also inserted as an iframe element. 
         
             The article is hidden on mobile and tablet devices as the small device screen size makes the iframe difficult to operate. 
             
-            The article is responsive. The article has the `<iframe loading="lazy">` attribute set on it.   
+            The article is responsive. The article has the `<iframe loading="lazy">` attribute set on it to reduce page load times.   
 
 - ### Wireframe
 
