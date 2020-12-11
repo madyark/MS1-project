@@ -266,13 +266,15 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     2. I want to read some of the stories of people who suffer from mental health problems to further my understanding of its effect on people's daily lives.
 
-        2. After entering the 'Educate Yourself' page from either the navigation bar or the 'What is it?' header-link, the user can scroll down to the 'Stories' section of the page, denoted by the 'Listen to their stories.' text which appears
+        1. After entering the 'Educate Yourself' page from either the navigation bar or the 'What is it?' header-link, the user can scroll down to the 'Stories' section of the page, denoted by the 'Listen to their stories.' text which appears
             in orange. There they will find various extracts from personal anecdotes of the people who have struggled or are still struggling with mental issues.
 
-        2. The user also can continue scrolling through the 'Home' page until they find an orange link with the text 'Listen to their stories', which is located under tw white texts and a black-and-white image. The white texts and the image try 
-            to convince the user to visit the 'Story' section. When clicking the orange link the user will head straight to the 'Story' section, without them having to scroll through the 'Educate Yourself' page. 
+        1. The user also can continue scrolling through the 'Home' page until they find an orange link with the text 'Listen to their stories', which is located under two white texts and a black-and-white image. When clicking the orange 
+            link the user will head straight to the 'Story' section, without them having to scroll through the 'Educate Yourself' page. 
 
     3. I want to easily navigate around the website to find different bits of information on mental health.
+
+        1. 
 
 ### Further Testing
 
