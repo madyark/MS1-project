@@ -97,6 +97,10 @@ On our website, users can easily navigate across different pages to find the inf
         
             The images ensure that the viewer gets a pleasurable experience when scrolling through page contents, rather than having to sift through large pieces of text. They also allow the viewer to gain perspective into what is 
             the context behind different pieces of text. 
+
+            Most of the images appear in .jpg or .png formats, however there are two large images that appear in the .webp format which allows for better compression in comparison with the others. Since the Safari browser shipped support 
+            for the format, the global support for it is now around 90%. However, there are still [some browsers](https://caniuse.com/webp "Chart showing specific browser versions' support status for .webp files") with versions that 
+            do not yet support the .webp format, which is why we used .png as a fallback for those two particular images.
         
              All of the images are responsive. 
 
@@ -250,13 +254,39 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 
-## Development Process
+### Testing User Stories from the User Experience (UX) Section
+
+- #### Visitor with No Prior Mental Health Knowledge \- Goals
+
+    1. I want to learn more on mental health and its ramifications upon the general population.
+
+        1. Upon entering the site, the user is greeted with a clean and readable navigation bar where they can find the link to the page titled 'Educate Yourself' (the first link in the middle), which will take them to that exact page whose 
+            content is self-revealing from the title.
+
+        1. Upon entering the site, the user will also find a large body of text below the navigation bar, which consists of four different headers that read 'Mental Health', 'What is it?', 'How can you help yourself?', and 'How can you help 
+            others?'. If the user decides to hover over the latter three headers, they will see that these headers serve as links to supplemental pages as they change their color from black to orange and the cursor changes from a text-cursor 
+            to a pointer-cursor. A user with no prior knowledge on mental health will most likely press on the 'What is it?' header which will also take them to the 'Educate Yourself' page.  
+        
+        1. Inside of the 'Educate Yourself' page, the user can find general information about what mental health is, different figures regarding mental health and mental health issues, and various extracts from personal anecdotes of the 
+            people who have struggled or are still struggling with mental issues.
+
+    2. I want to read some of the stories of people who suffer from mental health problems to further my understanding of its effect on people's daily lives.
+
+        2. 
+
+    3. I want to easily navigate around the website to find different bits of information on mental health.
+
+### Further Testing
+
+### Known Bugs
+
+### Development Obstacles 
+
+## The Entire Development Process
 
 ## Deployment
 
 ## Credits
-
-- ### W3C Validators
 
 The main priorities for this website were ease-of-access and ease-of-use for different potential viewers. Consistent front-end design was used throughout the entirety of the site, including the same font for different web browsers and 
 devices, interchangeable colors for the background and foreground, uniform font-sizes, margins, and paddings for different elements, and easy-to-read layouts with supporting headers, images, links, and even videos and articles to create 
