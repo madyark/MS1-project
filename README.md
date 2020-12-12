@@ -297,8 +297,10 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     1. I want to learn about the different lifestyle changes I can make to help improve my personal mental wellbeing.
 
-        1. From the navigation bar, the user can access the 'Help Yourself' page, which will immediately start with the 'Looking After Yourself' section, where they will find information on how they can look after their mental health by 
-            adopting different lifestyle changes or carrying out certain endeavors. 
+        1. From the navigation bar, the call-to-action in the 'Home' page, or the first link provided at the end of the 'Educate Yourself' page, the user can access the 'Help Yourself' page. 
+        
+        1. The 'Help Yourself' page will immediately start with the 'Looking After Yourself' section, where the user will find information on how they can look after their mental health by adopting different lifestyle changes or carrying 
+            out certain endeavors. 
 
     2. I want to find out what immediate actions I can take to help cope with specific mental disorders such as depression, anxiety, and PTSD.
 
@@ -350,7 +352,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             The link-text describes whether the link is to an app or a website, the organization behind the link, and for whom the links are intended.
 
-        2. Once locating the 'External Links' subsection, the user can click on any of the links, all of whom will take them to an external tab with the relevant web address. These links are apps or websites for people with specific mental 
+        1. Once locating the 'External Links' subsection, the user can click on any of the links, all of whom will take them to an external tab with the relevant web address. These links are apps or websites for people with specific mental 
             health issues or for people with specific needs.  
 
             On Apple mobile and tablet devices, the links to the apps might open on the 'App Store' application instead of a new tab on their browser.  
@@ -359,9 +361,32 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     1. I want to have the knowledge on how to help somebody I know in their mental health struggles.
 
+        1. From the navigation bar, the 'Home' page call-to-action, or the second link provided at the end of the 'Educate Yourself' page, the user can enter the 'Help Others' page. 
+
+        1. From the 'Help Others' page, the user will quickly find the 'Acquaintance Struggling' section (the first section of the page), which describes in detail the various ways a person can help their close friend or family member who is 
+            struggling with mental health problems. 
+
+            The text is assisted with cartoon images, which provide a better user-experience (UX) and allow the viewer to quickly gather context on the content of the accompanying texts. 
+
     2. I want to understand the ways I can help somebody I do not know with their mental health problems.
 
+        1. After gaining access to the 'Help Others' page, the user can scroll down to the 'Tips' section of the page (the last section which appears just before the footer), where they will be greeted with various concise and specific tips that 
+            are centered and boldened in order to obtain their attention.
+
+        1. These specific tips provide information on different ways a person can help increase the mental wellbeing of others around them, without having to know if they suffer from mental health conditions.
+
+        1. There are also tips that deal with giving indirect help to people with mental health conditions (whom you do not have to know) by volunteering for or donating money to a mental health organization. The last tip also serves as a link to 
+            the 'Spread the Word' page, and is highlighted with an orange font-color.   
+
     3. I want to be re-affirmed in my quest to support people with mental health problems by a motivating message, despite my potential frustrations or reservedness. 
+
+        1. When scrolling through the 'Help Others' page, the user will come across a large image of four people holding hands, and text that reads 'Support others the same way you would like them to support you' placed above the image. This is 
+            the 'Title' section of the page. 
+
+        1. This image is meant to encourage support for people with mental health conditions, as it calls on the user to think about how they would have liked to be treated if they were in the same position. 
+        
+            A lot of people who are willing to give their support may sometimes feel reserved (on if their support will be appreciated) or even frustrated (with the person they are trying to help). These are normal feelings to have, but the 
+            image and the accompanying text call on them to have perspective, empathy, and courage when extending their support to others.  
 
 - #### Visitor with Aspirations to Bring Awareness to Mental Health Issues \- Goals
 
