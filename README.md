@@ -98,7 +98,7 @@ On our website, users can easily navigate across different pages to find the inf
             The images ensure that the viewer gets a pleasurable experience when scrolling through page contents, rather than having to sift through large pieces of text. They also allow the viewer to gain perspective into what is 
             the context behind different pieces of text. 
 
-            All of the images appear in .jpg (sometimes .jpeg) or .png formats. There were, however, a couple that appeared in the .webp format which allowed for better compression but were removed since 
+            All of the images appear in .jpg (sometimes .jpeg) or .png formats. There were, however, a couple that appeared in the .webp format which allowed for better compression but were since then converted to .png since 
             [some browsers](https://caniuse.com/webp "Chart showing the support status of specific browser versions for .webp files") still do not support .webp files. 
 
              All of the images are responsive. All of the images have the `<img loading="lazy">` attribute set on them to reduce page load times.
@@ -138,9 +138,9 @@ On our website, users can easily navigate across different pages to find the inf
 
     ![Gif showing the use of the social media links inside of the footer](assets/readme-media/footer-links.gif)
 
-- A featured introduction consisting of four large headers in the 'Home' page, three of which are hoverable links to supplemental pages that change their color from black to orange when hovered upon. 
+- A call-to-action consisting of four large headers in the 'Home' page, three of which are hoverable links to supplemental pages that change their color from black to orange when hovered upon. 
 
-    ![Gif showing the use of the featured introduction headers as links to direct to supplemental website pages](assets/readme-media/home-featured-intro.gif)
+    ![Gif showing the use of the call-to-action headers as links to direct to supplemental website pages](assets/readme-media/home-featured-intro.gif)
 
 - A 'Get Started' button that appears on multiple pages and provides a direct link to the 'Sign Up' page. 
 
@@ -150,17 +150,17 @@ On our website, users can easily navigate across different pages to find the inf
 
     ![Gif showing the use of the 'Start Spreading Awareness' link that links to the 'Spread the Word' page and appears on the 'Home' and 'Educate Yourself' pages](assets/readme-media/start-spreading-awareness-link.gif)
 
-- A scrollable `<div>` element inside of the 'Help Yourself Suicide Hotlines' section of the 'Help Yourself' page that contains suicide-hotline resources (email addresses, webpage links, telephone numbers) for various countries around the world.
+- A scrollable `<div>` element inside of the 'Suicide Hotlines' section of the 'Help Yourself' page that contains suicide-hotline resources (email addresses, webpage links, telephone numbers) for various countries around the world.
 
-    ![Gif showing the use of the scrollable div element inside of the 'Help Yourself Suicide Hotlines' section](assets/readme-media/suicide-hotlines.gif)
+    ![Gif showing the use of the scrollable div element inside of the 'Suicide Hotlines' section](assets/readme-media/suicide-hotlines.gif)
 
-- Four `<iframe>` elements of youtube videos and an article from the 'Scientific American' in the 'Help Yourself Resources' section of the 'Help Yourself' page.
+- Four `<iframe>` elements of youtube videos and an article from the 'Scientific American' in the 'Resources' section of the 'Help Yourself' page.
 
-    ![Gif showing the use of the iframe elements inside inside of the 'Help Yourself Resources' section](assets/readme-media/iframe-elements.gif)
+    ![Gif showing the use of the iframe elements inside inside of the 'Resources' section](assets/readme-media/iframe-elements.gif)
 
-- External links to outside resources (mainly websites and mobile applications) in the 'Help Yourself Resources' section of the 'Help Yourself' page that give the users the opportunity to find support that may be more tailored to their needs.
+- External links to outside resources (mainly websites and mobile applications) in the 'Resources' section of the 'Help Yourself' page that give the users the opportunity to find support that may be more tailored to their needs.
 
-    ![Gif showing the use of the external links in the 'Help Yourself Resources' section that link to outside resources (mainly websites and mobile applications)](assets/readme-media/external-links.gif)
+    ![Gif showing the use of the external links in the 'Resources' section that link to outside resources (mainly websites and mobile applications)](assets/readme-media/external-links.gif)
 
 - A link to an external shopping page (Self Care is for Everyone) and images of four different articles of clothing (which are also clickable links) in the 'Shop' section of the 'Spread the Word' page. 
 
@@ -258,10 +258,13 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. Upon entering the site, the user is greeted with a clean and readable navigation bar where they can find the link to the page titled 'Educate Yourself' (the first link in the middle), which will take them to that exact page whose 
             content is self-revealing from the title.
 
-        1. Below the navigation bar, the user will find a large body of text which consists of four headers that read 'Mental Health', 'What is it?', 'How can you help yourself?', and 'How can you help others?'. The latter three headers are 
+        1. Below the navigation bar, the user will find a call-to-action that consists of four headers that read 'Mental Health', 'What is it?', 'How can you help yourself?', and 'How can you help others?'. The latter three headers are 
             links to supplemental pages, which when hovered upon change their colors to orange. The user can click on the 'What is it?' header which will take them to the 'Educate Yourself' page.  
         
         1. Inside of the 'Educate Yourself' page, the user can find general information about what mental health is and different figures relating to mental health and mental health issuess.
+
+        1. Additionally, the user can use the materials found at the rest of the supplemental pages to learn more on mental health. This requires more inferences to be made as the content is not tailored for this group, but the supplied 
+            information will still provide further context on mental health and its effects.
 
     2. I want to read some of the stories of people who suffer from mental health problems to further my understanding of its effect on people's daily lives.
 
@@ -275,7 +278,112 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     3. I want to easily navigate around the website to find different bits of information on mental health.
 
-        1. 
+        1. Upon entering the site, the user will find a vivid navigation bar on every page, which they can use to reach the page of their choice. When accessing one of the supplemental pages, the active-link appears in orange to help the user 
+            locate their current location in the website.
+
+        1. Scrolling through the 'Home' page, the user will come across different links that either take them to the top of the supplemental pages of the website or specific sections of those supplemental pages. 
+
+            The links are accompanied by previews of those pages (or sections) which try to persuade the user to press on the links by offering to answer their potential needs.
+
+        1. At the bottom of the 'Help Yourself' page, four links appear (two in white font-color, one black button, and one in black font-color), which respectively take the user to the 'Help Yourself', 'Help Others', 'Sign Up' and 'Spread the 
+            Word' pages. 
+
+            This feature, however, does not appear on the other supplemental pages to avoid repetitive layouts (for more desirable design), which compels the user to have to scroll up to the navigation bar in order to access other supplemental 
+            pages. Here, website functionality is sacrificed for aesthetic design.
+
+            Yet still at the bottom of the 'Help Others' page, a vibrant orange link appears that will take the user to the 'Spread the Word' page, which comes next in our assigned order of the pages in the navigation bar.
+    
+- #### Visitor with Mental Health Problems \- Goals
+
+    1. I want to learn about the different lifestyle changes I can make to help improve my personal mental wellbeing.
+
+        1. From the navigation bar, the user can access the 'Help Yourself' page, which will immediately start with the 'Looking After Yourself' section, where they will find information on how they can look after their mental health by 
+            adopting different lifestyle changes or carrying out certain endeavors. 
+
+    2. I want to find out what immediate actions I can take to help cope with specific mental disorders such as depression, anxiety, and PTSD.
+
+        1. At the 'Home' page, the user can come across the 'Mental Health More Information' section which presents the user with information on three specific mental disorders: depression, anxiety, and PTSD. 
+        
+            The section is accompanied by three images, three bodies of text giving a general introduction to each of the mental disorders, and three links to the subsections of each disorder in the 'Specific Disorders' section of the 
+            'Help Yourself' page.
+
+        1. The user can also scroll through the 'Help Yourself' page until they find the 'Specific Disorders' section (located just after the 'Looking After Yourself' section) which has information on managing specific disorders, such as 
+            depression, anxiety, and PTSD. 
+
+        1. After accessing the 'Specific Disorders' section from either the navigation bar or the links from the 'Home' page, the user will find various concise, specific, and to-the-point tips on how to compels with depression, anxiety, and PTSD. 
+
+    3. I want to have knowledge of the specific links, emails, telephone numbers, and other suicide hotline resources in various countries that are available to me.
+
+        1. At the 'Home' page, the user could find the 'Mental Health Emergency' section, which is the last section of the page and appears right before the footer. The user will come across two `<div>` elements that each contain a body of text 
+            and an orange link. 
+
+            By pressing the 'Call them here' link (under the 'Call an emergency lifeline' header), the user will be redirected to the 'Suicide Hotlines' section of the 'Help Yourself' page.
+
+        1. The user can also scroll through the 'Help Yourself' page until they find the 'Suicide Hotlines' section (located just after the 'Specific Disorders' section) which contains a scrollable `<div>` element of various suicide-hotline 
+            resources. 
+        
+        1. Inside of the `<div>` the user could find the different names of the organizations around the world that provide immediate help (including chat rooms, hotlines, etc.) to those in need, as well as the links, phone numbers, and even 
+            email addresses of those organizations.   
+
+    4. I want to be able to access informative videos and articles on mental health to help myself feel better, less-isolated, and inspired whenever I am feeling down and facing inner adversity. 
+
+        1. At the 'Home' page, the user can once more find the 'Mental Health Emergency' section, the last section of the page. The user will once again come across two `<div>` elements, with similar structures. 
+        
+            By pressing the 'Visit our support center' link (under the 'Support Center' header) of the latter `<div>` element, the user will be sent to the 'Resources' section of the 'Help Yourself' page. 
+
+        1. The user could also find the 'Resources' section by scrolling down on the 'Help Yourself' page (located just after the 'Suicide Hotlines' section). There they will find four embedded `<iframe>` elements (three Youtube videos and one 
+            article from the Scientific American).
+
+        1. With access to the 'Resources' section, the user can play the Youtube videos and read the available article (however, only on certain device screen sizes). The videos and the article give support and comfort for people struggling with 
+            mental health problems. 
+        
+            The first video deals with explaining the importance of mental health and ways to improve it; the second video shows how to identify particular warning signs of mental health conditions for young adults; and the third video explains 
+            the ways a person with mental health conditions can ask for help and the reasons for doing so. 
+
+            The article describes how loneliness has improved even amidst Covid-19 restrictions in the U.S. It is structured in a more scientific, informative manner, but is still able to convey the feelings of reassurance and self-belief for 
+            people struggling with mental health issues, especially during these difficult times.   
+
+    5. I want to discover links to external apps and other organizations that can be more oriented to my needs and provide further guidance on how to treat my problems.   
+
+        1. The user could once again scroll to the 'Resources' section of the 'Help Yourself' page, amongst which they will find an 'External Links' subsection (located after the videos and articles, and just before the footer). They will 
+            discover multiple rows of centered links in a light-blue color.
+
+            The link-text describes whether the link is to an app or a website, the organization behind the link, and for whom the links are intended.
+
+        2. Once locating the 'External Links' subsection, the user can click on any of the links, all of whom will take them to an external tab with the relevant web address. These links are apps or websites for people with specific mental 
+            health issues or for people with specific needs.  
+
+            On Apple mobile and tablet devices, the links to the apps might open on the 'App Store' application instead of a new tab on their browser.  
+
+- #### Visitor with Desires to Help Someone with Mental Health Problems \- Goals
+
+    1. I want to have the knowledge on how to help somebody I know in their mental health struggles.
+
+    2. I want to understand the ways I can help somebody I do not know with their mental health problems.
+
+    3. I want to be re-affirmed in my quest to support people with mental health problems by a motivating message, despite my potential frustrations or reservedness. 
+
+- #### Visitor with Aspirations to Bring Awareness to Mental Health Issues \- Goals
+
+    1. I want to find out why talking about mental health in my sphere of influence is important.
+
+    2. I want to discover the specific ways I can help combat mental health stigma within my community.
+
+    3. I want to learn about what World Mental Health Day is, what is its purpose, how will it help bring awareness to mental health issues, and why should I participate in it.
+
+    4. I want to gain insight into what Suicide Prevention Week is, what I can do to push against the stigma associated with suicide, and how can I help educate the people around me on suicide-prevention.
+
+    5. I want to have access to an online shop where I can purchase clothes with inspirational messages on them that spread awareness on mental health and whose share of profits is donated to a non-profit organization. 
+
+- #### Administrator of the Website \- Goals
+
+    1. I want to provide an external link to the official WHO Covid-19 website to direct visitors who may be in need of the latest information and tools pertaining to Covid-19 when living in these unique times. 
+
+    2. I want to add a mock-up of the sign-up page, the sign-in page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
+
+    3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
+
+    4. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
 
 ### Further Testing
 
