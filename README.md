@@ -264,11 +264,17 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
         1. Upon entering the site, the user is greeted with a clean and readable navigation bar where they can find the link to the page titled 'Educate Yourself' (the first link in the middle), which will take them to that exact page whose 
             content is self-revealing from the title.
+            
+            ![Image showing the navigation bar with a hovered upon link titled 'Educate Yourself'](assets/readme-media/educate-yourself-hover.PNG)
 
         1. Below the navigation bar, the user will find a call-to-action that consists of four headers that read 'Mental Health', 'What is it?', 'How can you help yourself?', and 'How can you help others?'. The latter three headers are 
-            links to supplemental pages, which when hovered upon change their colors to orange. The user can click on the 'What is it?' header which will take them to the 'Educate Yourself' page.  
+            links to supplemental pages, which when hovered upon change their colors to orange. The user can click on the 'What is it?' header which will take them to the 'Educate Yourself' page. 
+
+            ![Image showing the four headers with the 'What is it?' text being hovered upon](assets/readme-media/what-is-it-hover.PNG) 
         
         1. Inside of the 'Educate Yourself' page, the user can find general information about what mental health is and different figures relating to mental health and mental health issuess.
+
+            ![Image showing the content of the 'Educate Yourself' page](assets/readme-media/educate-yourself-content.PNG)
 
         1. Additionally, the user can use the materials found at the rest of the supplemental pages to learn more on mental health. This requires more inferences to be made as the content is not tailored for this group, but the supplied 
             information will still provide further context on mental health and its effects.
@@ -292,7 +298,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             The links are accompanied by previews of those pages (or sections) which try to persuade the user to press on the links by offering to answer their potential needs.
 
-        1. At the bottom of the 'Help Yourself' page, four links appear (two in white font-color, one black button, and one in black font-color), which respectively take the user to the 'Help Yourself', 'Help Others', 'Sign Up' and 'Spread the 
+        1. At the bottom of the 'Educate Yourself' page, four links appear (two in white font-color, one black button, and one in black font-color), which respectively take the user to the 'Help Yourself', 'Help Others', 'Sign Up' and 'Spread the 
             Word' pages. 
 
             This feature, however, does not appear on the other supplemental pages to avoid repetitive layouts (for more desirable design), which compels the user to have to scroll up to the navigation bar in order to access other supplemental 
