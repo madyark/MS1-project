@@ -68,7 +68,7 @@ On our website, users can easily navigate across different pages to find the inf
 
         2. I want to provide a clean design structure which is both entertaining and simple-to-understand for the visitor, with no obnoxious design features or repetitive layouts. 
 
-        3. I want to add a mock-up of the sign-up page, the sign-in page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
+        3. I want to add a mock-up of the Sign-In page, the Sign-Up page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
 
         4. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
 
@@ -79,6 +79,11 @@ On our website, users can easily navigate across different pages to find the inf
     - #### Color Scheme
 
         1. The three main colors used are dark-orange, white, and black. They were used interchangeably as background and foreground colors. 
+
+            The white and black color scheme was inspired from [the Washington Post Instagram posts](https://www.instagram.com/washingtonpost/).
+
+            The orange color scheme was inspired from [the novel 'A Clockwork Orange' by Anthony Burgess](https://www.penguin.co.uk/books/182/182137/a-clockwork-orange/9780141197531.html), which was read during the course of the development of 
+            the website. 
 
         2. An orange-red color was used for hovering on active navigation menu elements to provide a more enjoyable user experience.
 
@@ -443,13 +448,63 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     1. I want to provide an external link to the official WHO Covid-19 website to direct visitors who may be in need of the latest information and tools pertaining to Covid-19 when living in these unique times.
 
+        1. On every page, at the very top of the page (just above the navigation bar), the user will find a link with the text 'COVID-19 Resources' as well as two icons, one on the left and one on the right. 
+
+            The icon to the left (information icon) tells the user that there is important information to be found in the link. It also draws more attention to the link itself by providing a new, flashy item next to the text. The icon to the right 
+            is a standard right-arrow icon indicating the text is a link. 
+
+        1. When clicking on the link, the user will be taken to the World Health Organization COVID-19 homepage, where they will find useful, accurate, and up-to-date resources on the novel coronavirus which might be of great value to them. 
+
     2. I want to provide a clean design structure which is both entertaining and simple-to-understand for the visitor, with no obnoxious design features or repetitive layouts. 
 
-    3. I want to add a mock-up of the sign-up page, the sign-in page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
+        1. On every page, the look of the navigation bar and the 'COVID-19 resources link' maintain the same appearance. They also have different background-colors for the user to have an easier time seperating them, and boldened text for greater 
+            emphasis.  
+        
+        1. The user will find that the structure of content is different on almost every page (images, text, and links have unique layouts and formats), which creates a more entertaining experience when scrolling through the content. 
+
+        1. The user will have to scroll on every page (except for the Sign In and Sign Up pages), which makes the experience similar to that of flipping through a book or a magazine. This is largely unique compared to conventional websites who 
+            usually put all of the page's content together in a single frame. 
+
+        1. The user can also sometimes find different background-colors being used on the page to divide up the sections. This is noticeable in the 'Home' page where a section will use a gray background to highlight the change in sections. 
+
+            Additionally, the 'Spread the Word' page uses this feature in an original fashion. Some sections are seperated by white and black backgrounds, and have an image sitting in the middle of the two backgrounds to create an 
+            aesthetically-pleasing transition.
+
+    3. I want to add a mock-up of the Sign-In page, the Sign-Up page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools.
+
+        1. The user can press on the 'Sign In | Sign Up' link at the very right of the navigation bar which will take them to the 'Sign In' page.
+
+            There, they will access a clean interface that will ask them to enter their email address and password. The email address input will look for the conventional email format (using the '@'), and the password input will be hidden. The 
+            inputs have labels (for accessibility reasons) but they are hidden for aesthetic reasons and are replaced with placeholders.  
+            
+            They can then press the 'Sign In' button which will take them to the Code Insitute formdump in an outside tab, where they will be able to see their inputs.
+
+        1. Through the use of the 'Get Started' button (which appears on multiple pages throughout the website) or by pressing on the 'Sign Up' link (in orange) at the bottom of the Sign-In page, just before the footer, the user will access the 
+            'Sign Up' page. 
+
+            There, they will see a similar interface but one that asks them to enter more inputs. These inputs also have labels but they are also hidden and replaced with placeholders. 
+
+            Once the user enters appropriate values for the inputs, and presses the 'Sign Up' button, they will once again be redirected to the formdump in an external tab that will once more show them their inputted values. 
+
+        1. At the 'Mental Health Awareness Newsletter' section of the 'Home' page (which appears right before the full-width image), the user will be able to find texts that call on them to sign up to the newsletter utility and a form with an 
+            email input and a 'Sign up now' button. 
+ 
+            The input contains an 'Enter your email address' placeholder text and a hidden label (for accessibility reasons). 
+            
+            Once the user enters their email address, they will be once again taken to the Code Insitute formdump through an external tab. 
 
     4. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
 
+        1. At the bottom-right of every footer on every page, as well as in the black, bold text in the 'Sign Up' page, the user will see the texts 'Privacy Notice' and 'Terms of Service'. 
+
+        1. These texts are simply texts (not clickable links as they may appear to some), which will be replaced with links once the website will have ready-for-use 'Privacy Notice' and 'Terms of Service' documents to share.  
+
     5. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
+
+        1. At the top-right of every footer the user can find three different icons of the Twitter, Facebook, and Instagram social media platforms. These icons are links which once clicked upon will take the user to the home pages of those 
+            respective platforms in a new tab (or to the app sometimes if on mobile). 
+
+        1. These links are subject to change to real links of our social media accounts on these respective websites once we create them.  
 
 ### Further Testing
 
@@ -457,11 +512,34 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 ### Development Obstacles 
 
-## The Entire Development Process
-
 ## Deployment
 
 ## Credits
+
+### Code
+
+- In the 'Home' page and multiple times in the 'Spread the Word' page, an entertaining transition between white and black backgrounds occurs, in the middle of which a large, highly-resoluted image is placed. 
+
+    The solution on creating this transition was found on [a StackOverflow post](https://stackoverflow.com/questions/8541081/css-set-a-background-color-which-is-50-of-the-width-of-the-window). The linear-gradient solution was chosen 
+    (second answer from top). 
+
+### Content
+
+- The user will often times notice that there is a lot of bold, large, and centered content that appears on multiple pages. The large and bold text was inspired from [the Washington Post Instagram posts](https://www.instagram.com/washingtonpost/) 
+    and the centered content from [the Black Lives Matter Carrd webpage](https://blacklivesmatters.carrd.co/)
+
+- The entire 'Home' page layout (including the navigation bar, 'COVID-19 resources' link, and footer) was inspired by [the Square website homepage](https://squareup.com/us/en). Our website also derived some of the font-size numbers, 
+    padding numbers, and margin numbers from Square's website by using Google Chrome's DevTools. 
+
+- The 'Acquaintance Struggling' section (the first section) of the 'Help Others' page adopts a layout that was inspired by a section in [Square's 'Business Debit Card' page](https://squareup.com/us/en/business-debit-card).
+
+- The frequent use of black backgrounds along with white text and large images, that could be seen in certain sections of the 'Spread the Word' page was inspired by [Square's 'Why Square' page](https://squareup.com/us/en/why-square).
+
+### Media
+
+### Acknowledgements.
+
+
 
 The main priorities for this website were ease-of-access and ease-of-use for different potential viewers. Consistent front-end design was used throughout the entirety of the site, including the same font for different web browsers and 
 devices, interchangeable colors for the background and foreground, uniform font-sizes, margins, and paddings for different elements, and easy-to-read layouts with supporting headers, images, links, and even videos and articles to create 
