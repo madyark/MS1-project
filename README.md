@@ -66,11 +66,13 @@ On our website, users can easily navigate across different pages to find the inf
 
         1. I want to provide an external link to the official WHO Covid-19 website to direct visitors who may be in need of the latest information and tools pertaining to Covid-19 when living in these unique times. 
 
-        2. I want to add a mock-up of the sign-up page, the sign-in page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
+        2. I want to provide a clean design structure which is both entertaining and simple-to-understand for the visitor, with no obnoxious design features or repetitive layouts. 
 
-        3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
+        3. I want to add a mock-up of the sign-up page, the sign-in page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
 
-        4. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
+        4. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
+
+        5. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
 
 - ### Design
 
@@ -392,23 +394,62 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     1. I want to find out why talking about mental health in my sphere of influence is important.
 
+        1. Whether it is by using the navigation bar, the last link in orange of the 'Home' page call-to-action, the last link in black at the end of the 'Educate Yourself' page, or the orange link provided at the end of the 'Help Others' page, 
+            the user access the 'Spread the Word' page. 
+
+        1. Once in the 'Spread the Word' page, the user can scroll down until they find the 'Reasons why talking about mental health matters' text which commences the 'Talking Mental Health Reasons' section of the page. 
+
+        1. There the user will stumble across three different reasons on why talking about mental health matters, as well as full, detailed explanations behind the each of the reasons. 
+
     2. I want to discover the specific ways I can help combat mental health stigma within my community.
+
+        1. When scrolling through the 'Spread the Word' page, the user will come across the 'Ways to Fight Stigma' section (just after the 'Talking Mental Health Reasons' section), which begins with the 'Ways to help fight mental health 
+            stigma' header.
+
+        1. In that section, the user will see a row of different tips in a large font size (for greater emphasis), each of which describes the specific ways they can combat mental health stigma. 
+        
+            These tips are very straightforward and written in a very simple, but commanding manner to be more memorable to the user. 
 
     3. I want to learn about what World Mental Health Day is, what is its purpose, how will it help bring awareness to mental health issues, and why should I participate in it.
 
+        1. While going through the 'Spread the Word' page, the user will also come across the 'World Mental Health Day' section, whcih contains boldened body-text and orange headers used for aesthetic purposes and to grasp the viewer's attention. 
+
+        1. There, the user will find information on when World Mental Health Day is celebrated, for what purpose is it celebrated, who are the primary participants, general information on its history and its tradition of finding new themes, and 
+            the importance of this year's World Mental Health Day. 
+
     4. I want to gain insight into what Suicide Prevention Week is, what I can do to push against the stigma associated with suicide, and how can I help educate the people around me on suicide-prevention.
+
+        1. As the user will continue to scroll through the 'Spread the Word' page, they will find the 'Suicide Prevention' section (located right after the 'World Mental Health Day' section).
+
+        1. In that section the user will learn when National Suicide Prevention week occurs, what is its purpose, more information on suicide and its causes-and-effects, and a callout to educate ourselves and the people around us on suicide 
+            prevention. 
 
     5. I want to have access to an online shop where I can purchase clothes with inspirational messages on them that spread awareness on mental health and whose share of profits is donated to a non-profit organization. 
 
+        1. At the end of the 'Spread the Word' page, the user will run across the 'Shop' section, which contains multiple links to an external organization's (Self Care is for Everyone) website.
+
+        1. In the 'Shop' section the user will be able to find information on the mission of 'Self Care is for Everyone', what can the user find in their online store, and how wearing their clothes will help spread awareness and raise funds in 
+            support of mental health. 
+            
+            They will also find examples of some of the clothing articles available in their online store. 
+
+        1. The two links follow the normal link-conventions established prior in the website, with large highlighted text and an arrow-icon, indicating that the user is looking at a link. The first links takes the user to the organization's 
+            general home page and the second link takes them to their online store.
+
+            The links to the specific articles of clothing that are displayed are less obvious, and a user who has not read the body of the section may not know that these images are clickable elements that lead them to an external page. However, 
+            a user who has read the body will easily understand that these images also serve as links.     
+
 - #### Administrator of the Website \- Goals
 
-    1. I want to provide an external link to the official WHO Covid-19 website to direct visitors who may be in need of the latest information and tools pertaining to Covid-19 when living in these unique times. 
+    1. I want to provide an external link to the official WHO Covid-19 website to direct visitors who may be in need of the latest information and tools pertaining to Covid-19 when living in these unique times.
 
-    2. I want to add a mock-up of the sign-up page, the sign-in page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
+    2. I want to provide a clean design structure which is both entertaining and simple-to-understand for the visitor, with no obnoxious design features or repetitive layouts. 
 
-    3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
+    3. I want to add a mock-up of the sign-up page, the sign-in page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
 
-    4. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
+    4. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
+
+    5. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
 
 ### Further Testing
 
