@@ -287,7 +287,11 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. The user also can continue scrolling through the 'Home' page until they find an orange link with the text 'Listen to their stories', which is located under two white texts and a black-and-white image. When clicking the orange 
             link the user will head straight to the 'Story' section, without having to scroll through the 'Educate Yourself' page. 
 
+            ![Image showing the 'Listen to their stories' link in the 'Home' page](assets/readme-media/listen-to-their-stories.PNG)
+
         1. Inside of the 'Story' section, the user will find various extracts from personal anecdotes of the people who have struggled or are still struggling with mental issues.
+
+            ![Image showing a part of the 'Story' section](assets/readme-media/stories.PNG)
 
     3. I want to easily navigate around the website to find different bits of information on mental health.
 
@@ -301,11 +305,15 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. At the bottom of the 'Educate Yourself' page, four links appear (two in white font-color, one black button, and one in black font-color), which respectively take the user to the 'Help Yourself', 'Help Others', 'Sign Up' and 'Spread the 
             Word' pages. 
 
+            ![Image showing the bottom of the 'Educate Yourself' page](assets/readme-media/what-can-you-do-now-with-this-information.PNG)
+
             This feature, however, does not appear on the other supplemental pages to avoid repetitive layouts (for more desirable design), which compels the user to have to scroll up to the navigation bar in order to access other supplemental 
             pages. Here, website functionality is sacrificed for aesthetic design.
 
             Yet still at the bottom of the 'Help Others' page, a vibrant orange link appears that will take the user to the 'Spread the Word' page, which comes next in our assigned order of the pages in the navigation bar.
-    
+
+            ![Image showing the vibrant orange link at the bottom of the 'Help Others' page](assets/readme-media/help-others-vibrant-link.PNG)
+
 - #### Visitor with Mental Health Problems \- Goals
 
     1. I want to learn about the different lifestyle changes I can make to help improve my personal mental wellbeing.
