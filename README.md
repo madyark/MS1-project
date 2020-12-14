@@ -577,9 +577,9 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
         ![Image showing the cropped version of the image above the 'Take care of yourself throughout the process' header](assets/readme-media/help-others-image-cropped.PNG)
 
-        ![Image showing the less-cropped version of the image above the 'Take care of yourself throughout the process' header](assets/readme-media/help-others-image-full.PNG)
+    2. This creates a lackluster user-experience, as the user will not derive the same meaning from the image when the head cannot be seen, and they will not be as satisfied with the design compared to when the head is not cropped.
 
-    2. This creates a lackluster user-experience, as the user will not derive the same meaning from the image when the head cannot be seen, and they will not be as satisfied with the design.
+        ![Image showing the less-cropped version of the image above the 'Take care of yourself throughout the process' header](assets/readme-media/help-others-image-full.PNG)
 
     3. However, for the other images, the cropping still leaves the main content for the users to see and understand. Therefore, the cropping will not lead to obnoxious design and will not severely damage UX.    
 
