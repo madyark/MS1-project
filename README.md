@@ -577,7 +577,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
         ![Image showing the cropped version of the image above the 'Take care of yourself throughout the process' header](assets/readme-media/help-others-image-cropped.PNG)
 
-        ![Image showing the less-cropped version of the image above the 'Take care of yourself throughout the process' header](assets/readme-media/help-others-image-full)
+        ![Image showing the less-cropped version of the image above the 'Take care of yourself throughout the process' header](assets/readme-media/help-others-image-full.PNG)
 
     2. This creates a lackluster user-experience, as the user will not derive the same meaning from the image when the head cannot be seen, and they will not be as satisfied with the design.
 
