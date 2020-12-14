@@ -567,7 +567,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     2. Therefore, a better solution was found with updating the margin numbers for different media queries (for the min-height attribute). 
 
-    3. However, the number of media queries had to stop somewhere. Therefore users with screen sizes who have height more than 3510px (or 3610px for the 'Sign In' page) will have to enlarge 
+    3. However, the number of media queries had to stop somewhere. Therefore users with screen sizes who have height greater than 3510px (or 3610px for the 'Sign In' page) will have to enlarge 
         their pages by zooming in. 
 
 - The images used in the 'Acquaintance Struggling' section of the 'Help Others' page will sometimes be cropped from the top and bottom on certain screen sizes. 
@@ -595,6 +595,10 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     2. This bug is not present on mobile devices, tablets, and any other devices below the screen-width of 1310px, since the article is hidden. 
 
+- At certain times, the Twitter link in the footer leads to an error page. However, this seems to be a bug from Twitter's side, not ours, as the link is correct and the error message claims that the issue is with Twitter. 
+
+- Accessibility 
+
 ### Development Obstacles 
 
 - Bootstrap
@@ -605,7 +609,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - Semantic HTML
 
-- 
+- Accessibility
 
 ## Deployment
 
