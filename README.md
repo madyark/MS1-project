@@ -389,12 +389,12 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             The link-text describes whether the link is to an app or a website, the organization behind the link, and for whom the links are intended.
 
-            ![Image showing the 'External Links' subsection of the 'Resources' section of the 'Help Yourself' page](assets/readme-media/external-links.PNG)
-
         1. Once locating the 'External Links' subsection, the user can click on any of the links, all of whom will take them to an external tab with the relevant web address. These links are apps or websites for people with specific mental 
             health issues or for people with specific needs.  
 
             On Apple mobile and tablet devices, the links to the apps might open on the 'App Store' application instead of a new tab on their browser.  
+
+            ![Image showing the 'External Links' subsection of the 'Resources' section of the 'Help Yourself' page](assets/readme-media/external-links.PNG)
 
 - #### Visitor with Desires to Help Someone with Mental Health Problems \- Goals
 
@@ -558,7 +558,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 ### Content
 
 - The user will often times notice that there is a lot of bold, large, and centered content that appears on multiple pages. The large and bold text was inspired from [the Washington Post Instagram posts](https://www.instagram.com/washingtonpost/) 
-    and the centered content from [the Black Lives Matter Carrd webpage](https://blacklivesmatters.carrd.co/)
+    and the centered content from [the Black Lives Matter Carrd webpage](https://blacklivesmatters.carrd.co/).
 
 - The entire 'Home' page layout (including the navigation bar, 'COVID-19 resources' link, and footer) was inspired by [the Square website homepage](https://squareup.com/us/en). Our website also derived some of the font-size numbers, 
     padding numbers, and margin numbers from Square's website by using Google Chrome's DevTools. 
@@ -569,7 +569,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 ### Media
 
-### Acknowledgements.
+### Acknowledgements
 
 
 
