@@ -547,11 +547,71 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 ### Known Bugs
 
-- 
+- On certain device screen sizes, the arrow icon used on some of the textual-links may appear in a different line compared to the text, which diminishes user experience. 
+
+- On a Galaxy Fold, the narrow screen size creates very dense content. 
+
+    1. This makes the design of the website aesthetically appear worse and have worse functionality, all of which leads to poor UX. 
+
+    2. This was discovered through the use of Chrome Developer Tools. No manual testing was done on a real Galaxy Fold. 
+
+    3. This is also true to all other devices whose screen-width might be less than 300px. 
+
+    4. A simple solution to this problem would be to create an extra media query for devices with a max-width of 300px and apply appropriate style changes. 
+
+- On devices with screen-heights of more than 3510px, the footer in the 'Sign Up' page will not stick to the very bottom of the page.
+
+    On devices with screen-height of more than 3610px, the footer in the 'Sign In' page will not stick to the very bottom of the page.     
+
+    1. Having a `footer { position: fixed; }` in the CSS was not optimal as it lessened user experience for screen sizes where the user would have to scroll through the page. 
+
+    2. Therefore, a better solution was found with updating the margin numbers for different media queries (for the min-height attribute). 
+
+    3. However, the number of media queries had to stop somewhere. Therefore users with screen sizes who have height more than 3510px (or 3610px for the 'Sign In' page) will have to enlarge 
+        their pages by zooming in. 
+
+- The images used in the 'Acquaintance Struggling' section of the 'Help Others' page will sometimes be cropped from the top and bottom on certain screen sizes. 
+
+    1. On screen-widths between 1500px and 1820px and those that are more than 2500px, the image above the 'Take care of yourself throughout the process' header will be undesirably cut short from the top, as the head of the person in the 
+        image cannot be seen. 
+
+        ![Image showing the cropped version of the image above the 'Take care of yourself throughout the process' header](assets/readme-media/help-others-image-cropped.PNG)
+
+        ![Image showing the less-cropped version of the image above the 'Take care of yourself throughout the process' header](assets/readme-media/help-others-image-full)
+
+    2. This creates a lackluster user-experience, as the user will not derive the same meaning from the image when the head cannot be seen, and they will not be as satisfied with the design.
+
+    3. However, for the other images, the cropping still leaves the main content for the users to see and understand. Therefore, the cropping will not lead to obnoxious design and will not severely damage UX.    
+
+- Mobile and tablet users may find that the links provided in the 'Home' page call-to-action (very first section of the page) are obnoxious and not user-friendly. 
+
+    1. The reason for this is that since they cannot hover over all elements like desktop users, they might now know that the latter three headers serve as links to supplemental pages. 
+
+    2. They may therefore be suprised if they accidentally redirect themselves to a supplemental page, which does not create the most optimal UX.
+
+- On the Mozilla Firefox browser, when the user attempts to access the 'Help Yourself' page from any of the links to it or to its particular sections, they will be redirected to the 'Articles' subsection of the 'Resources' section of the page.
+
+    1. The reason for this bug is unknown and is still under investigation. 
+
+    2. This bug is not present on mobile devices, tablets, and any other devices below the screen-width of 1310px, since the article is hidden. 
 
 ### Development Obstacles 
 
+- Bootstrap
+
+- Mobile-first responsive design
+
+- Wireframe
+
+- Semantic HTML
+
+- 
+
 ## Deployment
+
+- The website was deployed to [Github pages](https://pages.github.com/). 
+
+- View the project [here](https://madyark.github.io/MS1-project/). 
 
 ## Credits
 
