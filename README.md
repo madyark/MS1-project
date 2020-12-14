@@ -516,8 +516,6 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
             
             They can then press the 'Sign In' button which will take them to the Code Insitute formdump in an outside tab, where they will be able to see their inputs.
 
-            ![Image showing the formdump results for the 'Sign In' completed form example](assets/readme-media/sign-in-formdump.PNG)
-
         1. Through the use of the 'Get Started' button (which appears on multiple pages throughout the website) or by pressing on the 'Sign Up' link (in orange) at the bottom of the Sign-In page, just before the footer, the user will access the 
             'Sign Up' page. 
 
@@ -527,8 +525,6 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             Once the user enters appropriate values for the inputs, and presses the 'Sign Up' button, they will once again be redirected to the formdump in an external tab that will once more show them their inputted values. 
 
-            ![Image showing the formdump results for the 'Sign Up' completed form example](assets/readme-media/sign-up-formdump.PNG)
-
         1. At the 'Mental Health Awareness Newsletter' section of the 'Home' page (which appears right before the full-width image), the user will be able to find texts that call on them to sign up to the newsletter utility and a form with an 
             email input and a 'Sign up now' button. 
  
@@ -537,8 +533,6 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
             ![Image showing an example of a completed form in the 'Mental Health Awareness Newsletter' section of the 'Home' page](assets/readme-media/newsletter.PNG)
             
             Once the user enters their email address, they will be once again taken to the Code Insitute formdump through an external tab. 
-
-            ![Image showing the formdump results for the 'Mental Health Awareness Newsletter' section completed form example](assets/readme-media/newsletter-formdump.PNG)
 
     3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
 
