@@ -407,6 +407,8 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             The text is assisted with cartoon images, which provide a better user-experience (UX) and allow the viewer to quickly gather context on the content of the accompanying texts. 
 
+            ![Image showing the first part of the 'Acquaintance Struggling' section of the 'Help Others' page](assets/readme-media/acquaintance-struggling.PNG)
+
     2. I want to understand the ways I can help somebody I do not know with their mental health problems.
 
         1. After gaining access to the 'Help Others' page, the user can scroll down to the 'Tips' section of the page (the last section which appears just before the footer), where they will be greeted with various concise and specific tips that 
@@ -415,7 +417,9 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. These specific tips provide information on different ways a person can help increase the mental wellbeing of others around them, without having to know if they suffer from mental health conditions.
 
         1. There are also tips that deal with giving indirect help to people with mental health conditions (whom you do not have to know) by volunteering for or donating money to a mental health organization. The last tip also serves as a link to 
-            the 'Spread the Word' page, and is highlighted with an orange font-color.   
+            the 'Spread the Word' page, and is highlighted with an orange font-color. 
+
+            ![Image showing the first part of the 'Tips' section of the 'Help Others' page](assets/readme-media/help-others-tips.PNG)  
 
     3. I want to be re-affirmed in my quest to support people with mental health problems by a motivating message, despite my potential frustrations or reservedness. 
 
@@ -426,6 +430,8 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         
             A lot of people who are willing to give their support may sometimes feel reserved (on if their support will be appreciated) or even frustrated (with the person they are trying to help). These are normal feelings to have, but the 
             image and the accompanying text call on them to have perspective, empathy, and courage when extending their support to others.  
+
+            ![Image showing the 'Title' section of the 'Help Others' page](assets/readme-media/movivational-message.PNG)
 
 - #### Visitor with Aspirations to Bring Awareness to Mental Health Issues \- Goals
 
