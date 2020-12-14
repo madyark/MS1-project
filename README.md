@@ -110,7 +110,7 @@ On our website, users can easily navigate across different pages to find the inf
 
         2. The videos used in this website solely appear in the 'Help Yourself' page of the website. They also have rounded corners for greater aesthetic appearances. 
         
-            The videos are inserted as iframe elements of youtube links, and they allow the viewer to decide when to press play and when to press stop. Autoplay is turned off as the website allows the viewer to initiate and control such actions.
+            The videos are inserted as iframe elements of Youtube links, and they allow the viewer to decide when to press play and when to press stop. Autoplay is turned off as the website allows the viewer to initiate and control such actions.
             
             All of the videos are responsive. 
 
@@ -159,9 +159,9 @@ On our website, users can easily navigate across different pages to find the inf
 
     ![Gif showing the use of the scrollable div element inside of the 'Suicide Hotlines' section](assets/readme-media/suicide-hotlines.gif)
 
-- Four `<iframe>` elements of youtube videos and an article from the 'Scientific American' in the 'Resources' section of the 'Help Yourself' page.
+- Four `<iframe>` elements of Youtube videos and an article from the 'Scientific American' in the 'Resources' section of the 'Help Yourself' page.
 
-    ![Gif showing the use of the iframe elements inside inside of the 'Resources' section](assets/readme-media/iframe-elements.gif)
+    ![Gif showing the use of the iframe elements inside of the 'Resources' section](assets/readme-media/iframe-elements.gif)
 
 - External links to outside resources (mainly websites and mobile applications) in the 'Resources' section of the 'Help Yourself' page that give the users the opportunity to find support that may be more tailored to their needs.
 
@@ -176,7 +176,7 @@ On our website, users can easily navigate across different pages to find the inf
 - Functioning sign-up and sign-in utilities that would allow users to have access to a virtual community where they could recount personal experiences, share uplifting messages, organize events, and potentially give donations to non-profit 
     organizations.
 
-    ![Gif showing the effect of the use of the current sign-in and sign-up utlities in the 'Sign In' and 'Sign Up' pages, respectively](assets/readme-media/sign-in-sign-up.gif)
+    ![Gif showing the effect of the use of the current sign-in and sign-up utilities in the 'Sign In' and 'Sign Up' pages, respectively](assets/readme-media/sign-in-sign-up.gif)
 
 - A functioning monthly newsletter in which participants would be able to receive offical news from our organization, our community events, support articles, tips from industry professionals, and other forms of support from our organization.
 
@@ -268,7 +268,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             ![Image showing the four headers with the 'What is it?' text being hovered upon](assets/readme-media/what-is-it-hover.PNG) 
         
-        1. Inside of the 'Educate Yourself' page, the user can find general information about what mental health is and different figures relating to mental health and mental health issuess.
+        1. Inside of the 'Educate Yourself' page, the user can find general information about what mental health is and different figures relating to mental health and mental health issues.
 
             ![Image showing the content of the 'Educate Yourself' page](assets/readme-media/educate-yourself-content.PNG)
 
@@ -436,7 +436,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
         1. Once in the 'Spread the Word' page, the user can easily find the 'Talking Mental Health Reasons' section of the page. 
 
-        1. There the user will stumble across three different reasons on why talking about mental health matters, as well as full, detailed explanations behind the each of the reasons. 
+        1. There the user will stumble across three different reasons on why talking about mental health matters, as well as full, detailed explanations behind each of the reasons. 
 
             ![Image showing the first part of the 'Talking Mental Health Reasons' section of the 'Spread the Word' page](assets/readme-media/talking-mental-health-reasons.PNG)
 
@@ -504,14 +504,14 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             There, they will access a clean interface that will ask them to enter their email address and password. The email address input will look for the conventional email format (using the '@'), and the password input will be hidden. 
             
-            The inputs have labels (for accessibility reasons) but they are hidden for aesthetic reasons and are replaced with placeholders.  
+            The inputs have labels (for accessibility reasons), but they are hidden for aesthetic reasons and are replaced with placeholders.  
 
             ![Image showing an example of a completed form in the 'Sign In' page](assets/readme-media/sign-in-form.PNG)
 
         1. Through the use of the 'Get Started' button (which appears on multiple pages throughout the website) or by pressing on the 'Sign Up' link (in orange) at the bottom of the Sign-In page, just before the footer, the user will access the 
             'Sign Up' page. 
 
-            There, they will see a similar interface but one that asks them to enter more inputs. These inputs also have labels but they are also hidden and replaced with placeholders. 
+            There, they will see a similar interface but one that asks them to enter more inputs. These inputs also have labels, but they are also hidden and replaced with placeholders. 
 
             ![Image showing an example of a completed form in the 'Sign Up' page](assets/readme-media/sign-up-form.PNG) 
 
@@ -537,7 +537,17 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 ### Further Testing
 
+- The website was tested on Google Chrome, Microsoft Edge, Safari, Mozilla Firefox, and Opera browsers. 
+
+- The website was viewed on a variety of devices, such as iPhone X, iPad Pro, Macbook Air (11-inch), Macbook Pro, and Microsoft Studio. 
+
+- A large amount of testing was done to ensure that all the links properly function. 
+
+- Friends and some family members were asked to review the website for any bugs or UX issues. 
+
 ### Known Bugs
+
+- 
 
 ### Development Obstacles 
 
