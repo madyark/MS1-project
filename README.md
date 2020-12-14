@@ -444,6 +444,8 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
         1. There the user will stumble across three different reasons on why talking about mental health matters, as well as full, detailed explanations behind the each of the reasons. 
 
+            ![Image showing the first part of the 'Talking Mental Health Reasons' section of the 'Spread the Word' page](assets/readme-media/talking-mental-health-reasons.PNG)
+
     2. I want to discover the specific ways I can help combat mental health stigma within my community.
 
         1. When scrolling through the 'Spread the Word' page, the user will come across the 'Ways to Fight Stigma' section (just after the 'Talking Mental Health Reasons' section), which begins with the 'Ways to help fight mental health 
@@ -451,7 +453,9 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
         1. In that section, the user will see a row of different tips in a large font size (for greater emphasis), each of which describes the specific ways they can combat mental health stigma. 
         
-            These tips are very straightforward and written in a very simple, but commanding manner to be more memorable to the user. 
+            These tips are very straightforward and written in a very simple, but commanding manner to be more memorable to the user.
+
+            ![Image showing the first part of the 'Ways to Fight Stigma' section of the 'Spread the Word' page](assets/readme-media/ways-to-fight-stigma.PNG)
 
     3. I want to learn about what World Mental Health Day is, what is its purpose, how will it help bring awareness to mental health issues, and why should I participate in it.
 
@@ -460,12 +464,16 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. There, the user will find information on when World Mental Health Day is celebrated, for what purpose is it celebrated, who are the primary participants, general information on its history and its tradition of finding new themes, and 
             the importance of this year's World Mental Health Day. 
 
+            ![Image showing the first part of the 'World Mental Health Day' section of the 'Spread the Word' page](assets/readme-media/world-mental-health-day.PNG)
+
     4. I want to gain insight into what Suicide Prevention Week is, what I can do to push against the stigma associated with suicide, and how can I help educate the people around me on suicide-prevention.
 
         1. As the user will continue to scroll through the 'Spread the Word' page, they will find the 'Suicide Prevention' section (located right after the 'World Mental Health Day' section).
 
         1. In that section the user will learn when National Suicide Prevention week occurs, what is its purpose, more information on suicide and its causes-and-effects, and a callout to educate ourselves and the people around us on suicide 
             prevention. 
+
+            ![Image showing the first part of the 'Suicide Prevention' section of the 'Spread the Word' page](assets/readme-media/suicide-prevention.PNG)
 
     5. I want to have access to an online shop where I can purchase clothes with inspirational messages on them that spread awareness on mental health and whose share of profits is donated to a non-profit organization. 
 
@@ -476,11 +484,15 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
             
             They will also find examples of some of the clothing articles available in their online store. 
 
+            ![Image showing the first part of the 'Shop' section of the 'Spread the Word' page](assets/readme-media/shop.PNG)
+
         1. The two links follow the normal link-conventions established prior in the website, with large highlighted text and an arrow-icon, indicating that the user is looking at a link. The first links takes the user to the organization's 
             general home page and the second link takes them to their online store.
 
             The links to the specific articles of clothing that are displayed are less obvious, and a user who has not read the body of the section may not know that these images are clickable elements that lead them to an external page. However, 
-            a user who has read the body will easily understand that these images also serve as links.     
+            a user who has read the body will easily understand that these images also serve as links.    
+
+            ![Image showing the 'Self Care is for Everyone' webpage of a specific clothing article](assets/readme-media/self-care-is-for-everyone.PNG) 
 
 - #### Administrator of the Website \- Goals
 
