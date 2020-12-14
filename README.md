@@ -64,15 +64,13 @@ On our website, users can easily navigate across different pages to find the inf
 
     - #### Administrator of the Website \- Goals
 
-        1. I want to provide an external link to the official WHO Covid-19 website to direct visitors who may be in need of the latest information and tools pertaining to Covid-19 when living in these unique times. 
+        1. I want to provide an external link to the official WHO COVID-19 website to direct visitors who may be in need of the latest information and tools pertaining to COVID-19 when living in these unique times. 
 
-        2. I want to provide a clean design structure which is both entertaining and simple-to-understand for the visitor, with no obnoxious design features or repetitive layouts. 
+        2. I want to add a mock-up of the Sign-In page, the Sign-Up page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
 
-        3. I want to add a mock-up of the Sign-In page, the Sign-Up page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools. 
+        3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
 
-        4. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
-
-        5. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
+        4. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
 
 - ### Design
 
@@ -132,9 +130,9 @@ On our website, users can easily navigate across different pages to find the inf
 
 - Responsiveness on all device sizes. The website is specifically configured for mobile devices, tablets, laptops, and large desktops. 
 
-- Link to the official World Health Organization Covid-19 Information page, where users can access the latest Covid-19 data, advice, and other resources for guidance.
+- Link to the official World Health Organization COVID-19 Information page, where users can access the latest COVID-19 data, advice, and other resources for guidance.
 
-    ![Gif showing how a user can open the WHO Covid-19 Information page from out website](assets/readme-media/covid-resources.gif)
+    ![Gif showing how a user can open the WHO COVID-19 Information page from out website](assets/readme-media/covid-resources.gif)
 
 - A responsive navigation bar at the top of every page which contains the links to all pages including the home page through a logo with our organization name. 
 
@@ -377,7 +375,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             ![Image showing the first part of the 'Videos' subsection of the 'Resources' section of the 'Help Yourself' page](assets/readme-media/mental-health-resources-1.PNG)
 
-            The article describes how loneliness has improved even amidst Covid-19 restrictions in the U.S. It is structured in a more scientific, informative manner, but is still able to convey the feelings of reassurance and self-belief for 
+            The article describes how loneliness has improved even amidst COVID-19 restrictions in the U.S. It is structured in a more scientific, informative manner, but is still able to convey the feelings of reassurance and self-belief for 
             people struggling with mental health issues, especially during these difficult times. 
 
             ![Image showing the 'Articles' subsection of the 'Resources' section of the 'Help Yourself' page](assets/readme-media/mental-health-resources-2.PNG)  
@@ -496,7 +494,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - #### Administrator of the Website \- Goals
 
-    1. I want to provide an external link to the official WHO Covid-19 website to direct visitors who may be in need of the latest information and tools pertaining to Covid-19 when living in these unique times.
+    1. I want to provide an external link to the official WHO COVID-19 website to direct visitors who may be in need of the latest information and tools pertaining to COVID-19 when living in these unique times.
 
         1. On every page, at the very top of the page (just above the navigation bar), the user will find a link with the text 'COVID-19 Resources' as well as two icons, one on the left and one on the right. 
 
@@ -507,24 +505,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             ![Image showing the World Health Organization COVID-19 homepage](assets/readme-media/world-health-organization.PNG)
 
-    2. I want to provide a clean design structure which is both entertaining and simple-to-understand for the visitor, with no obnoxious design features or repetitive layouts. 
-
-        1. On every page, the look of the navigation bar and the 'COVID-19 resources link' maintain the same appearance. They also have different background-colors for the user to have an easier time seperating them, and boldened text for greater 
-            emphasis.  
-        
-        1. The user will find that the structure of content is different on almost every page (images, text, and links have unique layouts and formats), which creates a more entertaining experience when scrolling through the content. 
-
-        1. The user will have to scroll on every page (except for the Sign In and Sign Up pages), which makes the experience similar to that of flipping through a book or a magazine. This is largely unique compared to conventional websites who 
-            usually put all of the page's content together in a single frame. 
-
-        1. The user can also sometimes find different background-colors being used on the page to divide up the sections. This is noticeable in the 'Home' page where a section will use a gray background to highlight the change in sections. 
-
-            Additionally, the 'Spread the Word' page uses this feature in an original fashion. Some sections are seperated by white and black backgrounds, and have an image sitting in the middle of the two backgrounds to create an 
-            aesthetically-pleasing transition.
-
-            ![Image showing an example of a 'Spread the Word' background transition](assets/readme-media/spread-the-word-background.PNG)
-
-    3. I want to add a mock-up of the Sign-In page, the Sign-Up page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools.
+    2. I want to add a mock-up of the Sign-In page, the Sign-Up page, and the newsletter-subscription utility to make the website look more authentic and to have them be on stand-by for when I will be able to develop them into functioning tools.
 
         1. The user can press on the 'Sign In | Sign Up' link at the very right of the navigation bar which will take them to the 'Sign In' page.
 
@@ -559,13 +540,13 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             ![Image showing the formdump results for the 'Mental Health Awareness Newsletter' section completed form example](assets/readme-media/newsletter-formdump.PNG)
 
-    4. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
+    3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
 
         1. At the bottom-right of every footer on every page, as well as in the black, bold text in the 'Sign Up' page, the user will see the texts 'Privacy Notice' and 'Terms of Service'. 
 
         1. These texts are simply texts (not clickable links as they may appear to some), which will be replaced with links once the website will have ready-for-use 'Privacy Notice' and 'Terms of Service' documents to share.  
 
-    5. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
+    4. I want to have links to the home-pages of different social media websites in the footer to have them on stand-by for when I will create accounts on their platforms to raise public attention on our organization and our mission. 
 
         1. At the top-right of every footer the user can find three different icons of the Twitter, Facebook, and Instagram social media platforms. These icons are links which once clicked upon will take the user to the home pages of those 
             respective platforms in a new tab (or to the app sometimes if on mobile). 
