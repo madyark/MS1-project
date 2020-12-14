@@ -431,7 +431,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
             A lot of people who are willing to give their support may sometimes feel reserved (on if their support will be appreciated) or even frustrated (with the person they are trying to help). These are normal feelings to have, but the 
             image and the accompanying text call on them to have perspective, empathy, and courage when extending their support to others.  
 
-            ![Image showing the 'Title' section of the 'Help Others' page](assets/readme-media/movivational-message.PNG)
+            ![Image showing the 'Title' section of the 'Help Others' page](assets/readme-media/motivational-message.PNG)
 
 - #### Visitor with Aspirations to Bring Awareness to Mental Health Issues \- Goals
 
