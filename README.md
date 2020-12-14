@@ -214,8 +214,6 @@ On our website, users can easily navigate across different pages to find the inf
 
     - Git was used for version control through the use of the Gitpod terminal to commit the changed code to Git and push it to Github.
 
-    - Git was especially useful for accessing the code that was previously (intentionally or unintentionally) removed or modified and for adding it back in its original form to the HTML or CSS files.  
-
 5. [Github:](https://github.com/)
 
     - Github was used for storing the code of the website and accessing it later for future alterations.
@@ -293,7 +291,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     3. I want to easily navigate around the website to find different bits of information on mental health.
 
-        1. Upon entering the site, the user will find a vivid navigation bar on every page, which they can use to reach the page of their choice. When accessing one of the supplemental pages, the active-link appears in orange to help the user 
+        1.  The user will find a vivid navigation bar on every page, which they can use to reach the page of their choice. When accessing one of the supplemental pages, the active-link appears in orange to help the user 
             locate their current location in the website.
 
         1. Scrolling through the 'Home' page, the user will come across different links that either take them to the top of the supplemental pages of the website or specific sections of those supplemental pages. 
@@ -385,9 +383,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. The user could once again scroll to the 'Resources' section of the 'Help Yourself' page, amongst which they will find an 'External Links' subsection (located after the videos and articles, and just before the footer). They will 
             discover multiple rows of centered links in a light-blue color.
 
-            The link-text describes whether the link is to an app or a website, the organization behind the link, and for whom the links are intended.
-
-        1. Once locating the 'External Links' subsection, the user can click on any of the links, all of whom will take them to an external tab with the relevant web address. These links are apps or websites for people with specific mental 
+        1. The user can click on any of the links, all of whom will take them to an external tab with the relevant web address. These links are apps or websites for people with specific mental 
             health issues or for people with specific needs.  
 
             On Apple mobile and tablet devices, the links to the apps might open on the 'App Store' application instead of a new tab on their browser.  
@@ -438,7 +434,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. Whether it is by using the navigation bar, the last link in orange of the 'Home' page call-to-action, the last link in black at the end of the 'Educate Yourself' page, or the orange link provided at the end of the 'Help Others' page, 
             the user access the 'Spread the Word' page. 
 
-        1. Once in the 'Spread the Word' page, the user can scroll down until they find the 'Reasons why talking about mental health matters' text which commences the 'Talking Mental Health Reasons' section of the page. 
+        1. Once in the 'Spread the Word' page, the user can easily find the 'Talking Mental Health Reasons' section of the page. 
 
         1. There the user will stumble across three different reasons on why talking about mental health matters, as well as full, detailed explanations behind the each of the reasons. 
 
@@ -446,8 +442,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     2. I want to discover the specific ways I can help combat mental health stigma within my community.
 
-        1. When scrolling through the 'Spread the Word' page, the user will come across the 'Ways to Fight Stigma' section (just after the 'Talking Mental Health Reasons' section), which begins with the 'Ways to help fight mental health 
-            stigma' header.
+        1. When scrolling through the 'Spread the Word' page, the user will come across the 'Ways to Fight Stigma' section (just after the 'Talking Mental Health Reasons' section).
 
         1. In that section, the user will see a row of different tips in a large font size (for greater emphasis), each of which describes the specific ways they can combat mental health stigma. 
         
@@ -457,7 +452,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     3. I want to learn about what World Mental Health Day is, what is its purpose, how will it help bring awareness to mental health issues, and why should I participate in it.
 
-        1. While going through the 'Spread the Word' page, the user will also come across the 'World Mental Health Day' section, whcih contains boldened body-text and orange headers used for aesthetic purposes and to grasp the viewer's attention. 
+        1. While going through the 'Spread the Word' page, the user will also come across the 'World Mental Health Day' section, which contains boldened body-text and orange headers used for aesthetic purposes and to grasp the viewer's attention. 
 
         1. There, the user will find information on when World Mental Health Day is celebrated, for what purpose is it celebrated, who are the primary participants, general information on its history and its tradition of finding new themes, and 
             the importance of this year's World Mental Health Day. 
@@ -484,11 +479,9 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             ![Image showing the first part of the 'Shop' section of the 'Spread the Word' page](assets/readme-media/shop.PNG)
 
-        1. The two links follow the normal link-conventions established prior in the website, with large highlighted text and an arrow-icon, indicating that the user is looking at a link. The first links takes the user to the organization's 
-            general home page and the second link takes them to their online store.
-
-            The links to the specific articles of clothing that are displayed are less obvious, and a user who has not read the body of the section may not know that these images are clickable elements that lead them to an external page. However, 
-            a user who has read the body will easily understand that these images also serve as links.    
+        1. The links to the specific articles of clothing that are displayed are not very obvious, and a user who has not read the body of the section may not know that these images are clickable elements that lead them to an external page. 
+            
+            However, a user who has read the body will easily understand that these images also serve as links.    
 
             ![Image showing the 'Self Care is for Everyone' webpage of a specific clothing article](assets/readme-media/self-care-is-for-everyone.PNG) 
 
@@ -509,30 +502,25 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
         1. The user can press on the 'Sign In | Sign Up' link at the very right of the navigation bar which will take them to the 'Sign In' page.
 
-            There, they will access a clean interface that will ask them to enter their email address and password. The email address input will look for the conventional email format (using the '@'), and the password input will be hidden. The 
-            inputs have labels (for accessibility reasons) but they are hidden for aesthetic reasons and are replaced with placeholders.  
+            There, they will access a clean interface that will ask them to enter their email address and password. The email address input will look for the conventional email format (using the '@'), and the password input will be hidden. 
+            
+            The inputs have labels (for accessibility reasons) but they are hidden for aesthetic reasons and are replaced with placeholders.  
 
             ![Image showing an example of a completed form in the 'Sign In' page](assets/readme-media/sign-in-form.PNG)
-            
-            They can then press the 'Sign In' button which will take them to the Code Insitute formdump in an outside tab, where they will be able to see their inputs.
 
         1. Through the use of the 'Get Started' button (which appears on multiple pages throughout the website) or by pressing on the 'Sign Up' link (in orange) at the bottom of the Sign-In page, just before the footer, the user will access the 
             'Sign Up' page. 
 
             There, they will see a similar interface but one that asks them to enter more inputs. These inputs also have labels but they are also hidden and replaced with placeholders. 
 
-            ![Image showing an example of a completed form in the 'Sign Up' page](assets/readme-media/sign-up-form.PNG)
-
-            Once the user enters appropriate values for the inputs, and presses the 'Sign Up' button, they will once again be redirected to the formdump in an external tab that will once more show them their inputted values. 
+            ![Image showing an example of a completed form in the 'Sign Up' page](assets/readme-media/sign-up-form.PNG) 
 
         1. At the 'Mental Health Awareness Newsletter' section of the 'Home' page (which appears right before the full-width image), the user will be able to find texts that call on them to sign up to the newsletter utility and a form with an 
             email input and a 'Sign up now' button. 
  
-            The input contains an 'Enter your email address' placeholder text and a hidden label (for accessibility reasons). 
+            The input contains an 'Enter your email address' placeholder text and a hidden label. 
 
             ![Image showing an example of a completed form in the 'Mental Health Awareness Newsletter' section of the 'Home' page](assets/readme-media/newsletter.PNG)
-            
-            Once the user enters their email address, they will be once again taken to the Code Insitute formdump through an external tab. 
 
     3. I want to create the Privacy Notice and Terms-of-Service texts to make the website look more authentic and to have them be on stand-by for when the website gains enough traction to add them in as links. 
 
@@ -545,7 +533,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. At the top-right of every footer the user can find three different icons of the Twitter, Facebook, and Instagram social media platforms. These icons are links which once clicked upon will take the user to the home pages of those 
             respective platforms in a new tab (or to the app sometimes if on mobile). 
 
-        1. These links are subject to change to real links of our social media accounts on these respective websites once we create them.  
+        1. These links are subject to change to real links of our social media accounts on these respective websites once we create those accounts.  
 
 ### Further Testing
 
