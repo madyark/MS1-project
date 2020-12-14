@@ -114,13 +114,13 @@ On our website, users can easily navigate across different pages to find the inf
         
             The videos are inserted as iframe elements of youtube links, and they allow the viewer to decide when to press play and when to press stop. Autoplay is turned off as the website allows the viewer to initiate and control such actions.
             
-            All of the videos are responsive. All of the videos have the `<iframe loading="lazy">` attribute set on them to reduce page load times.
+            All of the videos are responsive. 
 
         3. An article appears in the 'Help Yourself' page of the website. It also has rounded corners and is also inserted as an iframe element. 
         
             The article is hidden on mobile and tablet devices as the small device screen size makes the iframe difficult to operate. 
             
-            The article is responsive. The article has the `<iframe loading="lazy">` attribute set on it to reduce page load times.   
+            The article is responsive.    
 
 - ### Wireframe
 
@@ -323,6 +323,8 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
         1. The 'Help Yourself' page will immediately start with the 'Looking After Yourself' section, where the user will find information on how they can look after their mental health by adopting different lifestyle changes or carrying 
             out certain endeavors. 
 
+            ![Image showing the first part of the 'Looking After Yourself' section of the 'Help Yourself' page](assets/readme-media/looking-after-your-mental-health.PNG)
+
     2. I want to find out what immediate actions I can take to help cope with specific mental disorders such as depression, anxiety, and PTSD.
 
         1. At the 'Home' page, the user can come across the 'Mental Health More Information' section which presents the user with information on three specific mental disorders: depression, anxiety, and PTSD. 
@@ -330,10 +332,14 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
             The section is accompanied by three images, three bodies of text giving a general introduction to each of the mental disorders, and three links to the subsections of each disorder in the 'Specific Disorders' section of the 
             'Help Yourself' page.
 
+            ![Image showing the first part of the 'Mental Health More Information' section in the 'Home' page](assets/readme-media/depression-anxiety.PNG)
+
         1. The user can also scroll through the 'Help Yourself' page until they find the 'Specific Disorders' section (located just after the 'Looking After Yourself' section) which has information on managing specific disorders, such as 
             depression, anxiety, and PTSD. 
 
         1. After accessing the 'Specific Disorders' section from either the navigation bar or the links from the 'Home' page, the user will find various concise, specific, and to-the-point tips on how to compels with depression, anxiety, and PTSD. 
+
+            ![Image showing the first part of the 'Specific Disorders' section of the 'Help Yourself' page](assets/readme-media/learning-to-cope-with-different.PNG)
 
     3. I want to have knowledge of the specific links, emails, telephone numbers, and other suicide hotline resources in various countries that are available to me.
 
@@ -342,17 +348,23 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
             By pressing the 'Call them here' link (under the 'Call an emergency lifeline' header), the user will be redirected to the 'Suicide Hotlines' section of the 'Help Yourself' page.
 
+            ![Image showing the 'Mental Health Emergency' section of the 'Home' page](assets/readme-media/mental-health-emergency.PNG)
+
         1. The user can also scroll through the 'Help Yourself' page until they find the 'Suicide Hotlines' section (located just after the 'Specific Disorders' section) which contains a scrollable `<div>` element of various suicide-hotline 
             resources. 
         
         1. Inside of the `<div>` the user could find the different names of the organizations around the world that provide immediate help (including chat rooms, hotlines, etc.) to those in need, as well as the links, phone numbers, and even 
             email addresses of those organizations.   
 
+            ![Image showing the 'Suicide Hotlines' section of the 'Help Yourself' page](assets/readme-media/suicide-hotline-resources.PNG)
+
     4. I want to be able to access informative videos and articles on mental health to help myself feel better, less-isolated, and inspired whenever I am feeling down and facing inner adversity. 
 
         1. At the 'Home' page, the user can once more find the 'Mental Health Emergency' section, the last section of the page. The user will once again come across two `<div>` elements, with similar structures. 
         
             By pressing the 'Visit our support center' link (under the 'Support Center' header) of the latter `<div>` element, the user will be sent to the 'Resources' section of the 'Help Yourself' page. 
+
+            ![Image showing the 'Mental Health Emergency' section of the 'Home' page](assets/readme-media/mental-health-emergency.PNG) 
 
         1. The user could also find the 'Resources' section by scrolling down on the 'Help Yourself' page (located just after the 'Suicide Hotlines' section). There they will find four embedded `<iframe>` elements (three Youtube videos and one 
             article from the Scientific American).
@@ -363,8 +375,12 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
             The first video deals with explaining the importance of mental health and ways to improve it; the second video shows how to identify particular warning signs of mental health conditions for young adults; and the third video explains 
             the ways a person with mental health conditions can ask for help and the reasons for doing so. 
 
+            ![Image showing the first part of the 'Videos' subsection of the 'Resources' section of the 'Help Yourself' page](assets/readme-media/mental-health-resources-1.PNG)
+
             The article describes how loneliness has improved even amidst Covid-19 restrictions in the U.S. It is structured in a more scientific, informative manner, but is still able to convey the feelings of reassurance and self-belief for 
-            people struggling with mental health issues, especially during these difficult times.   
+            people struggling with mental health issues, especially during these difficult times. 
+
+            ![Image showing the 'Articles' subsection of the 'Resources' section of the 'Help Yourself' page](assets/readme-media/mental-health-resources-2.PNG)  
 
     5. I want to discover links to external apps and other organizations that can be more oriented to my needs and provide further guidance on how to treat my problems.   
 
@@ -372,6 +388,8 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
             discover multiple rows of centered links in a light-blue color.
 
             The link-text describes whether the link is to an app or a website, the organization behind the link, and for whom the links are intended.
+
+            ![Image showing the 'External Links' subsection of the 'Resources' section of the 'Help Yourself' page](assets/readme-media/external-links.PNG)
 
         1. Once locating the 'External Links' subsection, the user can click on any of the links, all of whom will take them to an external tab with the relevant web address. These links are apps or websites for people with specific mental 
             health issues or for people with specific needs.  
