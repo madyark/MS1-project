@@ -689,14 +689,22 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - A lot of code was inspired from various examples given in [MDN Web Docs](https://developer.mozilla.org/en-US/) and [W3Schools](https://www.w3schools.com/). 
 
-- The reasoning behind adding labels to all of the inputs in the website's forms was found in W3.org [here](https://www.w3.org/WAI/tutorials/forms/labels/). 
+- The reasoning behind adding labels to all of the inputs in the website's forms was found in W3C [here](https://www.w3.org/WAI/tutorials/forms/labels/). 
 
-- The importance of aria-labels was also found using W3.org [here](https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html). 
+- The importance of aria-labels was also found using W3C [here](https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html). 
+
+- [This StackOverflow post](https://stackoverflow.com/questions/10691021/how-to-insert-logo-with-the-title-of-a-html-page) helped with the creation of the favicon for the website. 
+
+- Markdown language syntax was found [here](https://www.markdownguide.org/basic-syntax/). 
+
+- A [sample README](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) was used for guidance during the composition of the README.md file. 
 
 - In the 'Home' page and multiple times in the 'Spread the Word' page, an entertaining transition between white and black backgrounds occurs, in the middle of which a large, highly-resoluted image is placed. 
 
     The solution on creating this transition was found on [a StackOverflow post](https://stackoverflow.com/questions/8541081/css-set-a-background-color-which-is-50-of-the-width-of-the-window). The linear-gradient solution was chosen 
     (second answer from top). 
+
+- The vertical-centering of images in the 'Acquaintance Struggling' section of the 'Help Others' page was found on [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-center-an-image-in-css/).
 
 ### Content
 
@@ -710,13 +718,27 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - The frequent use of black backgrounds along with white text and large images, that could be seen in certain sections of the 'Spread the Word' page was inspired by [Square's 'Why Square' page](https://squareup.com/us/en/why-square).
 
+- The suicide hotline resources in the 'Help Yourself' page were taken from [this webpage](https://faq.whatsapp.com/general/security-and-privacy/global-suicide-hotline-resources/?lang=en).
+
 ### Media
+
+- The icon for our organization was found here in the [Free Icons Library website](https://icon-library.com/icon/hugging-icon-18.html).
+
+    This icon appears in the navigation bar, favicon, and at the top of the 'Sign-In' and 'Sign-Up' pages. 
+
+- The image behind the 'Depression' subsection in the 'Home' page (with the header 'Guidance on how to manage depression') was taken from [here](https://www.shutterstock.com/g/andrewstripes).
+
+- The image behind the 'Anxiety' subsection in the 'Home' page (with the header 'Guidance on how to manage anxiety') was taken from [here](https://www.istockphoto.com/de/fotos/kieferpix?phrase=kieferpix&sort=best). 
 
 - The vector images used in the 'Acquaintance Struggling' section of the 'Help Others' page were found on [FreePic](https://www.freepik.com/).
 
 - All of the rest of the images were found on [Unsplash](https://unsplash.com/) or [Pixabay](https://pixabay.com/).
 
 - All of the embedded videos were taken from [Youtube](https://www.youtube.com/).
+
+- [ProDraw](http://www.prodraw.net/favicon/index.php) was used in order to convert our logo image to a favicon.
+
+- [EZGIF](https://ezgif.com/) was used to convert MP4 files to Gifs (for the README file) and to convert WEBPs to PNGs for the website. 
 
 ### Acknowledgements
 
