@@ -601,11 +601,11 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - Users with certain disabilities may find our website difficult-to-use, and therefore may struggle understanding the purpose of some of our features. 
     
-    1. Although semantic HTML (e.g. `<section>`s), aria-labels, aria-hidden elements, and hidden form-labels are in use, there are still areas across the entirety of the website that could have more flexibility for those particular users. 
+    1. Although semantic HTML (e.g. `<section>` elements), aria-labels, aria-hidden elements, and hidden form-labels are in use, there are still areas across the entirety of the website that could have more flexibility for those particular users. 
 
     2. An example of this is the lack of use of `<h1>` - `<h6>` elements, the lack of `<p>` elements, and the lack of `<ul>` or `<ol>` elements in various sections of the website. 
     
-    3. These elements were replaced with an abundant number of `<div>`s, which through different classes serve the same purpose and could easily be replaced by those more-semantic elements. 
+    3. These elements were replaced with an abundant number of `<div>` elements, which through different classes serve the same purpose and could easily be replaced by those more-semantic elements. 
 
     4. However the `<div>` elements were easier to style and to keep the HTML code clean and consistent, which made the development process easier, but with an important trade-off nonetheless.  
 
@@ -613,19 +613,69 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - Bootstrap
 
-    1. 
+    1. At the very beginning, it was hard to add custom stylings to the navigation bar, which was taken from Bootstrap's documentation.
+
+    2. When the code would be inserted into the external 'style.css' file, it would not work. A compromise, however, was found in adding the custom stylings into the `<head>` section of every HTML file. 
+
+    3. But later in the final stages of our development process, a [Hubspot blog](https://blog.hubspot.com/website/how-to-override-bootstrap-css) was found which described ways to override Bootstrap CSS. 
+
+    4. Using their methods, we were able to add our custom stylings of the navigation bar into the external 'style.css' file. 
+
+    5. However, we still had to use the `!important` text in our stylings to successfully override Bootstrap. This method is frowned upon and is not optimal for CSS maintenance and reusability, but a better alternative was not found. 
+
+        ![A screenshot of some of the custom stylings of the navigation bar in the external style.css file](assets/readme-media/navbar-code.PNG)
 
 - Mobile-first responsive design
 
+    1. A mobile-first responsive design was not taken for this project, which we undestand is not optimal nor the industry-standard in web design.
+
+    2. However, when this project was initially conceptualized, its responsivity was still under question, as this project was meant to be a single desktop webpage whose purpose was to practice using HTML and CSS, 
+        rather than create a functioning website with meaningful content. 
+
+    3. Mobile, tablet, and even large-desktop responsivity were added in the end, nevertheless. Still, a mobile-first approach would have resulted in a cleaner development process and greater UX. 
+
 - Wireframe
+
+    1. The [wireframe](wireframes/MS1-wireframes.pdf) created for this project is very high-fidelity and took a long time to draft. 
+
+    2. Additionally, the wireframe does not have sections on how the website will look on mobile and tablet devices. 
+    
+    3. This is again due to the initial motive for this project and due to the fact that the [platform](https://wireframe.cc/) on which the wireframe was created had a limited free trial which quickly expired. 
+
+    4. Due to the limited free trial, the wireframe also has incompleted sections for the 'Spread the Word' page. 
 
 - Semantic HTML
 
-- Accessibility
+    1. The website does not make the best use of semantic HTML. 
+    
+    2. Although there are `<header>`, `<section>`, `<footer>` and even `<aside>` elements on every page, there is a clear lack of `<h1>` - `<h6>`, `<p>`, `<ol>`, `<ul>` elemenets, which is especially vivid on the supplemental pages 
+        (every page except the 'Home' page).
+
+    3. They are replaced with `<div>` elements who have appropriate class names, but do not convey the same meaning for sighted users and their HTML-reading programs. 
+    
+    4. This leads to worse accessibility for those users and others with special disabilities. 
 
 - Code refactoring (CSS)
 
+    1. The external CSS file has more than two-thousand lines of code, some of which could have been refactored to have better readability and reusability by other developers.
+
+    2. Since this is our first large project, the organization of the code was not the cleanest and code-refactoring skills were not truly refined. 
+    
+    3. However, our organization has gained enough experience in order to write much cleaner code (that could easily be understood and reused by other developers) for our future projects. 
+
+    4. Additionally, the vast CSS file could have been compressed to a single line of code, which would have led to quicker loading times. 
+    
+    5. This option was overlooked, though, since our developers want others to be able to read our code the exact way we wrote it. 
+
 - Commit messages
+
+    1. Initially, we had little experience writing commit messages and frequently pushing our code to Github. This led to extremely large commits (sometimes for entire pages), which is not optimal development. 
+
+    2. However, over the course of the development process, we had learned to commit our code for every fix or alteration. 
+    
+    3. This is why, when browsing through our commit history, the viewer will find smaller, more frequent commits with concise messages on them. 
+
+    4. For our README.md file, we had to commit much more often so that we would be able to see the appearance of our README in Github. This is why the latter of half of our commits solely deal with the README.md file. 
 
 ## Deployment
 
