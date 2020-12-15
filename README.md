@@ -549,6 +549,8 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - On certain device screen sizes, the arrow icon used on some of the textual-links may appear in a different line compared to the text, which diminishes user experience. 
 
+        ![Image showing one of the arrow icons appearing in a different line compared to the link-text](assets/readme-media/link-icon-malfunction.PNG "Fourth link from top has an icon that starts in a different line")
+
 - On a Galaxy Fold, the narrow screen size creates very dense content. 
 
     1. This makes the design of the website aesthetically appear worse and have worse functionality, all of which leads to poor UX. 
@@ -595,9 +597,17 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     2. This bug is not present on mobile devices, tablets, and any other devices below the screen-width of 1310px, since the article is hidden. 
 
-- At certain times, the Twitter link in the footer leads to an error page. However, this seems to be a bug from Twitter's side, not ours, as the link is correct and the error message claims that the issue is with Twitter. 
+- At certain times, the Twitter link in the footer leads to an error page. However, this seems to be a bug from Twitter's side, not ours, as the link is correct and the error message claims that the issue is with Twitter.
 
-- Accessibility 
+- Users with certain disabilities may find our website difficult-to-use, and therefore may struggle understanding the purpose of some of our features. 
+    
+    1. Although semantic HTML (e.g. `<section>`s), aria-labels, aria-hidden elements, and hidden form-labels are in use, there are still areas across the entirety of the website that could have more flexibility for those particular users. 
+
+    2. An example of this is the lack of use of `<h1>` - `<h6>` elements, the lack of `<p>` elements, and the lack of `<ul>` or `<ol>` elements in various sections of the website. 
+    
+    3. These elements were replaced with an abundant number of `<div>`s, which through different classes serve the same purpose and could easily be replaced by those more-semantic elements. 
+
+    4. However the `<div>` elements were easier to style and to keep the HTML code clean and consistent, which made the development process easier, but with an important trade-off nonetheless.  
 
 ### Development Obstacles 
 
@@ -610,6 +620,10 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 - Semantic HTML
 
 - Accessibility
+
+- Code refactoring (CSS)
+
+- Commit messages
 
 ## Deployment
 
@@ -642,8 +656,3 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 ### Acknowledgements
 
-
-
-The main priorities for this website were ease-of-access and ease-of-use for different potential viewers. Consistent front-end design was used throughout the entirety of the site, including the same font for different web browsers and 
-devices, interchangeable colors for the background and foreground, uniform font-sizes, margins, and paddings for different elements, and easy-to-read layouts with supporting headers, images, links, and even videos and articles to create 
-an enjoyable and straightforward user experience. We found simplicity to be the key in providing a well-structured layout that has great responsivity on different devices. 
