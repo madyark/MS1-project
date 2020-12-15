@@ -178,7 +178,7 @@ On our website, users can easily navigate across different pages to find the inf
 
     ![Gif showing the effect of the use of the current sign-in and sign-up utilities in the 'Sign In' and 'Sign Up' pages, respectively](assets/readme-media/sign-in-sign-up.gif)
 
-- A functioning monthly newsletter in which participants would be able to receive offical news from our organization, our community events, support articles, tips from industry professionals, and other forms of support from our organization.
+- A functioning monthly newsletter in which participants would be able to receive official news from our organization, our community events, support articles, tips from industry professionals, and other forms of support from our organization.
 
     ![Gif showing the effect of the use of the current newsletter sign-up utility of the 'Mental Health Newsletter Home' section](assets/readme-media/newsletter.gif)
 
@@ -589,7 +589,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
     1. The reason for this is that since they cannot hover over all elements like desktop users, they might now know that the latter three headers serve as links to supplemental pages. 
 
-    2. They may therefore be suprised if they accidentally redirect themselves to a supplemental page, which does not create the most optimal UX.
+    2. They may therefore be surprised if they accidentally redirect themselves to a supplemental page, which does not create the most optimal UX.
 
 - On the Mozilla Firefox browser, when the user attempts to access the 'Help Yourself' page from any of the links to it or to its particular sections, they will be redirected to the 'Articles' subsection of the 'Resources' section of the page.
 
@@ -627,7 +627,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - Mobile-first responsive design
 
-    1. A mobile-first responsive design was not taken for this project, which we undestand is not optimal nor the industry-standard in web design.
+    1. A mobile-first responsive design was not taken for this project, which we understand is not optimal nor the industry-standard in web design.
 
     2. However, when this project was initially conceptualized, its responsivity was still under question, as this project was meant to be a single desktop webpage whose purpose was to practice using HTML and CSS, 
         rather than create a functioning website with meaningful content. 
@@ -642,13 +642,13 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
     
     3. This is again due to the initial motive for this project and due to the fact that the [platform](https://wireframe.cc/) on which the wireframe was created had a limited free trial which quickly expired. 
 
-    4. Due to the limited free trial, the wireframe also has incompleted sections for the 'Spread the Word' page. 
+    4. Due to the limited free trial, the wireframe also has uncompleted sections for the 'Spread the Word' page. 
 
 - Semantic HTML
 
     1. The website does not make the best use of semantic HTML. 
     
-    2. Although there are `<header>`, `<section>`, `<footer>` and even `<aside>` elements on every page, there is a clear lack of `<h1>` - `<h6>`, `<p>`, `<ol>`, `<ul>` elemenets, which is especially vivid on the supplemental pages 
+    2. Although there are `<header>`, `<section>`, `<footer>` and even `<aside>` elements on every page, there is a clear lack of `<h1>` - `<h6>`, `<p>`, `<ol>`, `<ul>` elements, which is especially vivid on the supplemental pages 
         (every page except the 'Home' page).
 
     3. They are replaced with `<div>` elements who have appropriate class names, but do not convey the same meaning for sighted users and their HTML-reading programs. 
