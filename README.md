@@ -681,11 +681,17 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - The website was deployed to [Github pages](https://pages.github.com/). 
 
-- View the project [here](https://madyark.github.io/MS1-project/). 
+- View the project again [here](https://madyark.github.io/MS1-project/). 
 
 ## Credits
 
 ### Code
+
+- A lot of code was inspired from various examples given in [MDN Web Docs](https://developer.mozilla.org/en-US/) and [W3Schools](https://www.w3schools.com/). 
+
+- The reasoning behind adding labels to all of the inputs in the website's forms was found in W3.org [here](https://www.w3.org/WAI/tutorials/forms/labels/). 
+
+- The importance of aria-labels was also found using W3.org [here](https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html). 
 
 - In the 'Home' page and multiple times in the 'Spread the Word' page, an entertaining transition between white and black backgrounds occurs, in the middle of which a large, highly-resoluted image is placed. 
 
@@ -706,5 +712,15 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 ### Media
 
+- The vector images used in the 'Acquaintance Struggling' section of the 'Help Others' page were found on [FreePic](https://www.freepik.com/).
+
+- All of the rest of the images were found on [Unsplash](https://unsplash.com/) or [Pixabay](https://pixabay.com/).
+
+- All of the embedded videos were taken from [Youtube](https://www.youtube.com/).
+
 ### Acknowledgements
+
+- My mentor for continuous helpful feedback and support throughout the entire development of the project. 
+
+- Tutor Suport at CodeInsitute for their help with Gitpod and for providing unlimited Gitpod usage to our development team. 
 
