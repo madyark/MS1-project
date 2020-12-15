@@ -516,6 +516,10 @@ footer div {
     margin-right: auto;
 }
 
+.newsletter-form form label {
+    display: none;
+}
+
 .newsletter-form form input[type=email] {
     background-color: #ffffff;
     text-align: left;
