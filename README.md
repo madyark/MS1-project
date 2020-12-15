@@ -549,7 +549,7 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 
 - On certain device screen sizes, the arrow icon used on some of the textual-links may appear in a different line compared to the text, which diminishes user experience. 
 
-        ![Image showing one of the arrow icons appearing in a different line compared to the link-text](assets/readme-media/link-icon-malfunction.PNG "Fourth link from top has an icon that starts in a different line")
+    ![Image showing one of the arrow icons appearing in a different line compared to the link-text](assets/readme-media/link-icon-malfunction.PNG "Fourth link from top has an icon that starts in a different line")
 
 - On a Galaxy Fold, the narrow screen size creates very dense content. 
 
@@ -612,6 +612,8 @@ The W3C Markup Validation Service and the W3C CSS Validation Service were used t
 ### Development Obstacles 
 
 - Bootstrap
+
+    1. 
 
 - Mobile-first responsive design
 
